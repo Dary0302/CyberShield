@@ -1,27 +1,28 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour
 {
-	public float moveSpeed = 300f;
-	private float horizontalInput;
-	private float verticalInput;
+	public float speed = 300f;
+	private Vector2 direction;
+	private Rigidbody2D rb;
 
-	public void FixedUpdate()
-	{
-		horizontalInput = Input.GetAxisRaw("Horizontal");
-		verticalInput = Input.GetAxisRaw("Vertical");
 
-		transform.Translate(new Vector3(horizontalInput, verticalInput, 0) * (moveSpeed * Time.deltaTime));
-	}
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
-	/*private void OnCollisionEnter2D(Collision2D collision)
-	{
-		MoveBack();
-	}
+    void Update()
+{
+		direction.x = Input.GetAxisRaw("Horizontal");
+        direction.y = Input.GetAxisRaw("Vertical");
 
-	private void MoveBack()
-	{
-		transform.Translate(new Vector3(-horizontalInput, -verticalInput, 0) * 10);
-	}*/
+    }
+
+    private void FixedUpdate()
+    {
+        direction.Normalize();
+        rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
+    }
+
 }
