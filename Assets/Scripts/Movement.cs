@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     }
 
     void Update()
-{
+    {
 		direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
 
