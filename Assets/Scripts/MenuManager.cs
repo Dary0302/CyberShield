@@ -1,38 +1,42 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
     private Animator animator;
-    private Animation animation;
+    private bool isMenuOpen;
+    private static readonly int IsOpen = Animator.StringToHash("IsOpen");
 
-    void Start()
+    private void Start()
     {
         animator = GetComponent<Animator>();
-        animation = GetComponent<Animation>();
     }
 
-    public void PlayMenuAnimation()
+    private void Update()
     {
-        bool a = animator.GetBool("IsOpen");
-
-        if (animator != null)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (a)
-            {
-                animator.SetBool("IsOpen", false);
-            }
-            else
-            {
-                animator.SetBool("IsOpen", true);
-            }
+            CloseMenu();
         }
     }
 
-    public void PlayAmimation()
+    public void OpenMenu()
     {
-        if (animation != null)
-        {
-            animation.Play();
-        }
+        SwitchMenuAnimation();
+    }
+
+    public void CloseMenu()
+    {
+        animator.SetBool(IsOpen, false);
+        isMenuOpen = false;
+    }
+
+    public void SwitchMenuAnimation()
+    {
+        if (animator == null)
+            return;
+
+        animator.SetBool(IsOpen, !isMenuOpen);
+        isMenuOpen = !isMenuOpen;
     }
 }
