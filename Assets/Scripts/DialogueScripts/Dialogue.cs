@@ -8,7 +8,13 @@ public class Dialogue
     [System.Serializable]
     public class Sentence
     {
-        [field:SerializeField] public string Name { get; private set; }
+        [field:SerializeField] public Names Name { get; private set; }
         [field:SerializeField] public string Text { get; private set; }
     }
+}
+
+public enum Names
+{
+    Robot,
+    GG
 }

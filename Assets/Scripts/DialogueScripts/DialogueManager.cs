@@ -38,7 +38,9 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         var sentence = sentences.Dequeue();
-        nameText.text = sentence.Name;
+        nameText.text = "";
+        if (sentence.Name == Names.Robot)
+            nameText.text = "Robot";
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence.Text));
     }
