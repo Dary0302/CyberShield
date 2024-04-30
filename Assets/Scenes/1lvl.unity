@@ -539,8 +539,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.15690638, g: 0.7735849, b: 0.45272285, a: 1}
-    m_PressedColor: {r: 0.8207547, g: 0.17421682, b: 0.17421682, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -693,7 +693,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 115071487}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 56
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &115071487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1329,7 +1341,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 210513542}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: '#2'
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &210513542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,7 +1558,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 260366001}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 6H
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &260366001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1739,7 +1775,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 317219208}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 57
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &317219208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2101,7 +2149,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 450474425}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 12
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &450474425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2306,7 +2366,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 474011892}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: YT
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &474011892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2427,7 +2499,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 525470995}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GY
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &525470995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2478,6 +2562,7 @@ GameObject:
   - component: {fileID: 544803637}
   - component: {fileID: 544803636}
   - component: {fileID: 544803634}
+  - component: {fileID: 544803638}
   m_Layer: 5
   m_Name: password
   m_TagString: Untagged
@@ -2641,6 +2726,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544803633}
   m_CullTransparentMesh: 1
+--- !u!114 &544803638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544803633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fdd00fade624ce4d9f29961f3d994b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tmpInputField: {fileID: 544803634}
+  outputText: {fileID: 1885829326}
 --- !u!1 &767944045
 GameObject:
   m_ObjectHideFlags: 0
@@ -2726,7 +2825,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 767944048}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: H0
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &767944048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3832,7 +3943,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1281874065}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: $4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1281874065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4286,7 +4409,7 @@ GameObject:
   - component: {fileID: 1408550540}
   - component: {fileID: 1408550541}
   m_Layer: 0
-  m_Name: setka
+  m_Name: grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4406,7 +4529,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -183.6019, y: 83.18294}
+  m_Offset: {x: -183.60191, y: 83.90024}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4417,7 +4540,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 496.1001, y: 493.1025}
+  m_Size: {x: 504.70773, y: 494.5371}
   m_EdgeRadius: 0
 --- !u!114 &1408550541
 MonoBehaviour:
@@ -4815,7 +4938,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1706212586}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 89
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1706212586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4936,7 +5071,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1714655041}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1J
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1714655041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5461,6 +5608,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778845242}
   m_CullTransparentMesh: 1
+--- !u!1 &1885829325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885829328}
+  - component: {fileID: 1885829327}
+  - component: {fileID: 1885829326}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1885829326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885829325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.033018887, g: 1, b: 0.25747412, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1885829327
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885829325}
+  m_CullTransparentMesh: 1
+--- !u!224 &1885829328
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885829325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908655394}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -99, y: 243}
+  m_SizeDelta: {x: 180.0226, y: 40.6002}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1908655390
 GameObject:
   m_ObjectHideFlags: 0
@@ -5559,6 +5785,7 @@ RectTransform:
   - {fileID: 994099299}
   - {fileID: 199995786}
   - {fileID: 1918375444}
+  - {fileID: 1885829328}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5664,7 +5891,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1913610787}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: G7
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1913610787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5951,7 +6190,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1932803130}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: R9
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1932803130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6410,7 +6661,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2100482404}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908655395}
+        m_TargetAssemblyTypeName: ButtonToTMPInputField, Assembly-CSharp
+        m_MethodName: CopyTextToInputField
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: H4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2100482404
 MonoBehaviour:
   m_ObjectHideFlags: 0
