@@ -14,14 +14,14 @@ public class HorizontalDrag : MonoBehaviour
 
     void OnMouseDrag()
     {
-        if (isDragging)
-        {
-            // Получаем текущую позицию мыши в мировых координатах
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (!isDragging)
+            return;
 
-            // Устанавливаем позицию объекта, сохраняя начальное смещение и ограничивая перемещение по горизонтали
-            transform.position = new Vector3(mousePos.x + offsetX, transform.position.y, transform.position.z);
-        }
+        // Получаем текущую позицию мыши в мировых координатах
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        
+        // Устанавливаем позицию объекта, сохраняя начальное смещение и ограничивая перемещение по горизонтали
+        transform.position = new Vector3(mousePos.x + offsetX, transform.position.y, transform.position.z);
     }
 
     void OnMouseUp()
