@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MenuManager : MonoBehaviour
+public class EmailMenuManager : MonoBehaviour
 {
     private Animator animator;
     private bool isMenuOpen;
