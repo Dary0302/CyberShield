@@ -12,6 +12,9 @@ public class HorizontalDrag : MonoBehaviour
     // Спрайт для дочернего объекта при столкновении с областью
     public Sprite collisionSprite;
 
+    // Ссылка на объект с компонентом таймера
+    public GameObject timerObject;
+
     void OnMouseDown()
     {
         if (!canDrag)
@@ -49,6 +52,24 @@ public class HorizontalDrag : MonoBehaviour
 
             SpriteRenderer childSpriteRenderer = childObject.GetComponent<SpriteRenderer>();
             childSpriteRenderer.sprite = collisionSprite;
+
+            // Если есть ссылка на объект с таймером, вызываем метод StartTimer() из его компонента Timer
+            if (timerObject != null)
+            {
+                SecondTimer timerComponent = timerObject.GetComponent<SecondTimer>();
+                if (timerComponent != null)
+                {
+                    timerComponent.StartTimer();
+                }
+                else
+                {
+                    Debug.LogError("Timer component not found on the specified GameObject!");
+                }
+            }
+            else
+            {
+                Debug.LogError("Timer object reference is null!");
+            }
         }
     }
 

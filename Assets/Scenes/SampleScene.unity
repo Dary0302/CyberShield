@@ -293,8 +293,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1535692368}
-        m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
-        m_MethodName: SwitchScene
+        m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
+        m_MethodName: SwitcherScene
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -560,8 +560,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1535692368}
-        m_TargetAssemblyTypeName: Scenes, Assembly-CSharp
-        m_MethodName: SwitchScene
+        m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
+        m_MethodName: SwitcherScene
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

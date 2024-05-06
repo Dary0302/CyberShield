@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class change : MonoBehaviour
+public class ExitGame : MonoBehaviour
 {
     /// <summary>
     /// Метод для выхода из игры

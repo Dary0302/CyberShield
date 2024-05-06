@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro; // Для TextMesh Pro
 
-public class ButtonToTMPInputField : MonoBehaviour
+public class ButtonPassword : MonoBehaviour
 {
     public TMP_InputField targetInputField; // Поле ввода TextMesh Pro
 

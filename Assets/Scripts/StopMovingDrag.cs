@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DisableScrollOnCollision : MonoBehaviour
+public class StopMovingDrag : MonoBehaviour
 {
     private HorizontalDrag scrollScript;
 
