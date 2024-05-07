@@ -5,9 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dce7983-6e86-4b85-9a9c-f12dc3c3fde5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DialogueSystem.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quest1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quest2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quest3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonClickBlocker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonClickBlocker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonPassword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonPassword.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/InstantiateQuests.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/InstantiateQuests.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/SampleQuest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/SampleQuest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HorizontalDrag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HorizontalDrag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PasswordCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PasswordCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SecondTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SecondTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopMovingDrag.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopMovingDrag.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +62,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/79/8c249579/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/7f/5c9f3a11/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2lvl/CellsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2lvl/TextCell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2lvl/Timer2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
@@ -49,7 +82,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v0.0.4-alpha-dialogue-mechanics&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v0.0.5-alpha-2lvl&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,7 +100,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../Новая папка\My project.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Новая папка/My project.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="F:\Study\Project\UnityProj\Новая папка" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -135,6 +168,9 @@
       <workItem from="1714330718912" duration="84000" />
       <workItem from="1714652403496" duration="64000" />
       <workItem from="1714652475142" duration="150000" />
+      <workItem from="1715076561059" duration="1506000" />
+      <workItem from="1715078780631" duration="12541000" />
+      <workItem from="1715110377204" duration="1497000" />
     </task>
     <servers />
   </component>
