@@ -5,13 +5,16 @@ public class PasswordCheck : MonoBehaviour
 {
     [SerializeField] private GameObject result;
     [SerializeField] private TMP_Text resultText;
-    [SerializeField] private TMP_InputField tmpInputField; 
+    [SerializeField] private TMP_InputField tmpInputField;
     [SerializeField] private Timer timer;
     [SerializeField] private string validCharacters = "G734#26H";
+    private bool isWin;
 
     private void ValidateInput()
     {
-        var inputValue = tmpInputField.text; 
+        if (isWin)
+            return;
+        var inputValue = tmpInputField.text;
         var trueSymbols = "";
         var isValid = true;
 
@@ -38,15 +41,18 @@ public class PasswordCheck : MonoBehaviour
                 trueSymbols += c;
             }
 
-            if (!isValid) break; // Останавливаем, если хотя бы одна пара недопустима
+            if (!isValid)
+                break; // Останавливаем, если хотя бы одна пара недопустима
         }
 
-        if (trueSymbols == validCharacters)
-        {
-            timer.timerStop = true;
-            resultText.text = "Уровень пройден!";
-            result.gameObject.SetActive(true);
-        }
+        if (trueSymbols != validCharacters)
+            return;
+        
+        isWin = true;
+        timer.timerStop = true;
+        resultText.text = "Уровень пройден!";
+        result.gameObject.SetActive(true);
+        PlayerStats.LevelCompleted(1);
     }
 
     private void Update()

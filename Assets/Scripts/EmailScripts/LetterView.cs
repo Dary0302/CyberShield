@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LetterView : MonoBehaviour
@@ -13,8 +14,9 @@ public class LetterView : MonoBehaviour
     public void SetData(SampleQuest quest)
     {
         portrait.sprite = quest.SenderPhoto;
+        questName.text = quest.QuestName;
         senderName.text = quest.SenderName;
         description.text = quest.Description;
-        questName.text = quest.QuestName;
+        acceptButton.onClick.AddListener(() =>  SceneManager.LoadScene(quest.LvlId));
     }
 }
