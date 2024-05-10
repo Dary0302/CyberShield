@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ce59605e592f040957ae426e3a4769
+      internalID: -584734051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 233
+        width: 249
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45e428cbe43403448925583d48269c2
+      internalID: 674674960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 177
+        width: 129
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019a8c0b9b3f54d489ea2c440a15bac0
+      internalID: 990205129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 215
+        width: 140
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154f40b59e06c4c4c802bb485331184f
+      internalID: 1879052925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 214
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009fffb34b4897046868d3d635144b72
+      internalID: -1868426135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 134
+        width: 103
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efedb2c5d78a3074081113272aa48496
+      internalID: -1519419023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 9
+        width: 208
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f528de80ce72bb4c827d59bb0b1679d
+      internalID: -711220368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 39
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8830c69bcab60141a69da54978c21a2
+      internalID: -1181105951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 98
+        width: 103
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3584856216d3a498fe4dde02aef88f
+      internalID: -1496535320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 50
+        width: 104
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af5534edf1869644927136ee2bc7af9
+      internalID: -929655005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainHubSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 14
+        width: 92
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc176232221bda40a990895b46701eb
+      internalID: 350782553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +337,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MainHubSpriteSheet_0: -584734051
+      MainHubSpriteSheet_1: 674674960
+      MainHubSpriteSheet_10: 350782553
+      MainHubSpriteSheet_2: 990205129
+      MainHubSpriteSheet_3: 1879052925
+      MainHubSpriteSheet_4: -1868426135
+      MainHubSpriteSheet_5: -1519419023
+      MainHubSpriteSheet_6: -711220368
+      MainHubSpriteSheet_7: -1181105951
+      MainHubSpriteSheet_8: -1496535320
+      MainHubSpriteSheet_9: -929655005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
