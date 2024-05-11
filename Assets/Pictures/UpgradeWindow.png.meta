@@ -101,11 +101,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 9
-        y: 0
+        y: 23
         width: 395
-        height: 270
+        height: 231
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,7 +126,7 @@ TextureImporter:
         width: 107
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,6 +134,48 @@ TextureImporter:
       bones: []
       spriteID: fb9f58c3c70c70246b55677d5c62ae6f
       internalID: -290359564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpgradeWindow_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 254
+        width: 396
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae161254260a1b24884b4d4c80192bc2
+      internalID: 402373728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpgradeWindow_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 396
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695f61999a747f745a1d1dffe52426be
+      internalID: 1272459592
       vertices: []
       indices: 
       edges: []
@@ -151,6 +193,8 @@ TextureImporter:
     nameFileIdTable:
       UpgradeWindow_0: 701004674
       UpgradeWindow_1: -290359564
+      UpgradeWindow_2: -582722254
+      UpgradeWindow_3: 402373728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
