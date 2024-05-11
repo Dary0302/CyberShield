@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ToolSprites_0
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 388
+        width: 95
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1669ca93268adf84f986cf1cd1e7a6c5
+      internalID: 1429158449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 352
+        width: 101
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5aa1cd7369a9e4099488d8c35968f5
+      internalID: -1351196316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 353
+        width: 125
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ebfe0699962e743b7b227af017b588
+      internalID: 776137073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 110
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636074a62d703c34c8f3bb8f97f520d0
+      internalID: 856869193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 317
+        width: 127
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8dd36096c2a8340bb9d6fc3e571775
+      internalID: -720086613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 317
+        width: 146
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28340566dccfd764aafc03dcc0bb4acc
+      internalID: 205723329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 317
+        width: 127
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75db953077e3b1942a1083609d3624bc
+      internalID: -1581750225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 280
+        width: 160
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf2917325a086468c33d50de81da2b
+      internalID: -1906002719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 280
+        width: 160
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d75a21861af284297d323f26a5e4bb
+      internalID: 1287929067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 238
+        width: 95
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78051fecda9114a4388617fbc0037d5b
+      internalID: -1092267691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 69
+        width: 214
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f6d5ff74d522c4b9ef7086530869c2
+      internalID: 490750373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 202
+        width: 101
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d449a2fffddc5874b84849d08ec4ba25
+      internalID: 292194393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_12
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 203
+        width: 125
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafd5a77e6d40f844a7c938439bf0170
+      internalID: -1756001466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 202
+        width: 110
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599f023fe7ed6d64eb427716c1d193cc
+      internalID: -137846683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 167
+        width: 127
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd00435eeccb194e99775aae87ad0b2
+      internalID: 476944309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 167
+        width: 146
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a357f4642efea4b4787cd5f3d869dccf
+      internalID: -903824794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 167
+        width: 127
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90200146152753946b42154554c24df2
+      internalID: -350166721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 160
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05385ba8ea982644087f3f383810d3e7
+      internalID: 144338029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 130
+        width: 160
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b8837aa002a3740a1f103575a4ba90
+      internalID: 397925961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 86
+        width: 363
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb60cab6da53444e90a3dc87d166f72
+      internalID: 7330807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 82
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d3bcce655cd114bbc09f0eae9e0f19
+      internalID: 2059960679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 38
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccef927a05b1c7245b7fe9f02f950ed7
+      internalID: -596056473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06d7e81841e73041809fd7e1369213e
+      internalID: 1638173447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 17
+        width: 160
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdc7adc48226444a685f75602d27a5
+      internalID: 1287042496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToolSprites_24
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 18
+        width: 146
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0133a550bc425f046bbfa378acde6abb
+      internalID: -306912225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +631,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ToolSprites_0: 1429158449
+      ToolSprites_1: -1351196316
+      ToolSprites_10: 490750373
+      ToolSprites_11: 292194393
+      ToolSprites_12: -1756001466
+      ToolSprites_13: -137846683
+      ToolSprites_14: 476944309
+      ToolSprites_15: -903824794
+      ToolSprites_16: -350166721
+      ToolSprites_17: 144338029
+      ToolSprites_18: 397925961
+      ToolSprites_19: 7330807
+      ToolSprites_2: 776137073
+      ToolSprites_20: 2059960679
+      ToolSprites_21: -596056473
+      ToolSprites_22: 1638173447
+      ToolSprites_23: 1287042496
+      ToolSprites_24: -306912225
+      ToolSprites_3: 856869193
+      ToolSprites_4: -720086613
+      ToolSprites_5: 205723329
+      ToolSprites_6: -1581750225
+      ToolSprites_7: -1906002719
+      ToolSprites_8: 1287929067
+      ToolSprites_9: -1092267691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
