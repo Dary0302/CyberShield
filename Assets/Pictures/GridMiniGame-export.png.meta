@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ae3a6997bf3c864ea1d91e1c890bcae
+guid: c8ea1410400ab0947a23fcda39bafdff
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PFPs_0
+      name: GridMiniGame-export_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 38
-        height: 36
+        x: 18
+        y: 581
+        width: 179
+        height: 163
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,92 +111,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25e4e2be3c80a94e8c6eb651c8e7611
-      internalID: -2136551493
+      spriteID: 8522fcc51eac4314e81fcce10312e7eb
+      internalID: -1535234049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_1
+      name: GridMiniGame-export_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 38
-        height: 36
+        x: 278
+        y: 497
+        width: 195
+        height: 221
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60296540666d64443906d6dde9a423b8
-      internalID: -1958827583
+      spriteID: 3b441277069db69439b41dd42dc42385
+      internalID: -405105814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_2
+      name: GridMiniGame-export_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 0
-        width: 38
-        height: 36
+        x: 18
+        y: 404
+        width: 179
+        height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7504e6688c54b45bcf9217f3aa55c0
-      internalID: 1189509109
+      spriteID: cbca25fa961961a4d98b135105ea77b2
+      internalID: 284802780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_3
+      name: GridMiniGame-export_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 0
-        width: 38
-        height: 36
+        x: 232
+        y: 301
+        width: 179
+        height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9f468e756f60b4cbf729156148d7c5
-      internalID: -951549838
+      spriteID: 8b9783067f1cb3d459c8f58bfee3cccd
+      internalID: -1502981743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_4
+      name: GridMiniGame-export_4
       rect:
         serializedVersion: 2
-        x: 152
-        y: 0
-        width: 38
-        height: 36
+        x: 31
+        y: 374
+        width: 130
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce623385f60d514ca7474c9dc782c5a
-      internalID: -64502261
+      spriteID: aa951f7c5e3ce0d468d6bcd344368f0d
+      internalID: 177749053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GridMiniGame-export_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 320
+        width: 110
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dde4c0d8a8edb40984bda866fd2bbd
+      internalID: -1381244413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GridMiniGame-export_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208fdfa5d97ec7b44a36ca0e134a13e4
+      internalID: 139154754
       vertices: []
       indices: 
       edges: []
@@ -212,11 +254,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PFPs_0: -2136551493
-      PFPs_1: 1778236648
-      PFPs_2: -1958438234
-      PFPs_3: -1958827583
-      PFPs_4: 1189509109
+      GridMiniGame-export_0: -1535234049
+      GridMiniGame-export_1: -405105814
+      GridMiniGame-export_10: 139154754
+      GridMiniGame-export_2: 284802780
+      GridMiniGame-export_3: -1502981743
+      GridMiniGame-export_4: 177749053
+      GridMiniGame-export_5: 2008884262
+      GridMiniGame-export_6: 1604516187
+      GridMiniGame-export_7: -1381244413
+      GridMiniGame-export_8: -1753216035
+      GridMiniGame-export_9: -1664159177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

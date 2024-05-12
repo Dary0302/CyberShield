@@ -10,6 +10,8 @@ public class LetterView : MonoBehaviour
     [SerializeField] private TMP_Text senderName;
     [SerializeField] private TMP_Text description;
     [SerializeField] private Button acceptButton;
+    [SerializeField] private Image notDoneCheckMark;
+    [SerializeField] private Image doneCheckMark;
 
     public void SetData(SampleQuest quest)
     {
@@ -18,5 +20,10 @@ public class LetterView : MonoBehaviour
         senderName.text = quest.SenderName;
         description.text = quest.Description;
         acceptButton.onClick.AddListener(() =>  SceneManager.LoadScene(quest.LvlId));
+    }
+
+    public void SetDoneCheckMark()
+    {
+        notDoneCheckMark.sprite = doneCheckMark.sprite;
     }
 }

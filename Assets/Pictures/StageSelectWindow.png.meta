@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ae3a6997bf3c864ea1d91e1c890bcae
+guid: 7fd3aa73c4eb7444498714c8d2ed2f55
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PFPs_0
+      name: StageSelectWindow_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 33
         y: 0
-        width: 38
-        height: 36
+        width: 395
+        height: 270
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,92 +111,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25e4e2be3c80a94e8c6eb651c8e7611
-      internalID: -2136551493
+      spriteID: 96b769fe1e0222046859f9239929ebe2
+      internalID: -2100261341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_1
+      name: StageSelectWindow_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 38
-        height: 36
+        x: 450
+        y: 160
+        width: 340
+        height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60296540666d64443906d6dde9a423b8
-      internalID: -1958827583
+      spriteID: a8808aeece7dea342813d0291a9dabad
+      internalID: -525784795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_2
+      name: StageSelectWindow_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 0
-        width: 38
-        height: 36
+        x: 813
+        y: 18
+        width: 8
+        height: 227
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7504e6688c54b45bcf9217f3aa55c0
-      internalID: 1189509109
+      spriteID: c37baaf564f22b64ab44c1cb86f32771
+      internalID: -92303248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_3
+      name: StageSelectWindow_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 0
-        width: 38
-        height: 36
+        x: 722
+        y: 123
+        width: 63
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9f468e756f60b4cbf729156148d7c5
-      internalID: -951549838
+      spriteID: e693fd850fb72aa4e8ef6a45ff1dcf31
+      internalID: 627152351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_4
+      name: StageSelectWindow_4
       rect:
         serializedVersion: 2
-        x: 152
-        y: 0
-        width: 38
-        height: 36
+        x: 450
+        y: 11
+        width: 340
+        height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce623385f60d514ca7474c9dc782c5a
-      internalID: -64502261
+      spriteID: fe16511c88986d9408b9f5ef06ce5586
+      internalID: -408278141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageSelectWindow_5
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 204
+        width: 2
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4eecce442d16a4e8026333befc835d
+      internalID: -689820207
       vertices: []
       indices: 
       edges: []
@@ -212,11 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PFPs_0: -2136551493
-      PFPs_1: 1778236648
-      PFPs_2: -1958438234
-      PFPs_3: -1958827583
-      PFPs_4: 1189509109
+      StageSelectWindow_0: -2100261341
+      StageSelectWindow_1: -525784795
+      StageSelectWindow_2: -92303248
+      StageSelectWindow_3: 627152351
+      StageSelectWindow_4: -408278141
+      StageSelectWindow_5: -689820207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

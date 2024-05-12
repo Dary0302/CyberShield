@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
     {
         sentences.Clear();
         currentDialogueNumber = dialogueNumber;
-        
+
         foreach (var sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ae3a6997bf3c864ea1d91e1c890bcae
+guid: 25d51aee6cd288a4b935920036c5f7cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PFPs_0
+      name: UpgradeWindow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 38
-        height: 36
+        x: 9
+        y: 23
+        width: 395
+        height: 231
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,92 +111,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25e4e2be3c80a94e8c6eb651c8e7611
-      internalID: -2136551493
+      spriteID: e09859b295ec81147a17ed636ba4b278
+      internalID: 701004674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_1
+      name: UpgradeWindow_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 0
-        width: 38
-        height: 36
+        x: 418
+        y: 104
+        width: 107
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60296540666d64443906d6dde9a423b8
-      internalID: -1958827583
+      spriteID: fb9f58c3c70c70246b55677d5c62ae6f
+      internalID: -290359564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_2
+      name: UpgradeWindow_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 0
-        width: 38
-        height: 36
+        x: 8
+        y: 254
+        width: 396
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7504e6688c54b45bcf9217f3aa55c0
-      internalID: 1189509109
+      spriteID: ae161254260a1b24884b4d4c80192bc2
+      internalID: 402373728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PFPs_3
+      name: UpgradeWindow_3
       rect:
         serializedVersion: 2
-        x: 114
+        x: 8
         y: 0
-        width: 38
-        height: 36
+        width: 396
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9f468e756f60b4cbf729156148d7c5
-      internalID: -951549838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PFPs_4
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 0
-        width: 38
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bce623385f60d514ca7474c9dc782c5a
-      internalID: -64502261
+      spriteID: 695f61999a747f745a1d1dffe52426be
+      internalID: 1272459592
       vertices: []
       indices: 
       edges: []
@@ -212,11 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PFPs_0: -2136551493
-      PFPs_1: 1778236648
-      PFPs_2: -1958438234
-      PFPs_3: -1958827583
-      PFPs_4: 1189509109
+      UpgradeWindow_0: 701004674
+      UpgradeWindow_1: -290359564
+      UpgradeWindow_2: -582722254
+      UpgradeWindow_3: 402373728
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
