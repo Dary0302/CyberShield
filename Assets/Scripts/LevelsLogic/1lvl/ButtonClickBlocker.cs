@@ -30,7 +30,7 @@ public class ButtonClickBlocker : MonoBehaviour
     private void BlockButtons()
     {
         // Блокируем нажатия на все кнопки
-        foreach (Button button in buttonsToBlock)
+        foreach (var button in buttonsToBlock)
         {
             button.interactable = false;
         }
@@ -39,7 +39,7 @@ public class ButtonClickBlocker : MonoBehaviour
     private void UnblockButtons()
     {
         // Разблокируем нажатия на все кнопки
-        foreach (Button button in buttonsToBlock)
+        foreach (var button in buttonsToBlock)
         {
             button.interactable = true;
         }

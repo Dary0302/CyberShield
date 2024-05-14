@@ -13,7 +13,7 @@ public class InstantiateQuests : MonoBehaviour
         foreach (var quest in quests)
         {
             if (countQuests > PlayerStats.LevelsCompletedNumber)
-                continue;
+                break;
             
             var newLetter = Instantiate(letterViewPrefab, content.position, Quaternion.identity, content);
             

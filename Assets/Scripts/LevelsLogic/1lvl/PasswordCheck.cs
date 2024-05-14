@@ -1,3 +1,4 @@
+using LevelsLogic._1lvl;
 using UnityEngine;
 using TMPro;
 
@@ -18,31 +19,26 @@ public class PasswordCheck : MonoBehaviour
         var trueSymbols = "";
         var isValid = true;
 
-        // Проверяем, что длина строки четная (т.к. один элемент - это два символа)
         if (inputValue.Length != validCharacters.Length || inputValue.Length % 2 != 0)
-        {
-            return; // Завершаем проверку, если длина нечетная
-        }
+            return;
 
-        // Проверяем каждую пару символов
         for (var i = 0; i < inputValue.Length; i += 2)
         {
-            var element = inputValue.Substring(i, 2); // Получаем пару символов
+            var element = inputValue.Substring(i, 2);
 
-            // Проверяем, что оба символа в допустимом наборе
             foreach (var c in element)
             {
                 if (!validCharacters.Contains(c.ToString()))
                 {
-                    isValid = false; // Если нашли недопустимый символ
-                    break; // Останавливаем проверку
+                    isValid = false;
+                    break;
                 }
 
                 trueSymbols += c;
             }
 
             if (!isValid)
-                break; // Останавливаем, если хотя бы одна пара недопустима
+                break;
         }
 
         if (trueSymbols != validCharacters)
@@ -50,7 +46,7 @@ public class PasswordCheck : MonoBehaviour
         
         isWin = true;
         timer.timerStop = true;
-        resultText.text = "Уровень пройден!";
+        resultText.text = "РЈСЂРѕРІРµРЅСЊ РїСЂРѕР№РґРµРЅ!";
         result.gameObject.SetActive(true);
         PlayerStats.LevelCompleted(1);
     }
