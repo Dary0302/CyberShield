@@ -6,16 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1dce7983-6e86-4b85-9a9c-f12dc3c3fde5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueWindow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DialogueWindow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tips.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tips.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quest1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quest3.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/InstantiateQuests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/InstantiateQuests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoneyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +41,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/79/8c249579/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/7f/5c9f3a11/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2lvl/CellsManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2lvl/TextCell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2lvl/Timer2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShopScripts/SampleShopItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -157,6 +158,8 @@
       <workItem from="1715679502707" duration="6553000" />
       <workItem from="1715751025263" duration="832000" />
       <workItem from="1715753053291" duration="14000" />
+      <workItem from="1715783073717" duration="1807000" />
+      <workItem from="1715798250228" duration="8857000" />
     </task>
     <servers />
   </component>
