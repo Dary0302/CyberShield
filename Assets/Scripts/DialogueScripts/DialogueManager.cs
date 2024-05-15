@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     public GameObject dialogueWindow;
+    public Image dialogueSquare;
     public TMP_Text dialogueText;
     public TMP_Text nameText;
+    [SerializeField] private Image backGroundRobot;
+    [SerializeField] private Image backGroundGG;
     public float delayBetweenCharacters = 0.05f;
 
     private int currentDialogueNumber;
@@ -39,8 +43,13 @@ public class DialogueManager : MonoBehaviour
         }
         var sentence = sentences.Dequeue();
         nameText.text = "";
+        dialogueSquare.sprite = backGroundGG.sprite;
         if (sentence.Name == Names.Robot)
-            nameText.text = "Robot";
+        {
+            nameText.text = "Помощник";
+            dialogueSquare.sprite = backGroundRobot.sprite;
+        }
+            
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence.Text));
     }

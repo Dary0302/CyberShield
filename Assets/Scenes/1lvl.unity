@@ -6895,6 +6895,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tips
       objectReference: {fileID: 0}
+    - target: {fileID: 6268671222495891931, guid: 70e1185826f936b4aa786482b61a4885, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915269209507594802, guid: 70e1185826f936b4aa786482b61a4885, type: 3}
+      propertyPath: m_text
+      value: "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E \u043D\u0430\u043B\u043E\u0436\u0438\u0442\u044C
+        \u0440\u0435\u0448\u0451\u0442\u043A\u0443 \u043D\u0430 \u043C\u0430\u0441\u0441\u0438\u0432
+        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0439, \u043F\u043E\u0441\u043B\u0435
+        \u0432\u044B\u0431\u0440\u0430\u0442\u044C \u043F\u043E\u043B\u0443\u0447\u0438\u0432\u0448\u0438\u0435\u0441\u044F
+        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435,
+        \u0447\u0442\u043E \u0443\u043A\u0430\u0437\u0430\u043D \u043D\u0430 \u0440\u0435\u0448\u0451\u0442\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915269209507594802, guid: 70e1185826f936b4aa786482b61a4885, type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915269209507594802, guid: 70e1185826f936b4aa786482b61a4885, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9102213709511595303, guid: 70e1185826f936b4aa786482b61a4885, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
