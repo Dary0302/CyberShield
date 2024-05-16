@@ -529,7 +529,6 @@ MonoBehaviour:
   shopItems:
   - {fileID: 11400000, guid: 9c72825352454e143b6dea8054f5b431, type: 2}
   - {fileID: 11400000, guid: a85857a51ce7242478c098e894729ede, type: 2}
-  - {fileID: 11400000, guid: 471bb44f1df0fb946b5e2c1e315f6cde, type: 2}
 --- !u!1 &193537505
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,9 +2519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ffd3bcc13e68594da9c7fc8d51ade40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  namesShopItems:
-  - Router
-  - Vase
   shopItems:
   - {fileID: 513391719}
   - {fileID: 1036331738}

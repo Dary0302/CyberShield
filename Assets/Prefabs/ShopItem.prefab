@@ -166,8 +166,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4418467067181489044}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: -0.3}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMin: {x: -0.5, y: -0.3}
+  m_AnchorMax: {x: 1.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
+  m_fontSize: 18.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -483,6 +483,7 @@ MonoBehaviour:
   productPhoto: {fileID: 3236741492092897486}
   productName: {fileID: 4756313497730392500}
   description: {fileID: 123263441448102011}
+  price: 0
   buyButton: {fileID: 5933871107405608944}
 --- !u!1 &7550681081879468468
 GameObject:

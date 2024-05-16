@@ -4,6 +4,7 @@ using UnityEngine;
 public class SampleShopItem : ScriptableObject
 {
     [field: SerializeField] public string ProductName { get; private set; }
+    [field: SerializeField] public string SystemName { get; private set; }
     [field: SerializeField] public string Description { get; private set; }
     [field: SerializeField] public Sprite ProductPhoto { get; private set; }
     [field: SerializeField] public int Price { get; private set; }

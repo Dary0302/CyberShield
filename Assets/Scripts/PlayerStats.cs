@@ -1,13 +1,10 @@
-using System;
 using UnityEngine;
 
 public static class PlayerStats
 {
     private static int Money { get; set; }
     public static int LevelsCompletedNumber { get; private set; }
-    public static int[] UpgradesPurchasedNumber { get; set; }
     public static int  TimePerLevelAmount { get; set; }
-    private const string PurchasedItemIndex = "purchasedItemIndex";
     private const string MoneyKey = "money";
 
     public static void LevelCompleted(int numberLevel)
