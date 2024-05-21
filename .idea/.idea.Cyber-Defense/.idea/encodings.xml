@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Assets/Scripts/1lvl/PasswordCheck.cs" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/1lvl/SecondTimer.cs" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/ButtonClickBlocker.cs" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/StopMovingDrag.cs" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/PasswordCheck.cs" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Assets/Scripts/scroll.cs" charset="windows-1251" />
   </component>

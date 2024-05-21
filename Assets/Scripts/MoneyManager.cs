@@ -5,7 +5,7 @@ public class MoneyManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text money;
 
-    private void Start()
+    private void Update()
     {
         money.text = PlayerStats.GetMoney().ToString() + '$';
     }

@@ -3,10 +3,9 @@ using UnityEngine;
 public static class PlayerStats
 {
     private static int Money { get; set; }
-    public static int LevelsCompletedNumber { get; set; }
-    public static int[] UpgradesPurchasedNumber { get; set; }
+    public static int LevelsCompletedNumber { get; private set; }
     public static int  TimePerLevelAmount { get; set; }
-    private const string moneyKey = "money"; 
+    private const string MoneyKey = "money";
 
     public static void LevelCompleted(int numberLevel)
     {
@@ -14,14 +13,25 @@ public static class PlayerStats
         if (LevelsCompletedNumber < numberLevel)
             LevelsCompletedNumber++;
         PlayerPrefs.SetInt("levelsCompletedNumber", LevelsCompletedNumber);
-        PlayerPrefs.SetInt(moneyKey, Money);
+        PlayerPrefs.SetInt(MoneyKey, Money);
+        PlayerPrefs.Save();
+    }
+
+    public static void ItemBuy(string nameItem, int price)
+    {
+        if (price > Money || PlayerPrefs.HasKey(nameItem))
+            return;
+
+        Money -= price;
+        PlayerPrefs.SetInt(nameItem, 1);
+        PlayerPrefs.SetInt(MoneyKey, Money);
         PlayerPrefs.Save();
     }
 
     public static int GetMoney()
     {
-        if (PlayerPrefs.HasKey(moneyKey))
-            Money = PlayerPrefs.GetInt(moneyKey);
+        if (PlayerPrefs.HasKey(MoneyKey))
+            Money = PlayerPrefs.GetInt(MoneyKey);
         return Money;
     }
 }
