@@ -7,33 +7,32 @@ public class FillNames : MonoBehaviour
 {
     public TMP_Text[] nameTextElements;
 
-    public string[] names = { "Alice", "Bob", "Charlie", "Diana", "Edward", "Fiona" };
+    public static string[] CorrectNames = {"Roman", "Anna", "Bob", "Petr", "Ivan", "Oleg"};
+    public static string[] WrongNames = {"xxxxxx", "oooooo"};
 
     void Start()
     {
         ShuffleNames();
         DisplayNames();
     }
-    
+
     void ShuffleNames()
     {
-        System.Random random = new System.Random();
-        for (int i = names.Length - 1; i > 0; i--)
+        var random = new System.Random();
+        for (var i = CorrectNames.Length - 1; i > 0; i--)
         {
-            int j = random.Next(0, i + 1);
-            string temp = names[i];
-            names[i] = names[j];
-            names[j] = temp;
+            var j = random.Next(0, i + 1);
+            (CorrectNames[j], CorrectNames[i]) = (CorrectNames[i], CorrectNames[j]);
         }
     }
 
     void DisplayNames()
     {
-        int count = Mathf.Min(names.Length, nameTextElements.Length);
+        var count = Mathf.Min(CorrectNames.Length, nameTextElements.Length);
 
-        for (int i = 0; i < count; i++)
+        for (var i = 0; i < count; i++)
         {
-            nameTextElements[i].text = names[i];
+            nameTextElements[i].text = CorrectNames[i];
         }
     }
 }

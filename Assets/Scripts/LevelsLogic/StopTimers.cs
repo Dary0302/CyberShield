@@ -6,7 +6,7 @@ namespace LevelsLogic
     public class StopTimers : MonoBehaviour
     {
         [SerializeField] private GameObject tips;
-        [SerializeField] private Button[] pauseTimer;
+        [SerializeField] private UnityEngine.UI.Button[] pauseTimer;
         [SerializeField] private AbstractTimer[] timers;
         private bool isVisibleTips;
 

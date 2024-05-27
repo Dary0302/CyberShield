@@ -9,7 +9,7 @@ public class ShopItemView : MonoBehaviour
     [SerializeField] private TMP_Text productName;
     [SerializeField] private TMP_Text description;
     [SerializeField] private int price;
-    [SerializeField] private Button buyButton;
+    [SerializeField] private UnityEngine.UI.Button buyButton;
     //[SerializeField] private Image notDoneCheckMark;
     //[SerializeField] private Image doneCheckMark;
 
