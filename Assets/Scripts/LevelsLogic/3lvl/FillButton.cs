@@ -1,48 +1,53 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class FillButton : MonoBehaviour
 {
-    string[] i = FillNames.CorrectNames;
-    string[] j = FillNames.WrongNames;
-    public Button[] buttons;
-    
+    private string[] correctNames = FillNames.CorrectNames;
+    private string[] wrongNames = FillNames.WrongNames;
+    public UnityEngine.UI.Button[] buttons;
+    [SerializeField] private HealthPoints healthPointsManager;
 
     void Start()
     {
         FillButtonsWithRandomText();
     }
 
-    void FillButtonsWithRandomText()
+    private void FillButtonsWithRandomText()
     {
-        System.Random random = new System.Random();
+        var buttonText = buttons[0].GetComponentInChildren<TextMeshProUGUI>();
+        buttonText.text = correctNames[0];
 
-        foreach (Button button in buttons)
+        var random = new System.Random();
+
+        var indexCorrectName = 1;
+        var indexWrongName = 0;
+
+        foreach (var button in buttons.Skip(1))
         {
-            string randomText1 = i[random.Next(i.Length)];
-            string randomText2 = j[random.Next(j.Length)];
+            var randomNumber = random.Next(0, 2);
 
-            var k = random.Next(0, 2);
+            if (indexCorrectName == correctNames.Length)
+                randomNumber = 0;
 
-            TextMeshProUGUI buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
+            if (indexWrongName == wrongNames.Length)
+                randomNumber = 1;
 
-            if (buttonText != null)
+            if (randomNumber == 0)
             {
-                if (k == 0)
-                {
-                    buttonText.text = $"{randomText1}";
-                }
-                else
-                {
-                    buttonText.text = $"{randomText2}";
-                }
+                button.onClick.AddListener(healthPointsManager.WrongAnswer);
+
+                buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
+                buttonText.text = wrongNames[indexWrongName];
+                indexWrongName++;
             }
             else
             {
-                Debug.LogWarning("Button does not have a Text component");
+                buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
+                buttonText.text = correctNames[indexCorrectName];
+                indexCorrectName++;
             }
         }
     }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -8,21 +6,22 @@ public class FillNames : MonoBehaviour
     public TMP_Text[] nameTextElements;
 
     public static string[] CorrectNames = {"Roman", "Anna", "Bob", "Petr", "Ivan", "Oleg"};
-    public static string[] WrongNames = {"xxxxxx", "oooooo"};
+    public static string[] WrongNames = {"xx", "oo"};
 
     void Start()
     {
-        ShuffleNames();
+        ShuffleNames(CorrectNames);
+        ShuffleNames(WrongNames);
         DisplayNames();
     }
 
-    void ShuffleNames()
+    void ShuffleNames(string[] names)
     {
         var random = new System.Random();
-        for (var i = CorrectNames.Length - 1; i > 0; i--)
+        for (var i = names.Length - 1; i > 0; i--)
         {
             var j = random.Next(0, i + 1);
-            (CorrectNames[j], CorrectNames[i]) = (CorrectNames[i], CorrectNames[j]);
+            (names[j], names[i]) = (names[i], names[j]);
         }
     }
 
