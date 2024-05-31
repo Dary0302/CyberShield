@@ -9,7 +9,7 @@ public class LetterView : MonoBehaviour
     [SerializeField] private TMP_Text questName;
     [SerializeField] private TMP_Text senderName;
     [SerializeField] private TMP_Text description;
-    [SerializeField] private UnityEngine.UI.Button acceptButton;
+    [SerializeField] private Button acceptButton;
     [SerializeField] private Image notDoneCheckMark;
     [SerializeField] private Image doneCheckMark;
 
