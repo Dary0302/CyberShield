@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 63375234}
   - component: {fileID: 63375236}
-  - component: {fileID: 63375235}
   m_Layer: 0
   m_Name: ShopScreen
   m_TagString: Untagged
@@ -163,18 +162,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &63375235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63375233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ff79c7de127a3f4b89b87ec3d548f93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &63375236
 Animator:
   serializedVersion: 5
@@ -748,7 +735,6 @@ GameObject:
   m_Component:
   - component: {fileID: 243640626}
   - component: {fileID: 243640627}
-  - component: {fileID: 243640628}
   m_Layer: 0
   m_Name: EmailScreen
   m_TagString: Untagged
@@ -799,18 +785,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &243640628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243640625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ff79c7de127a3f4b89b87ec3d548f93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &319925285
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,7 +968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 402373728, guid: 25d51aee6cd288a4b935920036c5f7cc, type: 3}
+  m_Sprite: {fileID: 1313554622, guid: 7fd3aa73c4eb7444498714c8d2ed2f55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1144,7 +1118,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1272459592, guid: 25d51aee6cd288a4b935920036c5f7cc, type: 3}
+  m_Sprite: {fileID: -1702713055, guid: 7fd3aa73c4eb7444498714c8d2ed2f55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1319,19 +1293,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 713385867}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 63375235}
-        m_TargetAssemblyTypeName: EmailMenuManager, Assembly-CSharp
-        m_MethodName: SwitchMenuAnimation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &713385867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2255,6 +2217,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1473679140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1473679141}
+  - component: {fileID: 1473679142}
+  m_Layer: 0
+  m_Name: MenuAnimsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1473679141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473679140}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1647988271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1473679142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473679140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff79c7de127a3f4b89b87ec3d548f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  desktopMenuScreens:
+  - <MenuAnimator>k__BackingField: {fileID: 243640627}
+    <MenuButton>k__BackingField: {fileID: 1518081857}
+  - <MenuAnimator>k__BackingField: {fileID: 63375236}
+    <MenuButton>k__BackingField: {fileID: 713385866}
 --- !u!1 &1518081855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,19 +2348,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1518081858}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 243640628}
-        m_TargetAssemblyTypeName: EmailMenuManager, Assembly-CSharp
-        m_MethodName: SwitchMenuAnimation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1518081858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2776,6 +2775,7 @@ Transform:
   - {fileID: 2092573770}
   - {fileID: 897285843}
   - {fileID: 92777253}
+  - {fileID: 1473679141}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1704696987 stripped
@@ -3207,7 +3207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 701004674, guid: 25d51aee6cd288a4b935920036c5f7cc, type: 3}
+  m_Sprite: {fileID: -2100261341, guid: 7fd3aa73c4eb7444498714c8d2ed2f55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3285,6 +3285,7 @@ MonoBehaviour:
   quests:
   - {fileID: 11400000, guid: 4408db694f70aed469cddf44e7aa2cdd, type: 2}
   - {fileID: 11400000, guid: 929c460d42e2d76499d7991ba5633a2c, type: 2}
+  - {fileID: 11400000, guid: 13ccc50dea8630749a64d09a8327d65f, type: 2}
 --- !u!1 &1993262944
 GameObject:
   m_ObjectHideFlags: 0

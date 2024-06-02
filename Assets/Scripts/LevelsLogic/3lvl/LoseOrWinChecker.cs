@@ -30,19 +30,18 @@ namespace LevelsLogic._3lvl
             resultReturnToOffice.onClick.AddListener(() => SceneManager.LoadScene("Desktop"));
             resultReloadLevel.onClick.AddListener(() => SceneManager.LoadScene(SceneManager.GetActiveScene().name));
             ordinaryTimer.Pause();
+            resultMenu.gameObject.SetActive(true);
         }
 
         private void LoseGame()
         {
             resultText.text = "Уровень провален!";
-            resultMenu.gameObject.SetActive(true);
         }
 
         private void WinGame()
         {
             resultText.text = "Уровень пройден!";
             PlayerStats.LevelCompleted(3);
-            resultMenu.gameObject.SetActive(true);
         }
 
         private void OnDestroy()
@@ -56,4 +55,3 @@ namespace LevelsLogic._3lvl
         }
     }
 }
-

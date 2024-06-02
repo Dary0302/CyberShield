@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 33
-        y: 0
+        y: 22
         width: 395
-        height: 270
+        height: 233
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,6 +222,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: StageSelectWindow_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 396
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df84bbdc96825047ab8827f7da352c6
+      internalID: -1702713055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StageSelectWindow_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 255
+        width: 396
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b13dc31f968cb4c8f683eb1e8dffc4
+      internalID: 1313554622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -239,6 +281,8 @@ TextureImporter:
       StageSelectWindow_3: 627152351
       StageSelectWindow_4: -408278141
       StageSelectWindow_5: -689820207
+      StageSelectWindow_6: -1702713055
+      StageSelectWindow_7: 1313554622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

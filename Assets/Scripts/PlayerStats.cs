@@ -4,20 +4,28 @@ public static class PlayerStats
 {
     private static int money;
     private static int quantityHealthPoints = 1;
-    public static int LevelsCompletedNumber { get; private set; }
+    private static int levelsCompletedNumber;
     private static int timePerLevelAmount = 30;
     private const string MoneyKey = "money";
     private const string HealthPointsKey = "healthPoints";
     private const string TimePerLevelAmountKey = "timePerLevelAmount";
+    private const string LevelsCompletedNumber = "levelsCompletedNumber";
 
     public static void LevelCompleted(int numberLevel)
     {
         money += 100;
-        if (LevelsCompletedNumber < numberLevel)
-            LevelsCompletedNumber++;
-        PlayerPrefs.SetInt("levelsCompletedNumber", LevelsCompletedNumber);
+        if (levelsCompletedNumber < numberLevel)
+            levelsCompletedNumber++;
+        PlayerPrefs.SetInt(LevelsCompletedNumber, levelsCompletedNumber);
         PlayerPrefs.SetInt(MoneyKey, money);
         PlayerPrefs.Save();
+    }
+
+    public static int GetLevelsCompletedNumber()
+    {
+        if (PlayerPrefs.HasKey(LevelsCompletedNumber))
+            levelsCompletedNumber = PlayerPrefs.GetInt(LevelsCompletedNumber);
+        return levelsCompletedNumber;
     }
 
     public static void ItemBuy(string nameItem, int price)

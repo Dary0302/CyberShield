@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace LevelsLogic._3lvl
 {
@@ -7,7 +8,7 @@ namespace LevelsLogic._3lvl
     {
         [SerializeField] private Transform healthPointsPanel;
         [SerializeField] private GameObject heart;
-        [SerializeField] private GameObject voidHeart;
+        [FormerlySerializedAs("voidHeart"),SerializeField] private GameObject emptyHeart;
         private int countHealthPoints;
         private int currentCountHealthPoints;
         public event Action GameLose;
@@ -31,7 +32,7 @@ namespace LevelsLogic._3lvl
             
             for (var i = 0; i < countHealthPoints; i++)
             {
-                Instantiate(currentCountHealthPoints > i ? heart : voidHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
+                Instantiate(currentCountHealthPoints > i ? heart : emptyHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
             }
 
             if (currentCountHealthPoints == 0)

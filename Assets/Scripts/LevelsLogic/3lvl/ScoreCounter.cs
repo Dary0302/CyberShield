@@ -6,9 +6,8 @@ namespace LevelsLogic._3lvl
 {
     public class ScoreCounter : MonoBehaviour
     {
-        private readonly int countCorrectNames = FillNames.WrongNames.Length; 
+        private readonly int countWrongNames = FillNames.WrongNames.Length; 
         private readonly HashSet<string> usedNamesHash = new();
-        private int score;
         public event Action GameWin;
 
         public void CheckName(string name)
@@ -16,8 +15,7 @@ namespace LevelsLogic._3lvl
             if (!usedNamesHash.Add(name))
                 return;
 
-            score++;
-            if (score == countCorrectNames)
+            if (usedNamesHash.Count == countWrongNames)
                 GameWin?.Invoke();
         }
     }

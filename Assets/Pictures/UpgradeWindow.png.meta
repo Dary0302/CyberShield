@@ -180,6 +180,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: UpgradeWindow_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 107
+        width: 101
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b617091317f8d40a3e9ee497d5059a
+      internalID: 831165365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -195,6 +216,7 @@ TextureImporter:
       UpgradeWindow_1: -290359564
       UpgradeWindow_2: -582722254
       UpgradeWindow_3: 402373728
+      UpgradeWindow_4: 831165365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
