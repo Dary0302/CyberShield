@@ -14,6 +14,7 @@ namespace LevelsLogic._3lvl
         [SerializeField] private TMP_Text resultText;
         [SerializeField] private Button resultReturnToOffice;
         [SerializeField] private Button resultReloadLevel;
+        [SerializeField] private int numberLevel;
 
         private void Start()
         {
@@ -41,7 +42,7 @@ namespace LevelsLogic._3lvl
         private void WinGame()
         {
             resultText.text = "Уровень пройден!";
-            PlayerStats.LevelCompleted(3);
+            PlayerStats.LevelCompleted(numberLevel);
         }
 
         private void OnDestroy()

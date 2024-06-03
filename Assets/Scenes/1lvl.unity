@@ -3540,7 +3540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f5f347c248125347b21b909253e50f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerDuration: 6
   grid: {fileID: 1408550537}
   timerText: {fileID: 1062245822}
 --- !u!1 &1087386562
@@ -3723,9 +3722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   result: {fileID: 1687651981}
   resultText: {fileID: 2007259098}
-  timeStart: 30
   timerText: {fileID: 914279531}
-  secondtimer: {fileID: 1062245820}
+  secondTimer: {fileID: 1062245820}
   grid: {fileID: 1408550537}
   timerStop: 0
 --- !u!1 &1262722903

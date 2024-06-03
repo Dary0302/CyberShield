@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,24 +12,21 @@ public class ApplicationSettings : MonoBehaviour
     [FormerlySerializedAs("volume music"), SerializeField]
     private float volumeMusic; //Громкость музыки
 
-    [SerializeField] private int quality; //Качество
+    //[SerializeField] private int quality; //Качество
     [SerializeField] private bool isFullscreen; //Полноэкранный режим
     [SerializeField] private AudioMixer audioMixer; //Регулятор громкости
-    [SerializeField] private TMP_Dropdown resolutionDropdown; //Список с разрешениями для игры
+    //[SerializeField] private TMP_Dropdown resolutionDropdown; //Список с разрешениями для игры
     [SerializeField] private Toggle fullScreenModeToggle;
-
-    [FormerlySerializedAs("volumeMusicSlider"), SerializeField]
-    private Slider volumeMusicSlider;
-    [FormerlySerializedAs("volumeSlider"), SerializeField]
-    private Slider volumeSlider;
+    [SerializeField] private Slider volumeMusicSlider;
+    [SerializeField] private Slider volumeSlider;
 
     private bool isSavedSettings = true;
     private Resolution[] resolutions; //Список доступных разрешений
-    private int currentResolutionIndex; //Текущее разрешение
+    //private int currentResolutionIndex; //Текущее разрешение
 
     public void Start()
     {
-        resolutionDropdown.ClearOptions(); //Удаление старых пунктов
+        /*resolutionDropdown.ClearOptions(); //Удаление старых пунктов
         resolutions = Screen.resolutions; //Получение доступных разрешений
         var options = new HashSet<string>(); //Создание списка со строковыми значениями
 
@@ -47,11 +41,11 @@ public class ApplicationSettings : MonoBehaviour
 
         resolutionDropdown.AddOptions(options.ToList()); //Добавление элементов в выпадающий список
         resolutionDropdown.value = currentResolutionIndex; //Выделение пункта с текущим разрешением
-        resolutionDropdown.RefreshShownValue(); //Обновление отображаемого значения
+        resolutionDropdown.RefreshShownValue(); //Обновление отображаемого значения*/
 
         volumeSlider.onValueChanged.AddListener(ChangeVolume);
         volumeMusicSlider.onValueChanged.AddListener(ChangeMusicVolume);
-        resolutionDropdown.onValueChanged.AddListener(ChangeResolution);
+        //resolutionDropdown.onValueChanged.AddListener(ChangeResolution);
         fullScreenModeToggle.onValueChanged.AddListener(ChangeFullscreenMode);
     }
 
@@ -67,12 +61,12 @@ public class ApplicationSettings : MonoBehaviour
         isSavedSettings = false;
     }
 
-    private void ChangeResolution(int index) //Изменение разрешения
+    /*private void ChangeResolution(int index) //Изменение разрешения
     {
         currentResolutionIndex = index;
         Screen.SetResolution(Screen.resolutions[currentResolutionIndex].width, Screen.resolutions[currentResolutionIndex].height, isFullscreen);
         isSavedSettings = false;
-    }
+    }*/
 
     private void ChangeFullscreenMode(bool val) //Включение или отключение полноэкранного режима
     {
@@ -81,19 +75,12 @@ public class ApplicationSettings : MonoBehaviour
         isSavedSettings = false;
     }
 
-    public void ChangeQuality(int index) //Изменение качества
-    {
-        quality = index;
-        QualitySettings.SetQualityLevel(quality);
-        isSavedSettings = false;
-    }
-
     public void SaveSettings()
     {
         audioMixer.SetFloat("MusicVolume", volumeMusic); //Изменение уровня громкости
-        QualitySettings.SetQualityLevel(quality); //Изменение качества
+        //QualitySettings.SetQualityLevel(quality); //Изменение качества
         Screen.fullScreen = isFullscreen; //Включение или отключение полноэкранного режима
-        Screen.SetResolution(Screen.resolutions[currentResolutionIndex].width, Screen.resolutions[currentResolutionIndex].height, isFullscreen); //Изменения разрешения
+        //Screen.SetResolution(Screen.resolutions[currentResolutionIndex].width, Screen.resolutions[currentResolutionIndex].height, isFullscreen); //Изменения разрешения
         isSavedSettings = true;
         Debug.Log("Success Save Settings");
     }
@@ -102,7 +89,7 @@ public class ApplicationSettings : MonoBehaviour
     {
         volumeSlider.onValueChanged.RemoveListener(ChangeVolume);
         volumeMusicSlider.onValueChanged.RemoveListener(ChangeMusicVolume);
-        resolutionDropdown.onValueChanged.RemoveListener(ChangeResolution);
+        //resolutionDropdown.onValueChanged.RemoveListener(ChangeResolution);
         fullScreenModeToggle.onValueChanged.RemoveListener(ChangeFullscreenMode);
     }
 }

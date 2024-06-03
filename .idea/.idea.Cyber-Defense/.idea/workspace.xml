@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Pictures/ImpostorMiniGame.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/StageSelectWindow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/StageSelectWindow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/UpgradeWindow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/UpgradeWindow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Quest3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/DialogueSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/EmailMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/DesktopMenuAnimsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/EmailMenuManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/DesktopMenuAnimsManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/InstantiateQuests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/InstantiateQuests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/HealthPointsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/HealthPointsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SettingsMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SettingsMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/SecondTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/SecondTimer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/Timer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/Timer2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/Timer2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/LoseOrWinChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/LoseOrWinChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/ScoreCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/ScoreCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Новая папка/My project.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="F:\Study\Project\UnityProj\Новая папка" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath F:\Study\Project\UnityProj\Cyber-Defense -debugCodeOptimization" />
@@ -121,6 +127,8 @@
       <updated>1717175257844</updated>
       <workItem from="1717175260241" duration="11841000" />
       <workItem from="1717329555784" duration="8391000" />
+      <workItem from="1717401934192" duration="702000" />
+      <workItem from="1717402947955" duration="383000" />
     </task>
     <servers />
   </component>
