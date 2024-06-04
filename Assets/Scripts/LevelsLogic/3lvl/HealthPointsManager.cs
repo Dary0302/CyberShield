@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace LevelsLogic._3lvl
 {
@@ -8,18 +7,21 @@ namespace LevelsLogic._3lvl
     {
         [SerializeField] private Transform healthPointsPanel;
         [SerializeField] private GameObject heart;
-        [FormerlySerializedAs("voidHeart"),SerializeField] private GameObject emptyHeart;
+        [SerializeField] private GameObject emptyHeart;
+        [SerializeField] private GameObject lockHeart;
+        private int maxHealth;
         private int countHealthPoints;
         private int currentCountHealthPoints;
         public event Action GameLose;
 
         private void Start()
         {
+            maxHealth = PlayerStats.MaxHealthPoints;
             countHealthPoints = PlayerStats.GetQuantityHealthPoints();
             currentCountHealthPoints = countHealthPoints;
-            for (var i = 0; i < countHealthPoints; i++)
+            for (var i = 0; i < maxHealth; i++)
             {
-                Instantiate(heart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
+                Instantiate(i < countHealthPoints ? heart : lockHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
             }
         }
 
@@ -29,10 +31,13 @@ namespace LevelsLogic._3lvl
 
             foreach (Transform healthPoint in healthPointsPanel)
                 Destroy(healthPoint.gameObject);
-            
-            for (var i = 0; i < countHealthPoints; i++)
+
+            for (var i = 0; i < maxHealth; i++)
             {
-                Instantiate(currentCountHealthPoints > i ? heart : emptyHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
+                if (countHealthPoints < i + 1)
+                    Instantiate(lockHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
+                else
+                    Instantiate(currentCountHealthPoints > i ? heart : emptyHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
             }
 
             if (currentCountHealthPoints == 0)

@@ -1,10 +1,17 @@
+using System;
 using UnityEngine;
 
 public class SpawnPurchasedObjects : MonoBehaviour
 {
     [SerializeField] private GameObject[] shopItems;
+    [SerializeField] private ShopItemView shopItemView;
 
-    public void Update()
+    private void Update()
+    {
+        PutItemOnScene();
+    }
+
+    private void PutItemOnScene()
     {
         foreach (var shopItem in shopItems)
         {
@@ -12,4 +19,6 @@ public class SpawnPurchasedObjects : MonoBehaviour
                 shopItem.SetActive(true);
         }
     }
+
+
 }
