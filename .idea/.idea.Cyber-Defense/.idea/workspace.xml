@@ -6,21 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/test1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/test1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/test2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/test2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ShopItems/Router.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ShopItems/Router.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ShopItems/Vase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ShopItems/Vase.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/FillButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/FillButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/HealthPointsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/HealthPointsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +35,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/94/6dff2f83/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/cd/8bcee734/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ea01e77be99618395f448b16bd7cc2bd4248bd9e5d8474964b2d97f39c5d74/System.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/RequestClickCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/BaseRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
@@ -119,10 +107,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21252">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34792">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="21252" />
+      <option name="pid" value="34792" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -145,6 +133,7 @@
       <workItem from="1717430917959" duration="81000" />
       <workItem from="1717503484784" duration="5395000" />
       <workItem from="1717524035488" duration="5783000" />
+      <workItem from="1717604406845" duration="4452000" />
     </task>
     <servers />
   </component>
@@ -170,23 +159,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/FillButton.cs</url>
-          <line>30</line>
-          <properties documentPath="F:\Study\Project\UnityProj\Cyber-Defense\Assets\Scripts\LevelsLogic\3lvl\FillButton.cs" containingFunctionPresentation="Method 'FillButtonsWithRandomText'">
-            <startOffsets>
-              <option value="955" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1000" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Delegate" memberName="Method" />

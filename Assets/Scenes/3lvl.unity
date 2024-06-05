@@ -207,7 +207,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.45
+  m_fontSize: 44.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 59270741}
   - component: {fileID: 59270743}
   - component: {fileID: 59270742}
+  - component: {fileID: 59270744}
   m_Layer: 5
   m_Name: Request
   m_TagString: Untagged
@@ -341,11 +342,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
+  m_fontSize: 20
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 48
+  m_fontSizeMin: 20
   m_fontSizeMax: 288
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -391,6 +392,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59270740}
   m_CullTransparentMesh: 1
+--- !u!114 &59270744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59270740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be1230756bde9342b39a06be12c0218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LinkedWordClicked:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &65065261
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +861,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.45
+  m_fontSize: 44.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1072,7 +1088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textTime: {fileID: 1971078109}
-  timerStop: 1
+  timerStop: 0
 --- !u!1 &545466211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,7 +1173,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.45
+  m_fontSize: 44.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1631,7 +1647,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.45
+  m_fontSize: 44.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1956,7 +1972,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 202814839141778029, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_fontSize
-      value: 52.75
+      value: 103.3
       objectReference: {fileID: 0}
     - target: {fileID: 202814839141778029, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_margin.x
@@ -1967,8 +1983,12 @@ PrefabInstance:
       value: 17.240967
       objectReference: {fileID: 0}
     - target: {fileID: 202814839141778029, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 103.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 202814839141778029, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_fontSizeMin
-      value: 34.5
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 202814839141778029, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_enableAutoSizing
@@ -1976,7 +1996,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 476180098114636778, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_fontSize
-      value: 72
+      value: 146.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 476180098114636778, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 146.1
       objectReference: {fileID: 0}
     - target: {fileID: 476180098114636778, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_enableAutoSizing
@@ -2325,7 +2349,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.45
+  m_fontSize: 44.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2655,12 +2679,12 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 5
+  m_ChildAlignment: 3
   m_Spacing: 30
-  m_ChildForceExpandWidth: 0
-  m_ChildForceExpandHeight: 0
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -3143,7 +3167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56979fe8367ba2a4494b99588f5ab082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraToUse: {fileID: 65065263}
+  requestClickCheck: {fileID: 59270744}
   request: {fileID: 59270742}
   healthPointsManager: {fileID: 1520155299}
   scoreCounter: {fileID: 1574952127}
@@ -3344,7 +3368,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.45
+  m_fontSize: 44.6
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3576,7 +3600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
