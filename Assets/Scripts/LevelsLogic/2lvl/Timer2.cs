@@ -7,18 +7,18 @@ public class Timer2 : AbstractTimer
 {
     [SerializeField] private GameObject result;
     [SerializeField] private TMP_Text resultText;
-    [SerializeField] private float timeStart = 30;
     [SerializeField] private TMP_Text timerText;
+    private float timeStart;
     private bool isPause;
-
     public bool timerStop;
 
-    void Start()
+    private void Start()
     {
+        timeStart = PlayerStats.GetTimePerLevelAmount();
         timerText.text = timeStart.ToString(CultureInfo.InvariantCulture);
     }
 
-    void Update()
+    private void Update()
     {
         if (isPause)
             return;

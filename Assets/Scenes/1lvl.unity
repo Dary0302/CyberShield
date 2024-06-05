@@ -684,8 +684,8 @@ Transform:
   m_GameObject: {fileID: 134772137}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 935, y: 43.86, z: 0}
-  m_LocalScale: {x: 325.1349, y: 1080.7269, z: 4.2264}
+  m_LocalPosition: {x: 915, y: -211.06, z: 0}
+  m_LocalScale: {x: 382.13977, y: 2300.9023, z: 8.998141}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -722,7 +722,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.45099854, y: 0.20895079}
+  m_Offset: {x: 0.45532343, y: 0.20895079}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -733,7 +733,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.05059263, y: 0.5820984}
+  m_Size: {x: 0.0939998, y: 0.5820984}
   m_EdgeRadius: 0
 --- !u!50 &134772141
 Rigidbody2D:
@@ -743,7 +743,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134772137}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -758,9 +758,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1 &146753142
 GameObject:
@@ -3540,7 +3540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f5f347c248125347b21b909253e50f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerDuration: 6
   grid: {fileID: 1408550537}
   timerText: {fileID: 1062245822}
 --- !u!1 &1087386562
@@ -3723,9 +3722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   result: {fileID: 1687651981}
   resultText: {fileID: 2007259098}
-  timeStart: 30
   timerText: {fileID: 914279531}
-  secondtimer: {fileID: 1062245820}
+  secondTimer: {fileID: 1062245820}
   grid: {fileID: 1408550537}
   timerStop: 0
 --- !u!1 &1262722903
@@ -4551,9 +4549,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1408550543
 MonoBehaviour:

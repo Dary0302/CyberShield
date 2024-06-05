@@ -12,12 +12,12 @@ public class InstantiateQuests : MonoBehaviour
         var countQuests = 0;
         foreach (var quest in quests)
         {
-            if (countQuests > PlayerStats.LevelsCompletedNumber)
-                continue;
+            if (countQuests > PlayerStats.GetLevelsCompletedNumber())
+                break;
             
             var newLetter = Instantiate(letterViewPrefab, content.position, Quaternion.identity, content);
             
-            if (countQuests < PlayerStats.LevelsCompletedNumber)
+            if (countQuests < PlayerStats.GetLevelsCompletedNumber())
                 newLetter.SetDoneCheckMark();
 
             countQuests++;

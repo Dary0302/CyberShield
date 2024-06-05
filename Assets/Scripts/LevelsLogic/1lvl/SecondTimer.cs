@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -5,13 +6,18 @@ namespace LevelsLogic._1lvl
 {
     public class SecondTimer : AbstractTimer
     {
-        public float timerDuration = 6f; // ������������ ������� � ��������
+        private float timerDuration;
         private float timer; // ������� ����� �� �������
         private bool isTimerRunning; // ���� ������� �������
         private bool isPause;
 
         [SerializeField] private GameObject grid;
         [SerializeField] private TMP_Text timerText; // ������ �� ��������� ���� ��� ����������� �������
+
+        private void Start()
+        {
+            timerDuration = PlayerStats.GetTimePerLevelAmount() / 5;
+        }
 
         private void Update()
         {
