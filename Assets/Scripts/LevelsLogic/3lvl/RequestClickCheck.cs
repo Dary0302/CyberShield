@@ -16,7 +16,6 @@ public class RequestClickCheck : MonoBehaviour, IPointerClickHandler
         if (linkTaggedText != -1)
         {
             var linkInfo = request.textInfo.linkInfo[linkTaggedText];
-            Debug.Log(linkInfo.linkTextfirstCharacterIndex);
             LinkedWordClicked?.Invoke(linkInfo.GetLinkID(), linkInfo.GetLinkText());
         }
     }

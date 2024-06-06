@@ -354,6 +354,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152576965}
   m_CullTransparentMesh: 1
+--- !u!1 &189637975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189637976}
+  - component: {fileID: 189637977}
+  m_Layer: 0
+  m_Name: DialogueRobotEmotionsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &189637976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189637975}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 274.25696, y: -74.71625, z: 283.1436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1647988271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &189637977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189637975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccf85dd848484a40b3fa858aff27fc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emotionRobots:
+  - {fileID: 11400000, guid: 8b3753d67e9d6034fb0f49d527c5d968, type: 2}
+  - {fileID: 11400000, guid: d3f20d278dc9287499e96f2578a845a5, type: 2}
+  - {fileID: 11400000, guid: 83a8be261233cc349913e8854b1128d9, type: 2}
+  - {fileID: 11400000, guid: 6f7cc796203e48e468b748358f66f5b5, type: 2}
+  - {fileID: 11400000, guid: f312f5d9008ae5c4ba3d5638bcbf1e19, type: 2}
 --- !u!1 &192677431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,6 +1418,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &866180165 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4224216851517936023, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
+  m_PrefabInstance: {fileID: 1760180495}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &897285843 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
@@ -1391,7 +1452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &915102486
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2777,6 +2838,7 @@ Transform:
   m_Children:
   - {fileID: 2092573770}
   - {fileID: 897285843}
+  - {fileID: 189637976}
   - {fileID: 92777253}
   - {fileID: 1473679141}
   m_Father: {fileID: 0}
@@ -2800,6 +2862,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1626459150}
     m_Modifications:
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2092573771}
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ExitGame, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911735642267717687, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4254075744876753049, guid: c162cbd7084f9d84c9cd42a7cab8274e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2994,12 +3084,28 @@ PrefabInstance:
       propertyPath: nameSpeaker
       value: 
       objectReference: {fileID: 1704696987}
+    - target: {fileID: 1892036909149247897, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
+      propertyPath: robotEmotion
+      value: 
+      objectReference: {fileID: 866180165}
+    - target: {fileID: 1892036909149247897, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
+      propertyPath: dialogueRobotEmotions
+      value: 
+      objectReference: {fileID: 189637977}
+    - target: {fileID: 1892036909149247897, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
+      propertyPath: dialogueRobotEmotionsManager
+      value: 
+      objectReference: {fileID: 189637977}
     - target: {fileID: 2681908047923134221, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
       propertyPath: m_Name
       value: DialogueWindow
       objectReference: {fileID: 0}
     - target: {fileID: 2681908047923134221, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560706308347410583, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6508389604699486538, guid: e4e0889c1922aa64bb77209262f51507, type: 3}
@@ -3983,13 +4089,29 @@ PrefabInstance:
       propertyPath: dialogue.Array.data[0].sentences.Array.data[35].<Text>k__BackingField
       value: "\u0418 \u043C\u044B \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u043E\u043C\u043E\u0447\u044C?"
       objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[4].<RobotEmotion>k__BackingField
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4887406438029649424, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: m_Name
       value: DialogueSystem
       objectReference: {fileID: 0}
     - target: {fileID: 4887406438029649424, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: m_LocalPosition.x

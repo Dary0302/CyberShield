@@ -37,7 +37,8 @@ public class FillRequest : MonoBehaviour
                     continue;
 
                 request.text = request.text.Insert(i, "<s>");
-                request.text = request.text.Insert(i + linkText.Length, "</s>");
+                request.text = request.text.Insert(i + linkText.Length + 3, "</s>");
+                break;
             }
             scoreCounter.CheckName(linkText);
         }

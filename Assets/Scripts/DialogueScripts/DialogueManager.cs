@@ -2,72 +2,80 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour
+namespace DialogueScripts
 {
-    public GameObject dialogueWindow;
-    public Image dialogueSquare;
-    public TMP_Text dialogueText;
-    public TMP_Text nameText;
-    [SerializeField] private Image backGroundRobot;
-    [SerializeField] private Image backGroundGG;
-    public float delayBetweenCharacters = 0.05f;
-
-    private int currentDialogueNumber;
-    private Queue<Dialogue.Sentence> sentences;
-
-    public void Awake()
+    public class DialogueManager : MonoBehaviour
     {
-        sentences = new();
-    }
+        public GameObject dialogueWindow;
+        public Image dialogueSquare;
+        public Image robotEmotion;
+        public TMP_Text dialogueText;
+        public TMP_Text nameText;
+        [FormerlySerializedAs("dialogueRobotEmotions"),SerializeField] private DialogueRobotEmotionsManager dialogueRobotEmotionsManager;
+        [SerializeField] private Image backGroundRobot;
+        [SerializeField] private Image backGroundGG;
+        public float delayBetweenCharacters = 0.05f;
 
-    public void StartDialogue(Dialogue dialogue, int dialogueNumber)
-    {
-        sentences.Clear();
-        currentDialogueNumber = dialogueNumber;
+        private int currentDialogueNumber;
+        private Queue<Dialogue.Sentence> sentences;
 
-        foreach (var sentence in dialogue.sentences)
+        public void Awake()
         {
-            sentences.Enqueue(sentence);
+            sentences = new();
         }
-        DisplayNextSentence();
-    }
 
-    public void DisplayNextSentence()
-    {
-        if (sentences.Count == 0)
+        public void StartDialogue(Dialogue dialogue, int dialogueNumber)
         {
-            EndDialogue();
-            return;
+            sentences.Clear();
+            currentDialogueNumber = dialogueNumber;
+
+            foreach (var sentence in dialogue.sentences)
+            {
+                sentences.Enqueue(sentence);
+            }
+            DisplayNextSentence();
         }
-        var sentence = sentences.Dequeue();
-        nameText.text = "";
-        dialogueSquare.sprite = backGroundGG.sprite;
-        if (sentence.Name == Names.Robot)
+
+        public void DisplayNextSentence()
         {
-            nameText.text = "Помощник";
-            dialogueSquare.sprite = backGroundRobot.sprite;
-        }
+            if (sentences.Count == 0)
+            {
+                EndDialogue();
+                return;
+            }
+            var sentence = sentences.Dequeue();
+
+            robotEmotion.sprite = dialogueRobotEmotionsManager.GetEmotionRobot(sentence.RobotEmotion).FaceEmotion;
+            nameText.text = "";
+            dialogueSquare.sprite = backGroundGG.sprite;
+            if (sentence.Name == Names.Robot)
+            {
+                nameText.text = "Помощник";
+                dialogueSquare.sprite = backGroundRobot.sprite;
+            }
             
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence.Text));
-    }
-
-    private IEnumerator TypeSentence(string sentence)
-    {
-        dialogueText.text = "";
-        foreach (var letter in sentence.ToCharArray())
-        {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(delayBetweenCharacters);
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(sentence.Text));
         }
-    }
 
-    public void EndDialogue()
-    {
-        PlayerPrefs.SetInt("lastDialogueNumber", currentDialogueNumber + 1);
-        PlayerPrefs.Save();
-        dialogueWindow.gameObject.SetActive(false);
+        private IEnumerator TypeSentence(string sentence)
+        {
+            dialogueText.text = "";
+            foreach (var letter in sentence.ToCharArray())
+            {
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(delayBetweenCharacters);
+            }
+        }
+
+        public void EndDialogue()
+        {
+            PlayerPrefs.SetInt("lastDialogueNumber", currentDialogueNumber + 1);
+            PlayerPrefs.Save();
+            dialogueWindow.gameObject.SetActive(false);
+        }
     }
 }
