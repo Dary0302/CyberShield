@@ -5,7 +5,10 @@ using UnityEngine.UI;
 public class DesktopMenuAnimsManager : MonoBehaviour
 {
     [SerializeField] private DesktopMenu[] desktopMenuScreens;
+    [SerializeField] private GameObject escMenu;
     private static readonly int IsOpen = Animator.StringToHash("IsOpen");
+    private bool isOpenEscMenu;
+    private bool isAllMenuClose = true;
 
     private void Start()
     {
@@ -17,10 +20,13 @@ public class DesktopMenuAnimsManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+        if (!Input.GetKeyDown(KeyCode.Escape))
+            return;
+
+        if (!isAllMenuClose)
             CloseAllMenuScreens();
-        }
+        else
+            OpenEscMenu();
     }
 
     private void SwitchMenu(DesktopMenu desktopMenuScreen)
@@ -28,6 +34,7 @@ public class DesktopMenuAnimsManager : MonoBehaviour
         CloseAllMenuScreens(desktopMenuScreen);
         desktopMenuScreen.MenuAnimator.SetBool(IsOpen, !desktopMenuScreen.IsMenuOpen);
         desktopMenuScreen.IsMenuOpen = !desktopMenuScreen.IsMenuOpen;
+        isAllMenuClose = false;
     }
 
     private void CloseAllMenuScreens(DesktopMenu desktopMenu = null)
@@ -39,7 +46,15 @@ public class DesktopMenuAnimsManager : MonoBehaviour
 
             desktopMenuScreen.MenuAnimator.SetBool(IsOpen, false);
             desktopMenuScreen.IsMenuOpen = false;
+            isAllMenuClose = false;
         }
+        isAllMenuClose = true;
+    }
+
+    private void OpenEscMenu()
+    {
+        escMenu.SetActive(!isOpenEscMenu);
+        isOpenEscMenu = !isOpenEscMenu;
     }
 
     private void OnDestroy()

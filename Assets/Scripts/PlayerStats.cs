@@ -8,11 +8,13 @@ public static class PlayerStats
     private static int levelsCompletedNumber;
     private static int timePerLevelAmount = 30;
     private static int officeLevel = 1;
+    private static int countItemsPurchased;
     private const string MoneyKey = "money";
     private const string HealthPointsKey = "healthPoints";
     private const string TimePerLevelAmountKey = "timePerLevelAmount";
     private const string LevelsCompletedNumberKey = "levelsCompletedNumber";
     private const string OfficeLevelKey = "levelsCompletedNumber";
+    private const string CountItemsPurchasedKey = "countItemsPurchased";
 
     public static void LevelCompleted(int numberLevel)
     {
@@ -31,15 +33,16 @@ public static class PlayerStats
         return levelsCompletedNumber;
     }
 
-    public static void ItemBuy(string nameItem, int price)
+    public static bool TryItemBuy(string nameItem, int price)
     {
         if (price > money || PlayerPrefs.HasKey(nameItem))
-            return;
+            return false;
 
         money -= price;
         PlayerPrefs.SetInt(nameItem, 1);
         PlayerPrefs.SetInt(MoneyKey, money);
         PlayerPrefs.Save();
+        return true;
     }
 
     public static int GetMoney()
@@ -84,6 +87,18 @@ public static class PlayerStats
         timePerLevelAmount += 5;
     }
 
+    public static void SuccessItemBought(ShopItemView shopItemView)
+    {
+        if (PlayerPrefs.HasKey(CountItemsPurchasedKey))
+            countItemsPurchased = PlayerPrefs.GetInt(CountItemsPurchasedKey);
+
+        countItemsPurchased++;
+        if (countItemsPurchased / 2 > GetOfficeLevel() - 1)
+            UpdateOfficeLevel();
+        PlayerPrefs.SetInt(CountItemsPurchasedKey, countItemsPurchased);
+        PlayerPrefs.Save();
+    }
+
     public static int GetOfficeLevel()
     {
         if (PlayerPrefs.HasKey(OfficeLevelKey))
@@ -92,11 +107,11 @@ public static class PlayerStats
         return officeLevel;
     }
 
-    public static void UpdateOfficeLevel()
+    private static void UpdateOfficeLevel()
     {
         if (PlayerPrefs.HasKey(OfficeLevelKey))
             officeLevel = PlayerPrefs.GetInt(OfficeLevelKey);
-
         officeLevel++;
+        Debug.Log(officeLevel);
     }
 }

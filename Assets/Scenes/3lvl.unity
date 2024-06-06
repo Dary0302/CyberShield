@@ -207,7 +207,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
+  m_fontSize: 40.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -315,7 +315,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: b23/-/.dbGdn136fqwgf8gDfbdSFb/-/fsvsfvsomk.Hytr2gRs3Q/-/.sdVw3421/-/56HrFYnf1/-/3OOluilvds2wb432wr/-/3OOluilvds2wb432wr/-/3OOluilvds2wb432wr/-
+  m_text: b23/-/.dbGdn136fqwgf8gDfbdSFb/-/fsvsfvsomk.Hytr2gRs3Q/-/.sdVw3421/-/56HrFYnf1/-/3OOluilvds2wb432wr/-/3OOluilvds2wb432wr/-/46Olu92ds2wb432wr/-
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2fcb248bad531014483f6bd02e02c8e3, type: 2}
   m_sharedMaterial: {fileID: 8768886157326499284, guid: 2fcb248bad531014483f6bd02e02c8e3, type: 2}
@@ -342,11 +342,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 19.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 20
+  m_fontSizeMin: 19
   m_fontSizeMax: 288
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
+  m_fontSize: 40.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
+  m_fontSize: 40.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1647,7 +1647,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
+  m_fontSize: 40.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2192,6 +2192,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d88ff0e29f64e4292dd6e700631a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CorrectNames:
+  - Roman
+  - Anna
+  - Bob
+  - Petr
+  - Ivan
+  - Oleg
+  - Polina
+  - Denis
+  - Sergey
+  - Yusif
+  - Kirill
+  - Alex
+  - Max
+  - Artem
+  countCorrectNamesInGame: 6
+  WrongNames:
+  - Dima
+  - Artur
+  - Fedor
+  - Semyon
+  - Timur
+  - Yura
+  - Ulyana
+  countWrongNamesInGame: 2
   nameTextElements:
   - {fileID: 545466213}
   - {fileID: 234210340}
@@ -2349,7 +2374,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
+  m_fontSize: 40.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2780,6 +2805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05072be3ded888345a3f98d666d3dbb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fillNames: {fileID: 1103342947}
 --- !u!114 &1668533476 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8339073447484078978, guid: 70e1185826f936b4aa786482b61a4885, type: 3}
@@ -3167,6 +3193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56979fe8367ba2a4494b99588f5ab082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fillNames: {fileID: 1103342947}
   requestClickCheck: {fileID: 59270744}
   request: {fileID: 59270742}
   healthPointsManager: {fileID: 1520155299}
@@ -3368,7 +3395,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.6
+  m_fontSize: 40.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
