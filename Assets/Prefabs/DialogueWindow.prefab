@@ -55,8 +55,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueWindow: {fileID: 2681908047923134221}
   dialogueSquare: {fileID: 656066711847078472}
+  robotEmotion: {fileID: 4224216851517936023}
   dialogueText: {fileID: 6508389604699486538}
   nameText: {fileID: 6701472303683287282}
+  dialogueRobotEmotionsManager: {fileID: 0}
   backGroundRobot: {fileID: 8356746877901059479}
   backGroundGG: {fileID: 7160796503318536791}
   delayBetweenCharacters: 0.03

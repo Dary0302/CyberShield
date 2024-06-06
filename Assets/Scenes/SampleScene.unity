@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.12300193, g: 1, b: 0, a: 1}
-    m_PressedColor: {r: 0.050980397, g: 0.015686275, b: 0.04705883, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -291,19 +291,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 175919719}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1535692368}
-        m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
-        m_MethodName: SwitcherScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &175919719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +330,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175919716}
   m_CullTransparentMesh: 1
+--- !u!1 &188433245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188433246}
+  - component: {fileID: 188433247}
+  m_Layer: 0
+  m_Name: SwitchScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188433246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188433245}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1279169330}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &188433247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188433245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975a68c902a8d8c4989f2021608139dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &292781442
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +666,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1535692368}
+      - m_Target: {fileID: 188433247}
         m_TargetAssemblyTypeName: SwitchScene, Assembly-CSharp
         m_MethodName: SwitcherScene
         m_Mode: 3
@@ -955,6 +987,7 @@ Transform:
   m_Children:
   - {fileID: 1535692367}
   - {fileID: 1104347111}
+  - {fileID: 188433246}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1467643607
@@ -1102,7 +1135,7 @@ GameObject:
   - component: {fileID: 1535692367}
   - component: {fileID: 1535692368}
   m_Layer: 0
-  m_Name: SwitchSceneOffice
+  m_Name: EscMenuOpenerOnLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1132,9 +1165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535692366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 975a68c902a8d8c4989f2021608139dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cffbacce83784c4ba44c9ee8e57dd96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  escMenu: {fileID: 0}
+  toSettingsButton: {fileID: 175919718}
 --- !u!1 &1549397557
 GameObject:
   m_ObjectHideFlags: 0

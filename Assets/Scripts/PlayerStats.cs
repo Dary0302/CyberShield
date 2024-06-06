@@ -13,7 +13,7 @@ public static class PlayerStats
     private const string HealthPointsKey = "healthPoints";
     private const string TimePerLevelAmountKey = "timePerLevelAmount";
     private const string LevelsCompletedNumberKey = "levelsCompletedNumber";
-    private const string OfficeLevelKey = "levelsCompletedNumber";
+    private const string OfficeLevelKey = "officeLevelNumber";
     private const string CountItemsPurchasedKey = "countItemsPurchased";
 
     public static void LevelCompleted(int numberLevel)
@@ -80,7 +80,7 @@ public static class PlayerStats
         return timePerLevelAmount;
     }
 
-    public static void UpdateTimePerLevelAmount()
+    private static void UpdateTimePerLevelAmount()
     {
         if (PlayerPrefs.HasKey(TimePerLevelAmountKey))
             timePerLevelAmount = PlayerPrefs.GetInt(TimePerLevelAmountKey);
@@ -99,6 +99,17 @@ public static class PlayerStats
         PlayerPrefs.Save();
     }
 
+    public static int GetCountItemForNewOfficeLevel()
+    {
+        if (PlayerPrefs.HasKey(CountItemsPurchasedKey))
+            countItemsPurchased = PlayerPrefs.GetInt(CountItemsPurchasedKey);
+        
+        if (PlayerPrefs.HasKey(OfficeLevelKey))
+            officeLevel = PlayerPrefs.GetInt(OfficeLevelKey);
+
+        return countItemsPurchased % 2 == 0 ? 2 : 1;
+    }
+
     public static int GetOfficeLevel()
     {
         if (PlayerPrefs.HasKey(OfficeLevelKey))
@@ -112,6 +123,12 @@ public static class PlayerStats
         if (PlayerPrefs.HasKey(OfficeLevelKey))
             officeLevel = PlayerPrefs.GetInt(OfficeLevelKey);
         officeLevel++;
+        UpdateTimePerLevelAmount();
+        UpdateQuantityHealthPoints();
+        PlayerPrefs.SetInt(OfficeLevelKey, officeLevel);
+        PlayerPrefs.SetInt(TimePerLevelAmountKey, timePerLevelAmount);
+        PlayerPrefs.SetInt(HealthPointsKey, quantityHealthPoints);
+        PlayerPrefs.Save();
         Debug.Log(officeLevel);
     }
 }
