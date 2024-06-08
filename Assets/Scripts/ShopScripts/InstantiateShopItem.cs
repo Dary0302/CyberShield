@@ -6,6 +6,7 @@ public class InstantiateShopItem : MonoBehaviour
     [SerializeField] private ShopItemView shopItemViewPrefab;
     [SerializeField] private Transform content;
     [SerializeField] private List<SampleShopItem> shopItems = new();
+    [SerializeField] private PlayerShowInfo playerShowInfo;
     private readonly List<ShopItemView> shopItemViews = new();
 
     private void Start()
@@ -21,7 +22,7 @@ public class InstantiateShopItem : MonoBehaviour
             
             var newShopItem = Instantiate(shopItemViewPrefab, content.position, Quaternion.identity, content);
             newShopItem.ItemBought += OnItemBought;
-            newShopItem.ItemBought += PlayerStats.SuccessItemBought;
+            newShopItem.ItemBought += playerShowInfo.SuccessItemBought;
             shopItemViews.Add(newShopItem);
 
             newShopItem.SetData(shopItem);

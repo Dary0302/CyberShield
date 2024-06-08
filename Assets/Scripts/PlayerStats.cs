@@ -59,7 +59,7 @@ public static class PlayerStats
         return quantityHealthPoints;
     }
 
-    public static void UpdateQuantityHealthPoints()
+    private static void UpdateQuantityHealthPoints()
     {
         if (PlayerPrefs.HasKey(HealthPointsKey))
             quantityHealthPoints = PlayerPrefs.GetInt(HealthPointsKey);
@@ -86,28 +86,23 @@ public static class PlayerStats
             timePerLevelAmount = PlayerPrefs.GetInt(TimePerLevelAmountKey);
         timePerLevelAmount += 5;
     }
-
-    public static void SuccessItemBought(ShopItemView shopItemView)
-    {
-        if (PlayerPrefs.HasKey(CountItemsPurchasedKey))
-            countItemsPurchased = PlayerPrefs.GetInt(CountItemsPurchasedKey);
-
-        countItemsPurchased++;
-        if (countItemsPurchased / 2 > GetOfficeLevel() - 1)
-            UpdateOfficeLevel();
-        PlayerPrefs.SetInt(CountItemsPurchasedKey, countItemsPurchased);
-        PlayerPrefs.Save();
-    }
-
-    public static int GetCountItemForNewOfficeLevel()
+    
+    public static int GetCountItemsPurchased()
     {
         if (PlayerPrefs.HasKey(CountItemsPurchasedKey))
             countItemsPurchased = PlayerPrefs.GetInt(CountItemsPurchasedKey);
         
-        if (PlayerPrefs.HasKey(OfficeLevelKey))
-            officeLevel = PlayerPrefs.GetInt(OfficeLevelKey);
-
-        return countItemsPurchased % 2 == 0 ? 2 : 1;
+        return countItemsPurchased;
+    }
+    
+    public static void AddItemsPurchased()
+    {
+        if (PlayerPrefs.HasKey(CountItemsPurchasedKey))
+            countItemsPurchased = PlayerPrefs.GetInt(CountItemsPurchasedKey);
+        
+        countItemsPurchased++;
+        PlayerPrefs.SetInt(CountItemsPurchasedKey, countItemsPurchased);
+        PlayerPrefs.Save();
     }
 
     public static int GetOfficeLevel()
@@ -118,7 +113,7 @@ public static class PlayerStats
         return officeLevel;
     }
 
-    private static void UpdateOfficeLevel()
+    public static void UpdateOfficeLevel()
     {
         if (PlayerPrefs.HasKey(OfficeLevelKey))
             officeLevel = PlayerPrefs.GetInt(OfficeLevelKey);
@@ -127,7 +122,6 @@ public static class PlayerStats
         UpdateQuantityHealthPoints();
         PlayerPrefs.SetInt(OfficeLevelKey, officeLevel);
         PlayerPrefs.SetInt(TimePerLevelAmountKey, timePerLevelAmount);
-        PlayerPrefs.SetInt(HealthPointsKey, quantityHealthPoints);
         PlayerPrefs.Save();
         Debug.Log(officeLevel);
     }

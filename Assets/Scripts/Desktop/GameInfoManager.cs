@@ -18,6 +18,6 @@ public class GameInfoManager : MonoBehaviour
         currentOfficeLevel.text = $"Уровень офиса: {PlayerStats.GetOfficeLevel()}";
         currentTimeOnLevel.text = $"Время на уровень: {PlayerStats.GetTimePerLevelAmount()}";
         currentHearthOnLevel.text = $"Количество жизней: {PlayerStats.GetQuantityHealthPoints()}";
-        countItemForNewLevel.text = $"Количество покупок для нового уровня: {PlayerStats.GetCountItemForNewOfficeLevel()}";
+        countItemForNewLevel.text = $"Количество покупок для нового уровня: {PlayerStats.GetCountItemsPurchased()}";
     }
 }

@@ -32,7 +32,8 @@ namespace LevelsLogic
             if (!Input.GetKeyDown(KeyCode.Escape))
                 return;
 
-            OpenEscMenu();
+            if (toOfficeButton is not null)
+                OpenEscMenu();
         }
 
         private void OpenEscMenu()
