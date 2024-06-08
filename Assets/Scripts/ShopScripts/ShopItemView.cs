@@ -12,7 +12,7 @@ public class ShopItemView : MonoBehaviour
     [SerializeField] private Button buyButton;
 
     public event Action<ShopItemView> ItemBought;
-    
+
     public void SetData(SampleShopItem shopItem)
     {
         productPhoto.sprite = shopItem.ProductPhoto;
@@ -21,8 +21,8 @@ public class ShopItemView : MonoBehaviour
         price = shopItem.Price;
         buyButton.onClick.AddListener(() =>
         {
-            PlayerStats.ItemBuy(shopItem.SystemName, price);
-            ItemBought?.Invoke(this);
+            if (PlayerStats.TryItemBuy(shopItem.SystemName, price))
+                ItemBought?.Invoke(this);
         });
     }
 }

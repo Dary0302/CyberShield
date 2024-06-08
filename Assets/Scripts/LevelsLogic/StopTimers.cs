@@ -19,7 +19,7 @@ namespace LevelsLogic
             }
         }
 
-        private void PauseTimers()
+        public void PauseTimers()
         {
             foreach (var timer in timers)
             {

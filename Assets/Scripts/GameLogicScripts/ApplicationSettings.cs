@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
@@ -21,7 +20,7 @@ public class ApplicationSettings : MonoBehaviour
     [SerializeField] private Slider volumeSlider;
 
     private bool isSavedSettings = true;
-    private Resolution[] resolutions; //Список доступных разрешений
+    //private Resolution[] resolutions; //Список доступных разрешений
     //private int currentResolutionIndex; //Текущее разрешение
 
     public void Start()

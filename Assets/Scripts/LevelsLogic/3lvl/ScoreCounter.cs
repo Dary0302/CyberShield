@@ -6,9 +6,15 @@ namespace LevelsLogic._3lvl
 {
     public class ScoreCounter : MonoBehaviour
     {
-        private readonly int countWrongNames = FillNames.WrongNames.Length; 
+        [SerializeField] private FillNames fillNames;
+        private int countWrongNames; 
         private readonly HashSet<string> usedNamesHash = new();
         public event Action GameWin;
+
+        private void Start()
+        {
+            countWrongNames = fillNames.WrongNames.Length;
+        }
 
         public void CheckName(string name)
         {

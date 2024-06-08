@@ -1,10 +1,11 @@
+using DialogueScripts;
 using UnityEngine;
 
 public class DialogueSystem : MonoBehaviour
 {
     public Dialogue[] dialogue;
     [SerializeField] private DialogueManager dialogueManager;
-    private Dialogue currentDialogue = null;
+    //private Dialogue currentDialogue = null;
 
     public void Start()
     {

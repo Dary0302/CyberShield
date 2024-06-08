@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class ButtonClickBlocker : MonoBehaviour
 {
     // Ссылки на кнопки, которые нужно заблокировать
-    public UnityEngine.UI.Button[] buttonsToBlock;
+    public Button[] buttonsToBlock;
 
     private void Awake()
     {
@@ -41,6 +41,9 @@ public class ButtonClickBlocker : MonoBehaviour
         // Разблокируем нажатия на все кнопки
         foreach (var button in buttonsToBlock)
         {
+            if (button is null)
+                continue;
+            
             button.interactable = true;
         }
     }
