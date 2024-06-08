@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class FillRequest : MonoBehaviour
 {
+    [SerializeField] private AudioSource soundClick;
     [SerializeField] private FillNames fillNames;
-    [SerializeField] private FillRequest fillRequest;
     [SerializeField] private RequestClickCheck requestClickCheck;
     [SerializeField] private TMP_Text request;
     [SerializeField] private HealthPointsManager healthPointsManager;
@@ -21,6 +21,10 @@ public class FillRequest : MonoBehaviour
         FillButtonsWithRandomText();
         requestClickCheck.Initialize(request);
         requestClickCheck.LinkedWordClicked.AddListener(CheckLinkedWord);
+        requestClickCheck.LinkedWordClicked.AddListener((_, _) =>
+        {
+            soundClick.Play();
+        });
     }
 
     private void CheckLinkedWord(string linkId, string linkText)
@@ -49,20 +53,19 @@ public class FillRequest : MonoBehaviour
     {
         var indexCorrectName = 0;
         var indexWrongName = 0;
-        
+
         for (var i = 0; i < request.text.Length; i++)
         {
             if (request.text[i] != '-')
                 continue;
-            
+
             request.text = request.text[..i] + request.text[(i + 1)..];
             request.text = request.text.Insert(i, $"<link=\"Correct\"><color=#F18F00>{correctNames[indexCorrectName]}</color></link>");
             indexCorrectName++;
             break;
         }
-        
-        var random = new System.Random();
 
+        var random = new System.Random();
 
         for (var i = 0; i < request.text.Length; i++)
         {

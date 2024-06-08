@@ -8,7 +8,7 @@ public class TextCell : MonoBehaviour
     public event Action TextChanged; 
     [SerializeField] private TMP_Text text;
     [SerializeField] private string[] strings;
-    [SerializeField] private UnityEngine.UI.Button button;
+    [SerializeField] private Button button;
     private int index;
     
     public void Start()

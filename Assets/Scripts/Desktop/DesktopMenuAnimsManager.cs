@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class DesktopMenuAnimsManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource soundClick;
     [SerializeField] private DesktopMenu[] desktopMenuScreens;
     [SerializeField] private GameObject escMenu;
     private static readonly int IsOpen = Animator.StringToHash("IsOpen");
@@ -23,6 +24,8 @@ public class DesktopMenuAnimsManager : MonoBehaviour
         if (!Input.GetKeyDown(KeyCode.Escape))
             return;
 
+        soundClick.Play();
+        
         if (!isAllMenuClose)
             CloseAllMenuScreens();
         else

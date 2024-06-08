@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CellsManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource gameWinSound;
     [SerializeField] private TextCell[] textCells;
     [SerializeField] private string answer;
     [SerializeField] private GameObject resultMenu;
@@ -32,6 +33,7 @@ public class CellsManager : MonoBehaviour
         
         PlayerStats.LevelCompleted(2);
         timer2.timerStop = true;
+        gameWinSound.Play();
         resultText.text = "Уровень пройден!";
         resultMenu.SetActive(true);
     }

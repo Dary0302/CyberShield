@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Timer2 : AbstractTimer
 {
+    [SerializeField] private AudioSource gameLoseSound;
     [SerializeField] private GameObject result;
     [SerializeField] private TMP_Text resultText;
     [SerializeField] private TMP_Text timerText;
@@ -25,6 +26,7 @@ public class Timer2 : AbstractTimer
 
         if (timeStart <= 0)
         {
+            gameLoseSound.Play();
             resultText.text = "Уровень провален!";
             result.gameObject.SetActive(true);
         }

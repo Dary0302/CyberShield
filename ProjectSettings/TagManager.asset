@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Area
   - ChildObject
+  - BG_music_main_menu
+  - BG_music_volume_slider
   layers:
   - Default
   - TransparentFX
