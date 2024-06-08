@@ -3423,13 +3423,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2092573770}
   - {fileID: 897285843}
   - {fileID: 189637976}
   - {fileID: 92777253}
   - {fileID: 1473679141}
   - {fileID: 271763441}
   - {fileID: 1882891358}
+  - {fileID: 2092573770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1704696987 stripped
@@ -4249,6 +4249,7 @@ MonoBehaviour:
   toMainMenuButton: {fileID: 2051453800}
   toOfficeButton: {fileID: 0}
   toSettingsButton: {fileID: 568731759}
+  stopTimers: {fileID: 0}
 --- !u!1 &1993262944
 GameObject:
   m_ObjectHideFlags: 0

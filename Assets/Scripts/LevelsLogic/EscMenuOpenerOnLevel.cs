@@ -10,6 +10,7 @@ namespace LevelsLogic
         [SerializeField] private Button toMainMenuButton;
         [SerializeField] private Button toOfficeButton;
         [SerializeField] private Button toSettingsButton;
+        [SerializeField] private StopTimers stopTimers;
         private bool isOpenEscMenu;
 
         private void Start()
@@ -36,15 +37,23 @@ namespace LevelsLogic
 
         private void OpenEscMenu()
         {
+            if (escMenu is null)
+                return;
+
+            stopTimers?.PauseTimers();
+
             escMenu.SetActive(!isOpenEscMenu);
             isOpenEscMenu = !isOpenEscMenu;
         }
 
         private void OnDestroy()
         {
-            toMainMenuButton.onClick.RemoveAllListeners();
-            toOfficeButton.onClick.RemoveAllListeners();
-            toSettingsButton.onClick.RemoveAllListeners();
+            if (toMainMenuButton != null)
+                toMainMenuButton.onClick.RemoveAllListeners();
+            if (toOfficeButton != null)
+                toOfficeButton.onClick.RemoveAllListeners();
+            if (toSettingsButton != null)
+                toSettingsButton.onClick.RemoveAllListeners();
         }
     }
 }

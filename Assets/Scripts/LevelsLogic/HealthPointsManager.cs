@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace LevelsLogic._3lvl
+namespace LevelsLogic
 {
     public class HealthPointsManager : MonoBehaviour
     {

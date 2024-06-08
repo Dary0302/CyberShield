@@ -1,3 +1,5 @@
+using System;
+using LevelsLogic;
 using LevelsLogic._1lvl;
 using UnityEngine;
 using TMPro;
@@ -8,41 +10,36 @@ public class PasswordCheck : MonoBehaviour
     [SerializeField] private TMP_Text resultText;
     [SerializeField] private TMP_InputField tmpInputField;
     [SerializeField] private Timer timer;
+    [SerializeField] private HealthPointsManager healthPointsManager;
+    [SerializeField] private GameLose gameLose;
     [SerializeField] private string validCharacters = "G734#26H";
     private bool isWin;
 
+    private void Start()
+    {
+        healthPointsManager.GameLose += gameLose.LoseGame;
+    }
+
+    private void Update()
+    {
+        ValidateInput();
+    }
     private void ValidateInput()
     {
         if (isWin)
             return;
+        
         var inputValue = tmpInputField.text;
-        var trueSymbols = "";
-        var isValid = true;
 
-        if (inputValue.Length != validCharacters.Length || inputValue.Length % 2 != 0)
+        if (inputValue.Length != validCharacters.Length)
             return;
 
-        for (var i = 0; i < inputValue.Length; i += 2)
+        if (inputValue.Length > validCharacters.Length || inputValue != validCharacters)
         {
-            var element = inputValue.Substring(i, 2);
-
-            foreach (var c in element)
-            {
-                if (!validCharacters.Contains(c.ToString()))
-                {
-                    isValid = false;
-                    break;
-                }
-
-                trueSymbols += c;
-            }
-
-            if (!isValid)
-                break;
-        }
-
-        if (trueSymbols != validCharacters)
+            tmpInputField.text = string.Empty;
+            healthPointsManager.WrongAnswer();
             return;
+        }
         
         isWin = true;
         timer.timerStop = true;
@@ -51,8 +48,8 @@ public class PasswordCheck : MonoBehaviour
         PlayerStats.LevelCompleted(1);
     }
 
-    private void Update()
+    private void OnDestroy()
     {
-        ValidateInput();
+        healthPointsManager.GameLose -= gameLose.LoseGame;
     }
 }
