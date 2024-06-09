@@ -336,7 +336,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 831165365, guid: 25d51aee6cd288a4b935920036c5f7cc, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -484,7 +484,6 @@ MonoBehaviour:
   productPhoto: {fileID: 3236741492092897486}
   productName: {fileID: 4756313497730392500}
   description: {fileID: 123263441448102011}
-  price: 0
   buyButton: {fileID: 5933871107405608944}
 --- !u!1 &7550681081879468468
 GameObject:

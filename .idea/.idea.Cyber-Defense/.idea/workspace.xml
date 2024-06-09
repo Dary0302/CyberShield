@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/TestMusic.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/TestMusic.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/MainHubSpriteSheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/MainHubSpriteSheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/MainMenu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/MainMenu.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/StageSelectWindow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/StageSelectWindow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/ToolSprites.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/ToolSprites.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/UpgradeWindow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/UpgradeWindow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueWindow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DialogueWindow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EscMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EscMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelUpNotification.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelUpNotification.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ResultGame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ResultGame.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tips.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tips.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
@@ -17,22 +26,19 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SettingsMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SettingsMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/DesktopMenuAnimsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/DesktopMenuAnimsManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/GameInfoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/GameInfoManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/PlayerShowInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/PlayerShowInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ReturnPreviousScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ReturnPreviousScene.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/SwitchScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/SwitchScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/GameLose.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/GameLose.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/PasswordCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/PasswordCheck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/CellsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/CellsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/TextCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/TextCell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/Timer2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/Timer2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/FillRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/FillRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/LoseOrWinChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/LoseOrWinChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/HealthPointsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/HealthPointsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerShowInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/PlayerShowInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerShowInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/PlayerShowInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/EscMenuOpenerOnLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/EscMenuOpenerOnLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music/SoundVolumeControllerComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music/SoundVolumeControllerComponent.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +64,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/76/d1cb475f/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/3d/68150bf7/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/44/f7b1e06c/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/83/256f931f/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/94/6dff2f83/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/ba/f903cea3/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/cd/8bcee734/Object.cs" root0="SKIP_HIGHLIGHTING" />
@@ -67,7 +74,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/RequestClickCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/EscMenuOpenerOnLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music/SoundVolumeControllerComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShowInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/BaseRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
@@ -75,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -140,10 +147,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34236">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="34236" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -175,7 +182,9 @@
       <workItem from="1717829413166" duration="8549000" />
       <workItem from="1717849492571" duration="16217000" />
       <workItem from="1717875482677" duration="45000" />
-      <workItem from="1717875534934" duration="3257000" />
+      <workItem from="1717875534934" duration="3806000" />
+      <workItem from="1717909378732" duration="3486000" />
+      <workItem from="1717934882744" duration="13642000" />
     </task>
     <servers />
   </component>
@@ -201,23 +210,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs</url>
-          <line>61</line>
-          <properties documentPath="F:\Study\Project\UnityProj\Cyber-Defense\Assets\Scripts\GameLogicScripts\ApplicationSettings.cs" containingFunctionPresentation="Method 'SaveSettings'">
-            <startOffsets>
-              <option value="1936" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1985" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Delegate" memberName="Method" />

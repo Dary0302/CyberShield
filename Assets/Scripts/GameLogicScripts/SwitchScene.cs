@@ -11,7 +11,7 @@ public class SwitchScene : MonoBehaviour
         if (loadSceneCoroutine != null)
             return;
 
-        loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.3f, idScene));
+        loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.27f, idScene));
     }
 
     private IEnumerator LoadSceneCoroutine(float delay, int idScene)

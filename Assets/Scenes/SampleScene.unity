@@ -361,8 +361,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 270667754, guid: 391c63e32f6fc4d4a9b2b1faa13a6a15, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: -1496535320, guid: bf6540c24957b6741ae7b4ba22c19653, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &175919720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -748,7 +748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 1789726415, guid: 391c63e32f6fc4d4a9b2b1faa13a6a15, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &359980340
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1879,8 +1879,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1861833613, guid: 391c63e32f6fc4d4a9b2b1faa13a6a15, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 350782553, guid: bf6540c24957b6741ae7b4ba22c19653, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1888,7 +1888,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.3
 --- !u!222 &1917582268
 CanvasRenderer:
   m_ObjectHideFlags: 0

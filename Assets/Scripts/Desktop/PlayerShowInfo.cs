@@ -9,7 +9,9 @@ namespace Desktop
         [SerializeField] private AudioSource notificationSound;
         [SerializeField] private GameInfoManager gameInfoManager;
         [SerializeField] private GameObject levelUpNotification;
-        [SerializeField] private TMP_Text levelUpNotificationText;
+        [SerializeField] private TMP_Text infoAboutLevelOffice;
+        [SerializeField] private TMP_Text infoAboutLevelTime;
+        [SerializeField] private TMP_Text infoAboutLevelHeart;
         [SerializeField] private Button hideLevelUpNotificationButton;
 
         private void Start()
@@ -31,7 +33,9 @@ namespace Desktop
             PlayerStats.UpdateOfficeLevel();
             gameInfoManager.FillGameInfo();
 
-            levelUpNotificationText.text = $"Ваш текущий уровень офиса: {PlayerStats.GetOfficeLevel()}<br><br>Время на прохождение уровня увеличено до: {PlayerStats.GetTimePerLevelAmount()} секунд<br><br>Количество ваших жизней также увеличено до: {PlayerStats.GetQuantityHealthPoints()}";
+            infoAboutLevelOffice.text = $"Текущий уровень офиса: <color=#D34B06>{PlayerStats.GetOfficeLevel()}</color>";
+            infoAboutLevelTime.text = $"Время на прохождение уровня увеличено до: <color=#D34B06>{PlayerStats.GetTimePerLevelAmount()}</color> секунд";
+            infoAboutLevelHeart.text = $"Количество жизней увеличено до: <color=#D34B06>{PlayerStats.GetQuantityHealthPoints()}</color>";
             levelUpNotification.gameObject.SetActive(true);
         }
 

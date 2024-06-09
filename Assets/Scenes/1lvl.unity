@@ -5322,6 +5322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba1a87ba700f71d428cbd3d4e6c3ba60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameLoseSound: {fileID: 2050983280}
   timer: {fileID: 1125695641}
   result: {fileID: 1687651981}
   resultText: {fileID: 2007259098}
