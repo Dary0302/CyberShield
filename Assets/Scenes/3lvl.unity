@@ -326,7 +326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: b23/-/.dbGdn136fqwgf8gDfbdSFb/-/fsvsfvsomk.Hytr2gRs3Q/-/.sdVw3421/-/56HrFYnf1/-/3OOluilvds2wb432wr/-/3OOluilvds2wb432wr/-/46Olu92ds2wb432wr/-
+  m_text: b23/-/dbGdn136fqwgf8gDfbdSFb/-/fsvsfvsomk.Hytr2gRs3Q/-/sdVw3421/-/56HrFYnf1/-/3OOluilvds2wb432wr/-/3OOluilvds2wb432wr/-/46Olu92ds2wb432wr/-
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2fcb248bad531014483f6bd02e02c8e3, type: 2}
   m_sharedMaterial: {fileID: 8768886157326499284, guid: 2fcb248bad531014483f6bd02e02c8e3, type: 2}
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.8
+  m_fontSize: 19.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

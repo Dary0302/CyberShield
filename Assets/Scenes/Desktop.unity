@@ -532,6 +532,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 83a8be261233cc349913e8854b1128d9, type: 2}
   - {fileID: 11400000, guid: 6f7cc796203e48e468b748358f66f5b5, type: 2}
   - {fileID: 11400000, guid: f312f5d9008ae5c4ba3d5638bcbf1e19, type: 2}
+  - {fileID: 11400000, guid: 5eba84890536d9a44bfb5d9de8824c6d, type: 2}
 --- !u!1 &192677431
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +968,1050 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &258592669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1647988271}
+    m_Modifications:
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 1351131761}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.size
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[0].<Text>k__BackingField
+      value: "\u0427\u0442\u043E \u0436, \u0432\u043E\u0442 \u0438 \u043E\u043D\u043E
+        - \u0440\u0430\u0431\u043E\u0447\u0435\u0435 \u043C\u0435\u0441\u0442\u043E
+        \u043C\u0435\u0447\u0442\u044B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[1].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[1].<Text>k__BackingField
+      value: "\u0418\u043B\u0438 \u043D\u0435 \u0441\u043E\u0432\u0441\u0435\u043C,
+        \u0437\u0430\u0442\u043E \u043F\u043E\u0447\u0442\u0438 \u0434\u0430\u0440\u043E\u043C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[2].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[2].<Text>k__BackingField
+      value: "\u041D\u0438\u043A\u0430\u043A \u043D\u0435 \u043F\u043E\u0439\u043C\u0443,
+        \u0447\u0435\u0433\u043E \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439
+        \u0432\u043B\u0430\u0434\u0435\u043B\u0435\u0446 \u0442\u0430\u043A \u0441\u043F\u0435\u0448\u0438\u043B
+        \u043F\u0440\u043E\u0434\u0430\u0442\u044C \u044D\u0442\u043E\u0442 \u043E\u0444\u0438\u0441?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[3].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u041C\u043E\u0436\u0435\u0442 \u043A\u043B\u0430\u0443\u0441\u0442\u0440\u043E\u0444\u043E\u0431\u0438\u044F
+        \u0437\u0430\u043C\u0443\u0447\u0438\u043B\u0430? \u0418\u043B\u0438 \u0438\u0441\u043F\u0443\u0433\u0430\u043B\u0441\u044F,
+        \u0447\u0442\u043E \u043F\u043E\u0442\u043E\u043B\u043E\u043A \u043E\u0431\u0432\u0430\u043B\u0438\u0442\u0441\u044F?
+        \u0410 \u043C\u043E\u0436\u0435\u0442 \u044D\u0442\u043E\u0433\u043E \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u0430?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[4].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0418\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u0430 \u043E\u043D
+        \u0432\u043E\u043E\u0431\u0449\u0435 \u0440\u0430\u0431\u043E\u0447\u0438\u0439?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[5].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[5].<Text>k__BackingField
+      value: "\u041D\u0435 \u0442\u0440\u043E\u0433\u0430\u0439 \u044D\u0442\u0443
+        \u043A\u043D\u043E\u043F\u043A\u0443, \u0411\u043E\u0440\u0438\u0441."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[6].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u0427\u0435\u0433\u043E?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[7].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0413\u0434\u0435 \u044F? \u041A\u0442\u043E \u0442\u044B? \u0413\u0434\u0435,
+        \u0442\u0440\u0438\u0442\u044B \u0431\u0438\u0442\u044B, \u0411\u043E\u0440\u0438\u0441?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[8].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u041A\u0430\u043A\u043E\u0439 \u0411\u043E\u0440\u0438\u0441? \u0427\u0442\u043E
+        \u0442\u044B \u0442\u0430\u043A\u043E\u0435? \u0422\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u0430
+        \u043C\u043E\u044F \u043E\u0434\u0435\u0436\u0434\u0430 \u0438 \u043C\u043E\u0442\u043E\u0446\u0438\u043A\u043B?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[9].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u041D\u0435 \u0438\u0441\u043F\u044B\u0442\u044B\u0432\u0430\u044E
+        \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E\u0441\u0442\u0438
+        \u0432 \u044D\u0442\u043E\u043C. \u042F \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u044B\u0439
+        \u0438\u0441\u043A\u0443\u0441\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+        \u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442, \u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0437\u0438\u0440\u0443\u044E\u0449\u0438\u0439\u0441\u044F
+        \u043D\u0430 \u043F\u043E\u043C\u043E\u0449\u0438 \u0432 \u0440\u0430\u0431\u043E\u0442\u0435
+        \u0441 \u0431\u043E\u043B\u044C\u0448\u0438\u043C\u0438 \u043C\u0430\u0441\u0441\u0438\u0432\u0430\u043C\u0438
+        \u0434\u0430\u043D\u043D\u044B\u0445, \u0437\u0430\u043A\u0440\u044B\u0442\u044B\u043C\u0438
+        \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u043C\u0438
+        \u0441\u0438\u0441\u0442\u0435\u043C\u0430\u043C\u0438\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[0].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[0].<Text>k__BackingField
+      value: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E \u0441\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[1].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[1].<Text>k__BackingField
+      value: "\u042F \u0434\u0443\u043C\u0430\u043B, \u0447\u0442\u043E \u0431\u0443\u0434\u0435\u0442
+        \u0441\u043B\u043E\u0436\u043D\u0435\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[2].<Text>k__BackingField
+      value: "\u0421\u043E\u0433\u043B\u0430\u0441\u0435\u043D, \u043D\u0435 \u0441\u0430\u043C\u044B\u0439
+        \u0441\u043B\u043E\u0436\u043D\u044B\u0439 \u0437\u0430\u043A\u0430\u0437,
+        \u0437\u0430\u0442\u043E \u043F\u043E\u0443\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[3].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u0418 \u043C\u043D\u043E\u0433\u043E \u0442\u0430\u043A\u043E\u0439
+        \u0440\u0430\u0431\u043E\u0442\u044B \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C
+        \u043D\u0430\u0439\u0442\u0438?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0418 \u0438\u0441\u043A\u0430\u0442\u044C \u043D\u0435 \u043F\u0440\u0438\u0434\u0451\u0442\u0441\u044F.
+        \u0421\u043C\u043E\u0442\u0440\u0438 \u043D\u0430\u043C \u043D\u0430\u043F\u0438\u0441\u0430\u043B
+        \u044D\u0442\u043E\u0442 \u043C\u0430\u0433\u0430\u0437\u0438\u043D \u0441
+        \u043F\u0440\u043E\u0441\u044C\u0431\u043E\u0439 \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C
+        \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043D\u044B\u0439 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[5].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[5].<Text>k__BackingField
+      value: " \u0410 \u043C\u044B \u0441\u043C\u043E\u0436\u0435\u043C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u0412\u043F\u043E\u043B\u043D\u0435 \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E,
+        \u0447\u0442\u043E \u0434\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[7].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0422\u043E\u0433\u0434\u0430 \u0447\u0435\u0433\u043E \u043C\u044B
+        \u0436\u0434\u0451\u043C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u0412 \u044D\u0442\u043E\u0442 \u0440\u0430\u0437 \u043F\u0435\u0440\u0435\u0434
+        \u043D\u0430\u043C\u0438 \u0434\u0440\u0443\u0433\u0430\u044F \u0437\u0430\u0434\u0430\u0447\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u041A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F
+        \u0438\u0433\u0440\u0430\u0435\u0442 \u043A\u043B\u044E\u0447\u0435\u0432\u0443\u044E
+        \u0440\u043E\u043B\u044C \u0432 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0438
+        \u043A\u0438\u0431\u0435\u0440\u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439, \u0437\u0430\u0449\u0438\u0449\u0430\u044F
+        \u0434\u0430\u043D\u043D\u044B\u0435 \u043E\u0442 \u043A\u0438\u0431\u0435\u0440\u0430\u0442\u0430\u043A
+        \u0438 \u0443\u0442\u0435\u0447\u0435\u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438.
+        \u0418 \u0437\u0434\u0435\u0441\u044C \u043A\u0442\u043E-\u0442\u043E \u043D\u0430
+        \u043D\u0438\u0445 \u043F\u043E\u043A\u0443\u0441\u0438\u043B\u0441\u044F,
+        \u0438\u0441\u043F\u043E\u0440\u0442\u0438\u0432 \u043A\u043E\u0434 \u0434\u0435\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[0].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[0].<Text>k__BackingField
+      value: "\u041F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C. \u041D\u0435
+        \u0432\u0435\u0440\u0438\u0442\u0441\u044F \u043F\u0435\u0440\u0432\u044B\u0439
+        \u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0434\u0435\u043D\u044C \u0438
+        \u0443\u0436\u0435 \u0434\u0432\u0430 \u0437\u0430\u043A\u0430\u0437\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[1].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[1].<Text>k__BackingField
+      value: "\u041A\u0430\u043A \u0443 \u0432\u0430\u0441 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u0441\u044F,
+        \u043F\u0438\u0448\u0438 \u0435\u0434\u0438\u043D\u0438\u0446\u044B \u043F\u043E\u043A\u0430
+        \u043D\u0435 \u043D\u043E\u043B\u044C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[2].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[2].<Text>k__BackingField
+      value: "\u041C\u043E\u0436\u0435\u0442 \u043A\u0443\u0439 \u0436\u0435\u043B\u0435\u0437\u043E
+        \u043F\u043E\u043A\u0430 \u0433\u043E\u0440\u044F\u0447\u043E?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[3].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u042F \u0438\u043D\u0442\u0435\u0440\u043F\u0440\u0435\u0442\u0438\u0440\u043E\u0432\u0430\u043B
+        \u0432 \u043F\u043E\u043D\u044F\u0442\u043D\u044B\u0439 \u043C\u043D\u0435
+        \u0441\u043C\u044B\u0441\u043B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0422\u0443\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F
+        \u043F\u043E\u0441\u043B\u043E\u0436\u043D\u0435\u0435. \u041C\u043D\u0435
+        \u043D\u0443\u0436\u043D\u043E, \u0447\u0442\u043E\u0431\u044B \u0442\u044B
+        \u0441\u043D\u0430\u0447\u0430\u043B\u0430 \u043F\u043E\u043C\u043E\u0433
+        \u0440\u0430\u0437\u0434\u043E\u0431\u044B\u0442\u044C \u043C\u043D\u0435
+        \u043A\u043B\u044E\u0447 \u0434\u043E\u0441\u0442\u0443\u043F\u0430 \u043A
+        \u0441\u043F\u0438\u0441\u043A\u0443 \u043F\u043E\u0441\u0440\u0435\u0434\u043D\u0438\u043A\u043E\u0432
+        \u0441\u0434\u0435\u043B\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[5].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[5].<Text>k__BackingField
+      value: "\u042D\u0442\u043E \u0435\u0449\u0451 \u0437\u0430\u0447\u0435\u043C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[6].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u041A\u0430\u043A \u043C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
+        \u043A\u0442\u043E-\u0442\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0439
+        \u043C\u043E\u0436\u0435\u0442 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C
+        \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043E \u043B\u0438\u0447\u043D\u044B\u0445
+        \u0434\u0430\u043D\u043D\u044B\u0445 \u043F\u043B\u0430\u0442\u044F\u0449\u0435\u0433\u043E
+        \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u043F\u043E\u043A\u0443\u043F\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[7].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0412\u0435\u0440\u043E\u044F\u0442\u043D\u043E. \u0418 \u0441\u0438\u0441\u0442\u0435\u043C\u0430
+        \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u201C\u0440\u0443\u0433\u0430\u0442\u044C\u0441\u044F\u201D."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[8].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u0418 \u043D\u0430 \u044D\u0442\u043E \u0440\u0443\u0433\u0430\u0435\u0442\u0441\u044F
+        \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u0431\u0430\u043D\u043A\u0430?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u041A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F
+        \u0438\u0433\u0440\u0430\u0435\u0442 \u043A\u043B\u044E\u0447\u0435\u0432\u0443\u044E
+        \u0440\u043E\u043B\u044C \u0432 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0438
+        \u043A\u0438\u0431\u0435\u0440\u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439, \u0437\u0430\u0449\u0438\u0449\u0430\u044F
+        \u0434\u0430\u043D\u043D\u044B\u0435 \u043E\u0442 \u043A\u0438\u0431\u0435\u0440\u0430\u0442\u0430\u043A
+        \u0438 \u0443\u0442\u0435\u0447\u0435\u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438.
+        \u0418 \u0437\u0434\u0435\u0441\u044C \u043A\u0442\u043E-\u0442\u043E \u043D\u0430
+        \u043D\u0438\u0445 \u043F\u043E\u043A\u0443\u0441\u0438\u043B\u0441\u044F,
+        \u0438\u0441\u043F\u043E\u0440\u0442\u0438\u0432 \u043A\u043E\u0434 \u0434\u0435\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[0].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[0].<Text>k__BackingField
+      value: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E. \u041A\u0430\u043A \u044F
+        \u0438 \u043F\u043E\u0434\u043E\u0437\u0440\u0435\u0432\u0430\u043B, \u0441\u043F\u0438\u0441\u043E\u043A
+        \u043D\u0443\u0436\u043D\u044B\u0445 \u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0445
+        \u043F\u043E\u0441\u0440\u0435\u0434\u043D\u0438\u043A\u043E\u0432 \u0441\u0434\u0435\u043B\u043A\u0438
+        \u043E\u0442\u043B\u0438\u0447\u0430\u0435\u0442\u0441\u044F."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[1].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[1].<Text>k__BackingField
+      value: "\u0421\u043C\u043E\u0436\u0435\u0448\u044C \u0441\u0430\u043C \u044D\u0442\u043E
+        \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C \u043A\u0430\u043A-\u043D\u0438\u0431\u0443\u0434\u044C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[2].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[2].<Text>k__BackingField
+      value: "\u041D\u0435\u0442, \u0443 \u043C\u0435\u043D\u044F \u043D\u0435\u0442
+        \u0442\u0430\u043A\u0438\u0445 \u043F\u0440\u0430\u0432. \u041D\u043E \u044F
+        \u043C\u043E\u0433\u0443 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C
+        \u0437\u0430\u043F\u0440\u043E\u0441 \u043D\u0430 \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0443
+        \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[3].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u0422\u043E\u0433\u0434\u0430, \u043F\u043E\u0441\u043B\u0435 \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0438
+        \u0432\u0441\u0435 \u201C\u043B\u0438\u0448\u043D\u0438\u0435\u201D \u043B\u044E\u0434\u0438
+        \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u043D\u0443\u0442 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C
+        \u043B\u0438\u0447\u043D\u0443\u044E \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E
+        \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[4].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0418\u043C\u0435\u043D\u043D\u043E. \u041D\u043E \u043C\u043D\u0435
+        \u043D\u0443\u0436\u043D\u043E, \u0447\u0442\u043E\u0431 \u0438\u043C\u0435\u043D\u043D\u043E
+        \u0442\u044B \u0443\u043A\u0430\u0437\u0430\u043B \u043C\u043D\u0435 \u043D\u0430
+        \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0445 \u0432
+        \u0441\u043F\u0438\u0441\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[5].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[5].<Text>k__BackingField
+      value: "\u041F\u043E\u0447\u0435\u043C\u0443 \u044F?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[6].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u041F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u044F \u043D\u0435
+        \u0432\u0438\u0436\u0443 \u0441\u043F\u0438\u0441\u043E\u043A \u0442\u0430\u043A,
+        \u043A\u0430\u043A \u0432\u0438\u0434\u0438\u0448\u044C \u0435\u0433\u043E
+        \u0442\u044B, \u0438 \u0434\u043B\u044F \u043C\u0435\u043D\u044F \u043E\u0434\u043D\u043E
+        \u0438 \u0442\u043E \u0436\u0435 \u0438\u043C\u044F \u043C\u043E\u0436\u0435\u0442
+        \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043E
+        \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u043C\u0438 \u0441\u043F\u043E\u0441\u043E\u0431\u0430\u043C\u0438,
+        \u0430 \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+        \u044F \u043D\u0435 \u0432 \u0441\u0438\u043B\u0430\u0445 \u0432\u044B\u044F\u0432\u0438\u0442\u044C
+        \u201C\u043B\u0438\u0448\u043D\u0438\u0435\u201D."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[7].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0422\u043E \u0435\u0441\u0442\u044C, \u0442\u044B \u0445\u043E\u0447\u0435\u0448\u044C,
+        \u0447\u0442\u043E\u0431\u044B \u044F \u0443\u043A\u0430\u0437\u0430\u043B
+        \u0442\u0435\u0431\u0435 \u043D\u0430 \u0442\u0435 \u0438\u043C\u0435\u043D\u0430,
+        \u0447\u0442\u043E \u044F \u043D\u0435 \u0443\u0432\u0438\u0436\u0443 \u0432
+        \u0441\u043F\u0438\u0441\u043A\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445
+        \u0438\u043C\u0451\u043D?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u041D\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445
+        \u0438 \u043D\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445
+        \u0438\u043C\u0451\u043D. \u0414\u0430\u043D\u043D\u0430\u044F \u0433\u0440\u0430\u0434\u0430\u0446\u0438\u044F
+        \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u0430 \u0432 \u0441\u0432\u043E\u0435\u0439
+        \u0444\u043E\u0440\u043C\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0435.
+        \u0412 \u0434\u0430\u043D\u043D\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u0435\u0441\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0435
+        \u0438\u043C\u0435\u043D\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[9].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u042F \u044D\u0442\u043E \u0438 \u0445\u043E\u0442\u0435\u043B \u0441\u043A\u0430\u0437\u0430\u0442\u044C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[10].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u041F\u043E\u043D\u044F\u043B, \u043F\u043E\u043D\u044F\u043B. \u0422\u044B
+        - \u043F\u043E\u043C\u043E\u0449\u043D\u0438\u043A."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u041C\u043E\u0436\u043D\u043E \u0438 \u0442\u0430\u043A \u0441\u043A\u0430\u0437\u0430\u0442\u044C.
+        \u0412\u0435\u0440\u043D\u0443\u0441\u044C \u043A \u0441\u0432\u043E\u0435\u043C\u0443
+        \u0432\u043E\u043F\u0440\u043E\u0441\u0443, \u0433\u0434\u0435 \u0411\u043E\u0440\u0438\u0441
+        \u2013 \u043C\u043E\u0439 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
+        \u0432\u043B\u0430\u0434\u0435\u043B\u0435\u0446?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[12].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041E\u043D \u0447\u0430\u0441\u0430 3 \u043D\u0430\u0437\u0430\u0434
+        \u043F\u0440\u043E\u0434\u0430\u043B \u043C\u043D\u0435 \u044D\u0442\u043E\u0442
+        \u043E\u0444\u0438\u0441, \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u0442\u043E\u0431\u043E\u0439."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[13].<Text>k__BackingField
+      value: "\u0412\u0441\u0451 \u044F\u0441\u043D\u043E. \u0412 \u0442\u0430\u043A\u043E\u043C
+        \u0441\u043B\u0443\u0447\u0430\u0435, \u0447\u0442\u043E \u0431\u0443\u0434\u0435\u043C
+        \u0434\u0435\u043B\u0430\u0442\u044C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[14].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[14].<Text>k__BackingField
+      value: "\u0410 \u0447\u0442\u043E \u0432\u044B \u0434\u0435\u043B\u0430\u043B\u0438
+        \u0434\u043E \u0442\u043E\u0433\u043E, \u043A\u0430\u043A \u0411\u043E\u0440\u0438\u0441
+        \u0442\u0435\u0431\u044F \u043F\u0440\u043E\u0434\u0430\u043B?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[15].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[15].<Text>k__BackingField
+      value: "\u0420\u0430\u0431\u043E\u0442\u0430\u043B\u0438 \u0441 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u043C\u0438
+        \u0441\u0435\u0440\u0432\u0438\u0441\u0430\u043C\u0438 \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F\u043C\u0438,
+        \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u043D\u044B\u043C\u0438 \u043D\u0430
+        \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[16].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[16].<Text>k__BackingField
+      value: "\u0423\u0445 \u0442\u044B, \u0430 \u0447\u0442\u043E \u044D\u0442\u043E?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[17].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[17].<Text>k__BackingField
+      value: "\u041D\u0430\u0443\u043A\u0430 \u043E \u043C\u0435\u0442\u043E\u0434\u0430\u0445
+        \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u044F \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438,
+        \u0446\u0435\u043B\u043E\u0441\u0442\u043D\u043E\u0441\u0442\u0438 \u0434\u0430\u043D\u043D\u044B\u0445,
+        \u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u043A\u0430\u0446\u0438\u0438,
+        \u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u0438\u044F."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[18].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[18].<Text>k__BackingField
+      value: "\u0422\u043E \u0435\u0441\u0442\u044C, \u0440\u0430\u0431\u043E\u0442\u0430\u043B\u0438
+        \u0441 \u043F\u0430\u0440\u043E\u043B\u044F\u043C\u0438?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[19].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[19].<Text>k__BackingField
+      value: "\u041D\u0435 \u0442\u043E\u043B\u044C\u043A\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[20].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[20].<Text>k__BackingField
+      value: "\u041D\u0443 \u0443 \u043C\u0435\u043D\u044F \u043F\u043E\u043A\u0430
+        \u0447\u0442\u043E \u043D\u0435\u0442 \u0438\u0434\u0435\u0439, \u0447\u0435\u043C
+        \u0431\u044B \u043C\u044B \u043C\u043E\u0433\u043B\u0438 \u0437\u0430\u043D\u044F\u0442\u044C\u0441\u044F,
+        \u0442\u0430\u043A \u0447\u0442\u043E \u0434\u0430\u0432\u0430\u0439 \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0435\u043C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[21].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[21].<Text>k__BackingField
+      value: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E, \u0441\u0435\u0439\u0447\u0430\u0441
+        \u043D\u0430\u0439\u0434\u0443 \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0443\u044E
+        \u0437\u0430\u0434\u0430\u0447\u0443."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[22].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[22].<Text>k__BackingField
+      value: "\u0421\u0442\u043E\u043F, \u0441\u0442\u043E\u043F. \u0410 \u0447\u0442\u043E
+        \u043C\u043D\u0435 \u0434\u0435\u043B\u0430\u0442\u044C \u0442\u043E \u043D\u0443\u0436\u043D\u043E?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[23].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[23].<Text>k__BackingField
+      value: "\u042F \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0443\u044E
+        \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u0432 \u043F\u043E\u043D\u044F\u0442\u043D\u0443\u044E
+        \u0432\u0430\u043C \u0437\u0430\u0434\u0430\u0447\u0443, \u043E\u0442\u0432\u0435\u0442
+        \u043D\u0430 \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u0432\u044B \u0441\u043E\u043E\u0431\u0449\u0438\u0442\u0435
+        \u043C\u043D\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[24].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[24].<Text>k__BackingField
+      value: "\u041F\u043E\u043D\u044F\u043B, \u043D\u043E \u043D\u0435 \u043F\u043E\u043D\u044F\u043B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[25].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[25].<Text>k__BackingField
+      value: "\u0421\u0435\u0439\u0447\u0430\u0441 \u0443\u0432\u0438\u0434\u0438\u0442\u0435
+        \u043D\u0430 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0435, \u043A\u0430\u043A
+        \u0440\u0430\u0437 \u043D\u0430\u0448\u0451\u043B \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0438\u0439
+        \u0437\u0430\u043F\u0440\u043E\u0441."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[26].<Text>k__BackingField
+      value: "\u0412\u043E \u0432\u043A\u043B\u0430\u0434\u043A\u0435 \u201C\u0417\u0430\u043A\u0430\u0437\u044B\u201D
+        \u0432\u044B\u0431\u0435\u0440\u0438 \u0438\u043C\u0435\u044E\u0449\u0438\u0439\u0441\u044F."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[27].<Text>k__BackingField
+      value: "\u041A\u0430\u043A \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C
+        \u0437\u043D\u0430\u0442\u044C, \u043A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F
+        \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0435\u0442
+        \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u044B\u0435 \u043E\u043D\u043B\u0430\u0439\u043D-\u0442\u0440\u0430\u043D\u0437\u0430\u043A\u0446\u0438\u0438,
+        \u0437\u0430\u0449\u0438\u0449\u0430\u044F \u0444\u0438\u043D\u0430\u043D\u0441\u043E\u0432\u044B\u0435
+        \u0434\u0430\u043D\u043D\u044B\u0435 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439
+        \u043F\u0440\u0438 \u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u0438
+        \u043F\u043E\u043A\u0443\u043F\u043E\u043A \u0432 \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[28].<Text>k__BackingField
+      value: "\u0412 \u0434\u0430\u043D\u043D\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u043A\u0430\u043A\u043E\u0439-\u0442\u043E \u0438\u0437 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u043E\u0432
+        \u0434\u0435\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0438 \u043F\u0430\u0440\u043E\u043B\u044F
+        \u0441\u0440\u0430\u0431\u043E\u0442\u0430\u043B \u043D\u0435\u043A\u043E\u0440\u0440\u0435\u043A\u0442\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[29].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[29].<Text>k__BackingField
+      value: "\u0418 \u043C\u044B \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u043E\u043C\u043E\u0447\u044C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[30].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[30].<Text>k__BackingField
+      value: "\u0418\u043C\u0435\u043D\u043D\u043E. \u0412 \u0434\u0430\u043D\u043D\u043E\u043C
+        \u0441\u043B\u0443\u0447\u0430\u0435 \u044F \u0441\u043C\u043E\u0433\u0443
+        \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C
+        \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u044B\u0439 \u043F\u0440\u043E\u0446\u0435\u0441\u0441
+        \u0432 \u0440\u0435\u0448\u0451\u0442\u043A\u0443 \u041A\u0430\u0440\u0434\u0430\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[31].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[31].<Text>k__BackingField
+      value: "\u0423 \u0442\u0435\u0431\u044F \u0431\u0443\u0434\u0435\u0442 \u0442\u0430\u0431\u043B\u0438\u0446\u0430
+        \u0441 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u043C\u0438 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F\u043C\u0438,
+        \u043E\u0434\u043D\u0430\u043A\u043E \u0431\u043E\u043B\u044C\u0448\u0430\u044F
+        \u0447\u0430\u0441\u0442\u044C \u0438\u0437 \u043D\u0438\u0445 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u044B
+        \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0435\u0439 \u043E\u0448\u0438\u0431\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[32].<Text>k__BackingField
+      value: "\u0422\u0430\u043A\u0436\u0435 \u0432 \u0442\u0432\u043E\u0451\u043C
+        \u0440\u0430\u0441\u043F\u043E\u0440\u044F\u0436\u0435\u043D\u0438\u0438
+        \u0441\u043E\u043A\u0440\u044B\u0442\u0430\u044F \u0440\u0435\u0448\u0451\u0442\u043A\u0430
+        \u041A\u0430\u0440\u0434\u0430\u043D\u043E \u0441\u043B\u0435\u0432\u0430,
+        \u0435\u0451 \u043D\u0443\u0436\u043D\u043E \u043F\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u044C
+        \u043D\u0430 \u0442\u0430\u0431\u043B\u0438\u0446\u0443, \u043F\u043E\u0441\u043B\u0435
+        \u044F \u0441\u043C\u043E\u0433\u0443 \u043D\u0435\u043D\u0430\u0434\u043E\u043B\u0433\u043E
+        \u043E\u0442\u043A\u0440\u044B\u0442\u044C \u0442\u0435\u0431\u0435 \u0432\u0435\u0440\u043D\u044B\u0435
+        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u0438 \u0438\u0445 \u043F\u043E\u0440\u044F\u0434\u043A\u043E\u0432\u044B\u0435
+        \u043D\u043E\u043C\u0435\u0440\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[33].<Text>k__BackingField
+      value: "\u0417\u0430\u043F\u043E\u043C\u0438\u043D\u0430\u0435\u0448\u044C
+        \u0432\u0441\u0451 \u044D\u0442\u043E \u0438 \u043F\u043E\u0441\u043B\u0435
+        \u0432\u044B\u0431\u0438\u0440\u0430\u0435\u0448\u044C \u0432 \u0438\u0441\u0445\u043E\u0434\u043D\u043E\u0439
+        \u0442\u0430\u0431\u043B\u0438\u0446\u0435 \u0432 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u043C
+        \u043F\u043E\u0440\u044F\u0434\u043A\u0435. \u0412\u0441\u044E \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u0443\u044E
+        \u0440\u0430\u0431\u043E\u0442\u0443 \u0441\u0434\u0435\u043B\u0430\u044E
+        \u044F \u2013 \u0443\u0441\u0442\u0440\u0430\u043D\u044E \u043E\u0448\u0438\u0431\u043A\u0443
+        \u0432 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u0435, \u0447\u0435\u043C
+        \u043F\u043E\u043C\u043E\u0433\u0443 \u0437\u0430\u043A\u0430\u0437\u0447\u0438\u043A\u0443."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[34].<Text>k__BackingField
+      value: "\u0418 \u0435\u0449\u0451, \u043D\u0435 \u0437\u0430\u0442\u044F\u0433\u0438\u0432\u0430\u0439\u0442\u0435
+        \u0441 \u0440\u0435\u0448\u0435\u043D\u0438\u0435\u043C, \u0432\u0440\u0435\u043C\u044F
+        \u043D\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+        \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[35].<Text>k__BackingField
+      value: "\u0418 \u043C\u044B \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u043E\u043C\u043E\u0447\u044C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u042F \u043D\u0430\u0439\u0434\u0443 \u0438 \u0432\u044B\u0432\u0435\u0434\u0443
+        \u0442\u0435\u0431\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043D\u044B\u0439
+        \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043A\u043E\u0434\u0430, \u0430
+        \u043F\u043E\u0441\u043B\u0435 \u0438\u0437 \u0441\u0442\u0430\u0440\u044B\u0445
+        \u0432\u0435\u0440\u0441\u0438\u0439 \u044D\u0442\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0435
+        \u0437\u0430\u043C\u0435\u043D\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0442\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438
+        \u0432 \u0432\u044B\u0434\u0430\u043D\u043D\u043E\u0439 \u0442\u0435\u0431\u0435
+        \u0441\u0442\u0440\u043E\u0447\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u0417\u0430\u043C\u0435\u0447\u0443, \u0447\u0442\u043E \u0435\u0441\u0442\u044C
+        \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C, \u0447\u0442\u043E
+        \u043F\u043E\u0441\u043B\u0435 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0441 \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u044B\u043C \u043C\u0435\u0441\u0442\u043E\u043C
+        \u0432\u0435\u0440\u043D\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435
+        \u043C\u043E\u0436\u0435\u0442 \u043D\u0435 \u043F\u043E\u044F\u0432\u0438\u0442\u044C\u0441\u044F
+        \u0441\u0440\u0430\u0437\u0443. \u0412 \u0442\u0430\u043A\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C
+        \u0441\u0432\u043E\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0434\u043E \u0434\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0439 \u0437\u0430\u043C\u0435\u043D\u044B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[12].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041A\u0430\u043A-\u0442\u043E \u043C\u0443\u0434\u0440\u0451\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[13].<Text>k__BackingField
+      value: "\u0414\u043B\u044F \u0443\u043F\u0440\u043E\u0449\u0435\u043D\u0438\u044F
+        \u0441\u0432\u044B\u0448\u0435 \u043D\u0430\u0434 \u0438\u0441\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u043C
+        \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u043C \u043A\u043E\u0434\u0430
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u0435\u0433\u043E \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u042F \u043D\u0430\u0439\u0434\u0443 \u0438 \u0432\u044B\u0432\u0435\u0434\u0443
+        \u0442\u0435\u0431\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043D\u044B\u0439
+        \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043A\u043E\u0434\u0430, \u0430
+        \u043F\u043E\u0441\u043B\u0435 \u0438\u0437 \u0441\u0442\u0430\u0440\u044B\u0445
+        \u0432\u0435\u0440\u0441\u0438\u0439 \u044D\u0442\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0435
+        \u0437\u0430\u043C\u0435\u043D\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0442\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438
+        \u0432 \u0432\u044B\u0434\u0430\u043D\u043D\u043E\u0439 \u0442\u0435\u0431\u0435
+        \u0441\u0442\u0440\u043E\u0447\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u0417\u0430\u043C\u0435\u0447\u0443, \u0447\u0442\u043E \u0435\u0441\u0442\u044C
+        \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C, \u0447\u0442\u043E
+        \u043F\u043E\u0441\u043B\u0435 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0441 \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u044B\u043C \u043C\u0435\u0441\u0442\u043E\u043C
+        \u0432\u0435\u0440\u043D\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435
+        \u043C\u043E\u0436\u0435\u0442 \u043D\u0435 \u043F\u043E\u044F\u0432\u0438\u0442\u044C\u0441\u044F
+        \u0441\u0440\u0430\u0437\u0443. \u0412 \u0442\u0430\u043A\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C
+        \u0441\u0432\u043E\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0434\u043E \u0434\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0439 \u0437\u0430\u043C\u0435\u043D\u044B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[12].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041A\u0430\u043A-\u0442\u043E \u043C\u0443\u0434\u0440\u0451\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[13].<Text>k__BackingField
+      value: "\u0414\u043B\u044F \u0443\u043F\u0440\u043E\u0449\u0435\u043D\u0438\u044F
+        \u0441\u0432\u044B\u0448\u0435 \u043D\u0430\u0434 \u0438\u0441\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u043C
+        \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u043C \u043A\u043E\u0434\u0430
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u0435\u0433\u043E \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u041D\u0435 core \u0444\u0430\u0439\u043B, \u043A\u0430\u043A \u0432\u0430\u0436\u043D\u043E.
+        Main \u0432 \u0442\u043E\u043C, \u0447\u0442\u043E \u0432 \u0432\u0435\u0440\u0445\u043D\u0435\u0439
+        \u0442\u0430\u0431\u043B\u0438\u0446\u0435 \u0443\u043A\u0430\u0437\u0430\u043D\u0430
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0442\u0435\u0445, \u0447\u0442\u043E \u043C\u043E\u0433\u0443\u0442 \u0438\u043C\u0435\u0442\u044C
+        \u0434\u043E\u0441\u0442\u0443\u043F \u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438,
+        \u0430 \u0441\u043D\u0438\u0437\u0443 \u0442\u0435\u043A\u0443\u0449\u0430\u044F
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445,
+        \u0433\u0434\u0435 \u0435\u0441\u0442\u044C, \u043A\u0430\u043A \u043C\u0438\u043D\u0438\u043C\u0443\u043C
+        \u043E\u0434\u043D\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0435\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u0422\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+        \u0432 \u043D\u0438\u0436\u043D\u0435\u0439 \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438
+        \u0432\u0441\u0435\u0445 \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0445.
+        \u0423\u0447\u0442\u0438, \u0447\u0442\u043E \u043F\u043E\u043C\u0438\u043C\u043E
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438
+        \u0438\u043C\u0451\u043D, \u0442\u0430\u043C \u0435\u0441\u0442\u044C \u0437\u0430\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F
+        \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u0430\u044F
+        \u043D\u0430\u043C \u043D\u0435 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041D\u0435 core \u0444\u0430\u0439\u043B, \u043A\u0430\u043A \u0432\u0430\u0436\u043D\u043E.
+        Main \u0432 \u0442\u043E\u043C, \u0447\u0442\u043E \u0432 \u0432\u0435\u0440\u0445\u043D\u0435\u0439
+        \u0442\u0430\u0431\u043B\u0438\u0446\u0435 \u0443\u043A\u0430\u0437\u0430\u043D\u0430
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0442\u0435\u0445, \u0447\u0442\u043E \u043C\u043E\u0433\u0443\u0442 \u0438\u043C\u0435\u0442\u044C
+        \u0434\u043E\u0441\u0442\u0443\u043F \u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438,
+        \u0430 \u0441\u043D\u0438\u0437\u0443 \u0442\u0435\u043A\u0443\u0449\u0430\u044F
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445,
+        \u0433\u0434\u0435 \u0435\u0441\u0442\u044C, \u043A\u0430\u043A \u043C\u0438\u043D\u0438\u043C\u0443\u043C
+        \u043E\u0434\u043D\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0435\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[4].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[9].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[6].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[7].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[8].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[4].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[5].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[6].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[7].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[8].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[4].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[8].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[9].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[10].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[13].<RobotEmotion>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[14].<RobotEmotion>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[21].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[22].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[25].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[30].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[33].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[13].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[10].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887406438029649424, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_Name
+      value: BackUpDialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887406438029649424, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+--- !u!4 &258592670 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8100777181793118472, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+  m_PrefabInstance: {fileID: 258592669}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &271763440
 GameObject:
   m_ObjectHideFlags: 0
@@ -3973,6 +5018,7 @@ Transform:
   - {fileID: 1882891358}
   - {fileID: 2092573770}
   - {fileID: 594295679}
+  - {fileID: 258592670}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1665317865
@@ -5447,7 +6493,7 @@ PrefabInstance:
       objectReference: {fileID: 1351131761}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[0].sentences.Array.size
@@ -5455,7 +6501,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[1].sentences.Array.size
-      value: 3
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.size
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[0].sentences.Array.data[0].<Text>k__BackingField
@@ -5578,6 +6632,282 @@ PrefabInstance:
       value: "\u0421\u043E\u0433\u043B\u0430\u0441\u0435\u043D, \u043D\u0435 \u0441\u0430\u043C\u044B\u0439
         \u0441\u043B\u043E\u0436\u043D\u044B\u0439 \u0437\u0430\u043A\u0430\u0437,
         \u0437\u0430\u0442\u043E \u043F\u043E\u0443\u0447\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[3].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u0418 \u043C\u043D\u043E\u0433\u043E \u0442\u0430\u043A\u043E\u0439
+        \u0440\u0430\u0431\u043E\u0442\u044B \u0442\u044B \u0441\u043C\u043E\u0436\u0435\u0448\u044C
+        \u043D\u0430\u0439\u0442\u0438?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0418 \u0438\u0441\u043A\u0430\u0442\u044C \u043D\u0435 \u043F\u0440\u0438\u0434\u0451\u0442\u0441\u044F.
+        \u0421\u043C\u043E\u0442\u0440\u0438 \u043D\u0430\u043C \u043D\u0430\u043F\u0438\u0441\u0430\u043B
+        \u044D\u0442\u043E\u0442 \u043C\u0430\u0433\u0430\u0437\u0438\u043D \u0441
+        \u043F\u0440\u043E\u0441\u044C\u0431\u043E\u0439 \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C
+        \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043D\u044B\u0439 \u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[5].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[5].<Text>k__BackingField
+      value: " \u0410 \u043C\u044B \u0441\u043C\u043E\u0436\u0435\u043C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u0412\u043F\u043E\u043B\u043D\u0435 \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E,
+        \u0447\u0442\u043E \u0434\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[7].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0422\u043E\u0433\u0434\u0430 \u0447\u0435\u0433\u043E \u043C\u044B
+        \u0436\u0434\u0451\u043C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u0412 \u044D\u0442\u043E\u0442 \u0440\u0430\u0437 \u043F\u0435\u0440\u0435\u0434
+        \u043D\u0430\u043C\u0438 \u0434\u0440\u0443\u0433\u0430\u044F \u0437\u0430\u0434\u0430\u0447\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u041A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F
+        \u0438\u0433\u0440\u0430\u0435\u0442 \u043A\u043B\u044E\u0447\u0435\u0432\u0443\u044E
+        \u0440\u043E\u043B\u044C \u0432 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0438
+        \u043A\u0438\u0431\u0435\u0440\u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439, \u0437\u0430\u0449\u0438\u0449\u0430\u044F
+        \u0434\u0430\u043D\u043D\u044B\u0435 \u043E\u0442 \u043A\u0438\u0431\u0435\u0440\u0430\u0442\u0430\u043A
+        \u0438 \u0443\u0442\u0435\u0447\u0435\u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438.
+        \u0418 \u0437\u0434\u0435\u0441\u044C \u043A\u0442\u043E-\u0442\u043E \u043D\u0430
+        \u043D\u0438\u0445 \u043F\u043E\u043A\u0443\u0441\u0438\u043B\u0441\u044F,
+        \u0438\u0441\u043F\u043E\u0440\u0442\u0438\u0432 \u043A\u043E\u0434 \u0434\u0435\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[0].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[0].<Text>k__BackingField
+      value: "\u041F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C. \u041D\u0435
+        \u0432\u0435\u0440\u0438\u0442\u0441\u044F \u043F\u0435\u0440\u0432\u044B\u0439
+        \u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0434\u0435\u043D\u044C \u0438
+        \u0443\u0436\u0435 \u0434\u0432\u0430 \u0437\u0430\u043A\u0430\u0437\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[1].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[1].<Text>k__BackingField
+      value: "\u041A\u0430\u043A \u0443 \u0432\u0430\u0441 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u0441\u044F,
+        \u043F\u0438\u0448\u0438 \u0435\u0434\u0438\u043D\u0438\u0446\u044B \u043F\u043E\u043A\u0430
+        \u043D\u0435 \u043D\u043E\u043B\u044C."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[2].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[2].<Text>k__BackingField
+      value: "\u041C\u043E\u0436\u0435\u0442 \u043A\u0443\u0439 \u0436\u0435\u043B\u0435\u0437\u043E
+        \u043F\u043E\u043A\u0430 \u0433\u043E\u0440\u044F\u0447\u043E?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[3].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u042F \u0438\u043D\u0442\u0435\u0440\u043F\u0440\u0435\u0442\u0438\u0440\u043E\u0432\u0430\u043B
+        \u0432 \u043F\u043E\u043D\u044F\u0442\u043D\u044B\u0439 \u043C\u043D\u0435
+        \u0441\u043C\u044B\u0441\u043B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0422\u0443\u0442 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F
+        \u043F\u043E\u0441\u043B\u043E\u0436\u043D\u0435\u0435. \u041C\u043D\u0435
+        \u043D\u0443\u0436\u043D\u043E, \u0447\u0442\u043E\u0431\u044B \u0442\u044B
+        \u0441\u043D\u0430\u0447\u0430\u043B\u0430 \u043F\u043E\u043C\u043E\u0433
+        \u0440\u0430\u0437\u0434\u043E\u0431\u044B\u0442\u044C \u043C\u043D\u0435
+        \u043A\u043B\u044E\u0447 \u0434\u043E\u0441\u0442\u0443\u043F\u0430 \u043A
+        \u0441\u043F\u0438\u0441\u043A\u0443 \u043F\u043E\u0441\u0440\u0435\u0434\u043D\u0438\u043A\u043E\u0432
+        \u0441\u0434\u0435\u043B\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[5].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[5].<Text>k__BackingField
+      value: "\u042D\u0442\u043E \u0435\u0449\u0451 \u0437\u0430\u0447\u0435\u043C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[6].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u041A\u0430\u043A \u043C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
+        \u043A\u0442\u043E-\u0442\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0439
+        \u043C\u043E\u0436\u0435\u0442 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C
+        \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E \u043E \u043B\u0438\u0447\u043D\u044B\u0445
+        \u0434\u0430\u043D\u043D\u044B\u0445 \u043F\u043B\u0430\u0442\u044F\u0449\u0435\u0433\u043E
+        \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u043F\u043E\u043A\u0443\u043F\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[7].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0412\u0435\u0440\u043E\u044F\u0442\u043D\u043E. \u0418 \u0441\u0438\u0441\u0442\u0435\u043C\u0430
+        \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u201C\u0440\u0443\u0433\u0430\u0442\u044C\u0441\u044F\u201D."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[8].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u0418 \u043D\u0430 \u044D\u0442\u043E \u0440\u0443\u0433\u0430\u0435\u0442\u0441\u044F
+        \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u0431\u0430\u043D\u043A\u0430?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u041A\u0440\u0438\u043F\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u044F
+        \u0438\u0433\u0440\u0430\u0435\u0442 \u043A\u043B\u044E\u0447\u0435\u0432\u0443\u044E
+        \u0440\u043E\u043B\u044C \u0432 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0438
+        \u043A\u0438\u0431\u0435\u0440\u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438
+        \u043E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u0439, \u0437\u0430\u0449\u0438\u0449\u0430\u044F
+        \u0434\u0430\u043D\u043D\u044B\u0435 \u043E\u0442 \u043A\u0438\u0431\u0435\u0440\u0430\u0442\u0430\u043A
+        \u0438 \u0443\u0442\u0435\u0447\u0435\u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438.
+        \u0418 \u0437\u0434\u0435\u0441\u044C \u043A\u0442\u043E-\u0442\u043E \u043D\u0430
+        \u043D\u0438\u0445 \u043F\u043E\u043A\u0443\u0441\u0438\u043B\u0441\u044F,
+        \u0438\u0441\u043F\u043E\u0440\u0442\u0438\u0432 \u043A\u043E\u0434 \u0434\u0435\u0448\u0438\u0444\u0440\u043E\u0432\u043A\u0438."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[0].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[0].<Text>k__BackingField
+      value: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E. \u041A\u0430\u043A \u044F
+        \u0438 \u043F\u043E\u0434\u043E\u0437\u0440\u0435\u0432\u0430\u043B, \u0441\u043F\u0438\u0441\u043E\u043A
+        \u043D\u0443\u0436\u043D\u044B\u0445 \u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0445
+        \u043F\u043E\u0441\u0440\u0435\u0434\u043D\u0438\u043A\u043E\u0432 \u0441\u0434\u0435\u043B\u043A\u0438
+        \u043E\u0442\u043B\u0438\u0447\u0430\u0435\u0442\u0441\u044F."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[1].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[1].<Text>k__BackingField
+      value: "\u0421\u043C\u043E\u0436\u0435\u0448\u044C \u0441\u0430\u043C \u044D\u0442\u043E
+        \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u0442\u044C \u043A\u0430\u043A-\u043D\u0438\u0431\u0443\u0434\u044C?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[2].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[2].<Text>k__BackingField
+      value: "\u041D\u0435\u0442, \u0443 \u043C\u0435\u043D\u044F \u043D\u0435\u0442
+        \u0442\u0430\u043A\u0438\u0445 \u043F\u0440\u0430\u0432. \u041D\u043E \u044F
+        \u043C\u043E\u0433\u0443 \u043E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C
+        \u0437\u0430\u043F\u0440\u043E\u0441 \u043D\u0430 \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0443
+        \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[3].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[3].<Text>k__BackingField
+      value: "\u0422\u043E\u0433\u0434\u0430, \u043F\u043E\u0441\u043B\u0435 \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0438
+        \u0432\u0441\u0435 \u201C\u043B\u0438\u0448\u043D\u0438\u0435\u201D \u043B\u044E\u0434\u0438
+        \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u043D\u0443\u0442 \u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C
+        \u043B\u0438\u0447\u043D\u0443\u044E \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044E
+        \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0435\u0439?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[4].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[4].<Text>k__BackingField
+      value: "\u0418\u043C\u0435\u043D\u043D\u043E. \u041D\u043E \u043C\u043D\u0435
+        \u043D\u0443\u0436\u043D\u043E, \u0447\u0442\u043E\u0431 \u0438\u043C\u0435\u043D\u043D\u043E
+        \u0442\u044B \u0443\u043A\u0430\u0437\u0430\u043B \u043C\u043D\u0435 \u043D\u0430
+        \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0445 \u0432
+        \u0441\u043F\u0438\u0441\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[5].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[5].<Text>k__BackingField
+      value: "\u041F\u043E\u0447\u0435\u043C\u0443 \u044F?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[6].<Name>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[6].<Text>k__BackingField
+      value: "\u041F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u044F \u043D\u0435
+        \u0432\u0438\u0436\u0443 \u0441\u043F\u0438\u0441\u043E\u043A \u0442\u0430\u043A,
+        \u043A\u0430\u043A \u0432\u0438\u0434\u0438\u0448\u044C \u0435\u0433\u043E
+        \u0442\u044B, \u0438 \u0434\u043B\u044F \u043C\u0435\u043D\u044F \u043E\u0434\u043D\u043E
+        \u0438 \u0442\u043E \u0436\u0435 \u0438\u043C\u044F \u043C\u043E\u0436\u0435\u0442
+        \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u043E
+        \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u043C\u0438 \u0441\u043F\u043E\u0441\u043E\u0431\u0430\u043C\u0438,
+        \u0430 \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+        \u044F \u043D\u0435 \u0432 \u0441\u0438\u043B\u0430\u0445 \u0432\u044B\u044F\u0432\u0438\u0442\u044C
+        \u201C\u043B\u0438\u0448\u043D\u0438\u0435\u201D."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[7].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[7].<Text>k__BackingField
+      value: "\u0422\u043E \u0435\u0441\u0442\u044C, \u0442\u044B \u0445\u043E\u0447\u0435\u0448\u044C,
+        \u0447\u0442\u043E\u0431\u044B \u044F \u0443\u043A\u0430\u0437\u0430\u043B
+        \u0442\u0435\u0431\u0435 \u043D\u0430 \u0442\u0435 \u0438\u043C\u0435\u043D\u0430,
+        \u0447\u0442\u043E \u044F \u043D\u0435 \u0443\u0432\u0438\u0436\u0443 \u0432
+        \u0441\u043F\u0438\u0441\u043A\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445
+        \u0438\u043C\u0451\u043D?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[8].<Text>k__BackingField
+      value: "\u041D\u0435\u0442 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445
+        \u0438 \u043D\u0435 \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u0445
+        \u0438\u043C\u0451\u043D. \u0414\u0430\u043D\u043D\u0430\u044F \u0433\u0440\u0430\u0434\u0430\u0446\u0438\u044F
+        \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u0430 \u0432 \u0441\u0432\u043E\u0435\u0439
+        \u0444\u043E\u0440\u043C\u0443\u043B\u0438\u0440\u043E\u0432\u043A\u0435.
+        \u0412 \u0434\u0430\u043D\u043D\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u0435\u0441\u0442\u044C \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0435
+        \u0438\u043C\u0435\u043D\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[9].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[9].<Text>k__BackingField
+      value: "\u042F \u044D\u0442\u043E \u0438 \u0445\u043E\u0442\u0435\u043B \u0441\u043A\u0430\u0437\u0430\u0442\u044C."
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[0].sentences.Array.data[10].<Name>k__BackingField
@@ -5823,20 +7153,317 @@ PrefabInstance:
       value: "\u0418 \u043C\u044B \u0434\u043E\u043B\u0436\u043D\u044B \u043F\u043E\u043C\u043E\u0447\u044C?"
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
-      propertyPath: dialogue.Array.data[0].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u042F \u043D\u0430\u0439\u0434\u0443 \u0438 \u0432\u044B\u0432\u0435\u0434\u0443
+        \u0442\u0435\u0431\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043D\u044B\u0439
+        \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043A\u043E\u0434\u0430, \u0430
+        \u043F\u043E\u0441\u043B\u0435 \u0438\u0437 \u0441\u0442\u0430\u0440\u044B\u0445
+        \u0432\u0435\u0440\u0441\u0438\u0439 \u044D\u0442\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0435
+        \u0437\u0430\u043C\u0435\u043D\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0442\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438
+        \u0432 \u0432\u044B\u0434\u0430\u043D\u043D\u043E\u0439 \u0442\u0435\u0431\u0435
+        \u0441\u0442\u0440\u043E\u0447\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u0417\u0430\u043C\u0435\u0447\u0443, \u0447\u0442\u043E \u0435\u0441\u0442\u044C
+        \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C, \u0447\u0442\u043E
+        \u043F\u043E\u0441\u043B\u0435 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0441 \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u044B\u043C \u043C\u0435\u0441\u0442\u043E\u043C
+        \u0432\u0435\u0440\u043D\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435
+        \u043C\u043E\u0436\u0435\u0442 \u043D\u0435 \u043F\u043E\u044F\u0432\u0438\u0442\u044C\u0441\u044F
+        \u0441\u0440\u0430\u0437\u0443. \u0412 \u0442\u0430\u043A\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C
+        \u0441\u0432\u043E\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0434\u043E \u0434\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0439 \u0437\u0430\u043C\u0435\u043D\u044B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[12].<Name>k__BackingField
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041A\u0430\u043A-\u0442\u043E \u043C\u0443\u0434\u0440\u0451\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[13].<Text>k__BackingField
+      value: "\u0414\u043B\u044F \u0443\u043F\u0440\u043E\u0449\u0435\u043D\u0438\u044F
+        \u0441\u0432\u044B\u0448\u0435 \u043D\u0430\u0434 \u0438\u0441\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u043C
+        \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u043C \u043A\u043E\u0434\u0430
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u0435\u0433\u043E \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u042F \u043D\u0430\u0439\u0434\u0443 \u0438 \u0432\u044B\u0432\u0435\u0434\u0443
+        \u0442\u0435\u0431\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u043D\u044B\u0439
+        \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043A\u043E\u0434\u0430, \u0430
+        \u043F\u043E\u0441\u043B\u0435 \u0438\u0437 \u0441\u0442\u0430\u0440\u044B\u0445
+        \u0432\u0435\u0440\u0441\u0438\u0439 \u044D\u0442\u043E\u0439 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0435
+        \u0437\u0430\u043C\u0435\u043D\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0442\u044B \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0441\u0442\u0438
+        \u0432 \u0432\u044B\u0434\u0430\u043D\u043D\u043E\u0439 \u0442\u0435\u0431\u0435
+        \u0441\u0442\u0440\u043E\u0447\u043A\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u0417\u0430\u043C\u0435\u0447\u0443, \u0447\u0442\u043E \u0435\u0441\u0442\u044C
+        \u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0441\u0442\u044C, \u0447\u0442\u043E
+        \u043F\u043E\u0441\u043B\u0435 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0441 \u043E\u0448\u0438\u0431\u043E\u0447\u043D\u044B\u043C \u043C\u0435\u0441\u0442\u043E\u043C
+        \u0432\u0435\u0440\u043D\u043E\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435
+        \u043C\u043E\u0436\u0435\u0442 \u043D\u0435 \u043F\u043E\u044F\u0432\u0438\u0442\u044C\u0441\u044F
+        \u0441\u0440\u0430\u0437\u0443. \u0412 \u0442\u0430\u043A\u043E\u043C \u0441\u043B\u0443\u0447\u0430\u0435
+        \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u0442\u044C
+        \u0441\u0432\u043E\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u0434\u043E \u0434\u043E\u0441\u0442\u0438\u0436\u0435\u043D\u0438\u044F
+        \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E\u0439 \u0437\u0430\u043C\u0435\u043D\u044B."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[12].<Name>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041A\u0430\u043A-\u0442\u043E \u043C\u0443\u0434\u0440\u0451\u043D\u043E."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[13].<Text>k__BackingField
+      value: "\u0414\u043B\u044F \u0443\u043F\u0440\u043E\u0449\u0435\u043D\u0438\u044F
+        \u0441\u0432\u044B\u0448\u0435 \u043D\u0430\u0434 \u0438\u0441\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u043C
+        \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u043C \u043A\u043E\u0434\u0430
+        \u0432\u044B\u0432\u0435\u0434\u0443 \u0435\u0433\u043E \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u043E\u0435
+        \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[10].<Text>k__BackingField
+      value: "\u041D\u0435 core \u0444\u0430\u0439\u043B, \u043A\u0430\u043A \u0432\u0430\u0436\u043D\u043E.
+        Main \u0432 \u0442\u043E\u043C, \u0447\u0442\u043E \u0432 \u0432\u0435\u0440\u0445\u043D\u0435\u0439
+        \u0442\u0430\u0431\u043B\u0438\u0446\u0435 \u0443\u043A\u0430\u0437\u0430\u043D\u0430
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0442\u0435\u0445, \u0447\u0442\u043E \u043C\u043E\u0433\u0443\u0442 \u0438\u043C\u0435\u0442\u044C
+        \u0434\u043E\u0441\u0442\u0443\u043F \u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438,
+        \u0430 \u0441\u043D\u0438\u0437\u0443 \u0442\u0435\u043A\u0443\u0449\u0430\u044F
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445,
+        \u0433\u0434\u0435 \u0435\u0441\u0442\u044C, \u043A\u0430\u043A \u043C\u0438\u043D\u0438\u043C\u0443\u043C
+        \u043E\u0434\u043D\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0435\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[11].<Text>k__BackingField
+      value: "\u0422\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+        \u0432 \u043D\u0438\u0436\u043D\u0435\u0439 \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438
+        \u0432\u0441\u0435\u0445 \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0438\u0445.
+        \u0423\u0447\u0442\u0438, \u0447\u0442\u043E \u043F\u043E\u043C\u0438\u043C\u043E
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438
+        \u0438\u043C\u0451\u043D, \u0442\u0430\u043C \u0435\u0441\u0442\u044C \u0437\u0430\u0448\u0438\u0444\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F
+        \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u0430\u044F
+        \u043D\u0430\u043C \u043D\u0435 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u0430."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[12].<Text>k__BackingField
+      value: "\u041D\u0435 core \u0444\u0430\u0439\u043B, \u043A\u0430\u043A \u0432\u0430\u0436\u043D\u043E.
+        Main \u0432 \u0442\u043E\u043C, \u0447\u0442\u043E \u0432 \u0432\u0435\u0440\u0445\u043D\u0435\u0439
+        \u0442\u0430\u0431\u043B\u0438\u0446\u0435 \u0443\u043A\u0430\u0437\u0430\u043D\u0430
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0442\u0435\u0445, \u0447\u0442\u043E \u043C\u043E\u0433\u0443\u0442 \u0438\u043C\u0435\u0442\u044C
+        \u0434\u043E\u0441\u0442\u0443\u043F \u043A \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438,
+        \u0430 \u0441\u043D\u0438\u0437\u0443 \u0442\u0435\u043A\u0443\u0449\u0430\u044F
+        \u043F\u043E\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C
+        \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445,
+        \u0433\u0434\u0435 \u0435\u0441\u0442\u044C, \u043A\u0430\u043A \u043C\u0438\u043D\u0438\u043C\u0443\u043C
+        \u043E\u0434\u043D\u043E \u043F\u043E\u0441\u0442\u043E\u0440\u043E\u043D\u043D\u0435\u0435."
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[0].sentences.Array.data[2].<RobotEmotion>k__BackingField
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[0].sentences.Array.data[3].<RobotEmotion>k__BackingField
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: dialogue.Array.data[0].sentences.Array.data[4].<RobotEmotion>k__BackingField
-      value: 4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[9].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[6].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[7].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[8].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[4].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[5].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[6].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[7].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[8].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[0].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[1].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[2].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[3].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[4].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[8].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[9].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[10].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[13].<RobotEmotion>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[14].<RobotEmotion>k__BackingField
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[21].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[22].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[25].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[30].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[0].sentences.Array.data[33].<RobotEmotion>k__BackingField
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[1].sentences.Array.data[13].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[2].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[10].<RobotEmotion>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[11].<RobotEmotion>k__BackingField
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 765713639302937949, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
+      propertyPath: dialogue.Array.data[3].sentences.Array.data[12].<RobotEmotion>k__BackingField
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4887406438029649424, guid: d9fe5afa2e991904bbf1c1ef4d28a029, type: 3}
       propertyPath: m_Name

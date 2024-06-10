@@ -6,39 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/MainHubSpriteSheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/MainHubSpriteSheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/MainMenu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/MainMenu.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/StageSelectWindow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/StageSelectWindow.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/ToolSprites.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/ToolSprites.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pictures/UpgradeWindow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/UpgradeWindow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pictures/AI.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pictures/AI.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DialogueWindow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DialogueWindow.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EscMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EscMenu.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelUpNotification.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelUpNotification.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ResultGame.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ResultGame.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tips.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tips.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SettingsMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SettingsMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/DesktopMenuAnimsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/DesktopMenuAnimsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/GameInfoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/GameInfoManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/PlayerShowInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/PlayerShowInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ReturnPreviousScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ReturnPreviousScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/SwitchScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/SwitchScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/EscMenuOpenerOnLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/EscMenuOpenerOnLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music/SoundVolumeControllerComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Music/SoundVolumeControllerComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/InstantiateShopItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/SpawnPurchasedObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueScripts/Dialogue.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,10 +121,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34236">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="23480">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="34236" />
+      <option name="pid" value="23480" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -185,6 +159,7 @@
       <workItem from="1717875534934" duration="3806000" />
       <workItem from="1717909378732" duration="3486000" />
       <workItem from="1717934882744" duration="13642000" />
+      <workItem from="1718038298352" duration="834000" />
     </task>
     <servers />
   </component>

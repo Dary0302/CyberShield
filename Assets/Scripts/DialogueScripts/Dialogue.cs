@@ -26,5 +26,6 @@ public enum RobotEmotions
     Sad,
     Shock,
     Shy,
-    Stupid
+    Stupid,
+    Empty
 }
