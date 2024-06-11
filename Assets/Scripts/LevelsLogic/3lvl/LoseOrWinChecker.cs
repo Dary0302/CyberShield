@@ -17,6 +17,7 @@ namespace LevelsLogic._3lvl
         [SerializeField] private Button resultReturnToOffice;
         [SerializeField] private Button resultReloadLevel;
         [SerializeField] private int numberLevel;
+        [SerializeField] private int salary;
 
         private void Start()
         {
@@ -40,7 +41,7 @@ namespace LevelsLogic._3lvl
         {
             gameWinSound.Play();
             resultText.text = "Уровень пройден!";
-            PlayerStats.LevelCompleted(numberLevel);
+            PlayerStats.LevelCompleted(numberLevel, salary);
         }
 
         private void LoseGame()

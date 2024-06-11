@@ -13,6 +13,8 @@ public class PasswordCheck : MonoBehaviour
     [SerializeField] private HealthPointsManager healthPointsManager;
     [SerializeField] private GameLose gameLose;
     [SerializeField] private string validCharacters = "G734#26H";
+    [SerializeField] private int salary;
+    [SerializeField] private int numberLevel;
     private bool isWin;
 
     private void Start()
@@ -46,7 +48,7 @@ public class PasswordCheck : MonoBehaviour
         gameWinSound.Play();
         resultText.text = "Уровень пройден!";
         result.gameObject.SetActive(true);
-        PlayerStats.LevelCompleted(1);
+        PlayerStats.LevelCompleted(numberLevel, salary);
     }
 
     private void OnDestroy()

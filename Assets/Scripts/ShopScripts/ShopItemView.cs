@@ -9,6 +9,7 @@ public class ShopItemView : MonoBehaviour
     [SerializeField] private TMP_Text productName;
     [SerializeField] private TMP_Text description;
     [SerializeField] private Button buyButton;
+    [SerializeField] private TMP_Text price;
     
     public event Action<ShopItemView> ItemBought;
 
@@ -17,10 +18,10 @@ public class ShopItemView : MonoBehaviour
         productPhoto.sprite = shopItem.ProductPhoto;
         productName.text = shopItem.ProductName;
         description.text = shopItem.Description;
-        var price = shopItem.Price;
+        price.text = $"{shopItem.Price.ToString()}$";
         buyButton.onClick.AddListener(() =>
         {
-            if (!PlayerStats.TryItemBuy(shopItem.SystemName, price))
+            if (!PlayerStats.TryItemBuy(shopItem.SystemName, shopItem.Price))
                 return;
             
             ItemBought?.Invoke(this);

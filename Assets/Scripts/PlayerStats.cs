@@ -16,13 +16,13 @@ public static class PlayerStats
     private const string OfficeLevelKey = "officeLevelNumber";
     private const string CountItemsPurchasedKey = "countItemsPurchased";
 
-    public static void LevelCompleted(int numberLevel)
+    public static void LevelCompleted(int numberLevel, int salary)
     {
-        money += 100;
+        money += salary;
         if (levelsCompletedNumber < numberLevel)
             levelsCompletedNumber++;
         PlayerPrefs.SetInt(LevelsCompletedNumberKey, levelsCompletedNumber);
-        PlayerPrefs.SetInt(MoneyKey, money);
+        PlayerPrefs.SetInt(MoneyKey, salary);
         PlayerPrefs.Save();
     }
 
