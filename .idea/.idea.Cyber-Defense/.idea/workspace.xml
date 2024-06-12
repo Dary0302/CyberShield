@@ -6,27 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ShopItem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Quest3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ShopItems/Router.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ShopItems/Router.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/ShopItems/Vase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/ShopItems/Vase.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/PasswordCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/1lvl/PasswordCheck.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/CellsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/2lvl/CellsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/LoseOrWinChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/LoseOrWinChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShopScripts/ShopItemView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/HealthPointsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/HealthPointsManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +162,7 @@
       <workItem from="1717934882744" duration="13642000" />
       <workItem from="1718038298352" duration="834000" />
       <workItem from="1718097372974" duration="5364000" />
+      <workItem from="1718200335207" duration="1813000" />
     </task>
     <servers />
   </component>

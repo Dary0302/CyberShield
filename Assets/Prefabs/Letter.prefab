@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 340969139915012391}
   - component: {fileID: 7319296794636425449}
   m_Layer: 5
-  m_Name: ButtonClickSound
+  m_Name: AcceptQuestSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1069,7 +1069,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -7302362616915225724, guid: d7068eb2f34927547ad09c450f043670, type: 2}
-  m_audioClip: {fileID: 8300000, guid: a63969d40e078c3489c4259397e10aff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d9fd435586aa0074a9e32f075c561407, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

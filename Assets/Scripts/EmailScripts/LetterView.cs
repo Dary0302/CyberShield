@@ -29,7 +29,7 @@ public class LetterView : MonoBehaviour
                 return;
 
             buttonClickSound.Play();
-            loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.27f, quest.LvlId));
+            loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.53f, quest.LvlId));
         }));
     }
 

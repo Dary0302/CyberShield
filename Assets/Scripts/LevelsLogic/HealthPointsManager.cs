@@ -5,6 +5,7 @@ namespace LevelsLogic
 {
     public class HealthPointsManager : MonoBehaviour
     {
+        [SerializeField] private AudioSource damageSound;
         [SerializeField] private AudioSource gameLoseSound;
         [SerializeField] private Transform healthPointsPanel;
         [SerializeField] private GameObject heart;
@@ -28,6 +29,7 @@ namespace LevelsLogic
 
         public void WrongAnswer()
         {
+            damageSound.Play();
             currentCountHealthPoints--;
 
             foreach (Transform healthPoint in healthPointsPanel)
