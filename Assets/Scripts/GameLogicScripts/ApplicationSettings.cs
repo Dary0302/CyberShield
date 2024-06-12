@@ -1,73 +1,60 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
-using UnityEngine.Serialization;
 
 public class ApplicationSettings : MonoBehaviour
 {
-    [FormerlySerializedAs("volume game"), SerializeField]
-    private float volumeGame; //Громкость игры
+    [SerializeField] private float volumeGame;
+    [SerializeField] private float volumeMusic;
+    [SerializeField] private float volumeUI;
 
-    [FormerlySerializedAs("volume music"), SerializeField]
-    private float volumeMusic; //Громкость музыки
-
-    //[SerializeField] private int quality; //Качество
-    [SerializeField] private bool isFullscreen; //Полноэкранный режим
-    [SerializeField] private AudioMixer audioMixer; //Регулятор громкости
-    //[SerializeField] private TMP_Dropdown resolutionDropdown; //Список с разрешениями для игры
+    [SerializeField] private bool isFullscreen;
+    [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Toggle fullScreenModeToggle;
     [SerializeField] private Slider volumeMusicSlider;
     [SerializeField] private Slider volumeSlider;
+    [SerializeField] private Slider volumeUISlider;
+
+    private const string MusicVolumeKey = "MusicVolume";
+    private const string MasterVolumeKey = "MasterVolume";
+    private const string UIVolumeKey = "UIVolume";
 
     private bool isSavedSettings = true;
-    //private Resolution[] resolutions; //Список доступных разрешений
-    //private int currentResolutionIndex; //Текущее разрешение
 
     public void Start()
     {
-        /*resolutionDropdown.ClearOptions(); //Удаление старых пунктов
-        resolutions = Screen.resolutions; //Получение доступных разрешений
-        var options = new HashSet<string>(); //Создание списка со строковыми значениями
-
-        for (var i = 0; i < resolutions.Length; i++) //Поочерёдная работа с каждым разрешением
-        {
-            var option = String.Join(" x ", resolutions[i].width, resolutions[i].height); //Создание строки для списка
-            options.Add(option); //Добавление строки в список
-
-            if (resolutions[i].Equals(Screen.currentResolution)) //Если текущее разрешение равно проверяемому
-                currentResolutionIndex = i; //То получается его индекс
-        }
-
-        resolutionDropdown.AddOptions(options.ToList()); //Добавление элементов в выпадающий список
-        resolutionDropdown.value = currentResolutionIndex; //Выделение пункта с текущим разрешением
-        resolutionDropdown.RefreshShownValue(); //Обновление отображаемого значения*/
-
         volumeSlider.onValueChanged.AddListener(ChangeVolume);
         volumeMusicSlider.onValueChanged.AddListener(ChangeMusicVolume);
-        //resolutionDropdown.onValueChanged.AddListener(ChangeResolution);
+        volumeUISlider.onValueChanged.AddListener(ChangeUIVolume);
         fullScreenModeToggle.onValueChanged.AddListener(ChangeFullscreenMode);
+
+        if (PlayerPrefs.HasKey(MasterVolumeKey))
+            volumeSlider.value = PlayerPrefs.GetFloat(MasterVolumeKey);
+        if (PlayerPrefs.HasKey(MusicVolumeKey))
+            volumeMusicSlider.value = PlayerPrefs.GetFloat(MusicVolumeKey);
+        if (PlayerPrefs.HasKey(UIVolumeKey))
+            volumeUISlider.value = PlayerPrefs.GetFloat(UIVolumeKey);
     }
 
-    private void ChangeVolume(float val) //Изменение звука
+    private void ChangeVolume(float valume) //Изменение звука
     {
-        audioMixer.SetFloat("MasterVolume", volumeGame = val);
+        audioMixer.SetFloat(MasterVolumeKey, volumeGame = valume);
         isSavedSettings = false;
     }
 
-    private void ChangeMusicVolume(float val) //Изменение звука
+    private void ChangeMusicVolume(float valume) //Изменение звука
     {
-        audioMixer.SetFloat("MusicVolume", volumeMusic = val);
+        audioMixer.SetFloat(MusicVolumeKey, volumeMusic = valume);
         isSavedSettings = false;
     }
 
-    /*private void ChangeResolution(int index) //Изменение разрешения
+    private void ChangeUIVolume(float valume)
     {
-        currentResolutionIndex = index;
-        Screen.SetResolution(Screen.resolutions[currentResolutionIndex].width, Screen.resolutions[currentResolutionIndex].height, isFullscreen);
+        audioMixer.SetFloat(UIVolumeKey, volumeUI = valume);
         isSavedSettings = false;
-    }*/
+    }
 
-    private void ChangeFullscreenMode(bool val) //Включение или отключение полноэкранного режима
+    private void ChangeFullscreenMode(bool val)
     {
         isFullscreen = val;
         Screen.fullScreen = isFullscreen;
@@ -76,11 +63,15 @@ public class ApplicationSettings : MonoBehaviour
 
     public void SaveSettings()
     {
-        audioMixer.SetFloat("MusicVolume", volumeMusic); //Изменение уровня громкости
-        //QualitySettings.SetQualityLevel(quality); //Изменение качества
-        Screen.fullScreen = isFullscreen; //Включение или отключение полноэкранного режима
-        //Screen.SetResolution(Screen.resolutions[currentResolutionIndex].width, Screen.resolutions[currentResolutionIndex].height, isFullscreen); //Изменения разрешения
+        audioMixer.SetFloat(MusicVolumeKey, volumeMusic);
+        audioMixer.SetFloat(MasterVolumeKey, volumeGame);
+        audioMixer.SetFloat(UIVolumeKey, volumeUI);
+        Screen.fullScreen = isFullscreen;
         isSavedSettings = true;
+        PlayerPrefs.SetFloat(MusicVolumeKey, volumeMusic);
+        PlayerPrefs.SetFloat(MasterVolumeKey, volumeGame);
+        PlayerPrefs.SetFloat(UIVolumeKey, volumeUI);
+        PlayerPrefs.Save();
         Debug.Log("Success Save Settings");
     }
 
@@ -88,7 +79,7 @@ public class ApplicationSettings : MonoBehaviour
     {
         volumeSlider.onValueChanged.RemoveListener(ChangeVolume);
         volumeMusicSlider.onValueChanged.RemoveListener(ChangeMusicVolume);
-        //resolutionDropdown.onValueChanged.RemoveListener(ChangeResolution);
+        volumeUISlider.onValueChanged.RemoveListener(ChangeUIVolume);
         fullScreenModeToggle.onValueChanged.RemoveListener(ChangeFullscreenMode);
     }
 }

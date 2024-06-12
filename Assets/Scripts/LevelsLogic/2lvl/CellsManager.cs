@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class CellsManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource gameWinSound;
     [SerializeField] private TextCell[] textCells;
     [SerializeField] private string answer;
     [SerializeField] private GameObject resultMenu;
     [SerializeField] private TMP_Text resultText;
     [SerializeField] private Timer2 timer2;
+    [SerializeField] private int salary;
+    [SerializeField] private int numberLevel;
 
     private void Start()
     {
@@ -30,8 +33,9 @@ public class CellsManager : MonoBehaviour
         if (result.ToString() != answer)
             return;
         
-        PlayerStats.LevelCompleted(2);
+        PlayerStats.LevelCompleted(numberLevel, salary);
         timer2.timerStop = true;
+        gameWinSound.Play();
         resultText.text = "Уровень пройден!";
         resultMenu.SetActive(true);
     }

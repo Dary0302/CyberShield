@@ -1,12 +1,12 @@
 using System.Globalization;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace LevelsLogic._1lvl
 {
     public class Timer : AbstractTimer
     {
+        [SerializeField] private AudioSource gameLoseSound;
         [SerializeField] private GameObject result;
         [SerializeField] private TMP_Text resultText;
         [SerializeField] private TMP_Text timerText;
@@ -32,6 +32,7 @@ namespace LevelsLogic._1lvl
                 secondTimer.SetActive(false);
                 grid.SetActive(false);
 
+                gameLoseSound.Play();
                 resultText.text = "Уровень провален!";
                 result.gameObject.SetActive(true);
             }

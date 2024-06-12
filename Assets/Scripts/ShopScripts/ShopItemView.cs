@@ -8,9 +8,9 @@ public class ShopItemView : MonoBehaviour
     [SerializeField] private Image productPhoto;
     [SerializeField] private TMP_Text productName;
     [SerializeField] private TMP_Text description;
-    [SerializeField] private int price;
     [SerializeField] private Button buyButton;
-
+    [SerializeField] private TMP_Text price;
+    
     public event Action<ShopItemView> ItemBought;
 
     public void SetData(SampleShopItem shopItem)
@@ -18,11 +18,13 @@ public class ShopItemView : MonoBehaviour
         productPhoto.sprite = shopItem.ProductPhoto;
         productName.text = shopItem.ProductName;
         description.text = shopItem.Description;
-        price = shopItem.Price;
+        price.text = $"{shopItem.Price.ToString()}$";
         buyButton.onClick.AddListener(() =>
         {
-            if (PlayerStats.TryItemBuy(shopItem.SystemName, price))
-                ItemBought?.Invoke(this);
+            if (!PlayerStats.TryItemBuy(shopItem.SystemName, shopItem.Price))
+                return;
+            
+            ItemBought?.Invoke(this);
         });
     }
 }

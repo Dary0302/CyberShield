@@ -1,4 +1,3 @@
-using System;
 using LevelsLogic;
 using LevelsLogic._1lvl;
 using UnityEngine;
@@ -6,6 +5,7 @@ using TMPro;
 
 public class PasswordCheck : MonoBehaviour
 {
+    [SerializeField] private AudioSource gameWinSound;
     [SerializeField] private GameObject result;
     [SerializeField] private TMP_Text resultText;
     [SerializeField] private TMP_InputField tmpInputField;
@@ -13,6 +13,8 @@ public class PasswordCheck : MonoBehaviour
     [SerializeField] private HealthPointsManager healthPointsManager;
     [SerializeField] private GameLose gameLose;
     [SerializeField] private string validCharacters = "G734#26H";
+    [SerializeField] private int salary;
+    [SerializeField] private int numberLevel;
     private bool isWin;
 
     private void Start()
@@ -43,9 +45,10 @@ public class PasswordCheck : MonoBehaviour
         
         isWin = true;
         timer.timerStop = true;
+        gameWinSound.Play();
         resultText.text = "Уровень пройден!";
         result.gameObject.SetActive(true);
-        PlayerStats.LevelCompleted(1);
+        PlayerStats.LevelCompleted(numberLevel, salary);
     }
 
     private void OnDestroy()

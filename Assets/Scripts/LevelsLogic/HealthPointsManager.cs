@@ -5,6 +5,8 @@ namespace LevelsLogic
 {
     public class HealthPointsManager : MonoBehaviour
     {
+        [SerializeField] private AudioSource damageSound;
+        [SerializeField] private AudioSource gameLoseSound;
         [SerializeField] private Transform healthPointsPanel;
         [SerializeField] private GameObject heart;
         [SerializeField] private GameObject emptyHeart;
@@ -27,6 +29,7 @@ namespace LevelsLogic
 
         public void WrongAnswer()
         {
+            damageSound.Play();
             currentCountHealthPoints--;
 
             foreach (Transform healthPoint in healthPointsPanel)
@@ -40,8 +43,11 @@ namespace LevelsLogic
                     Instantiate(currentCountHealthPoints > i ? heart : emptyHeart, healthPointsPanel.position, Quaternion.identity, healthPointsPanel);
             }
 
-            if (currentCountHealthPoints == 0)
-                GameLose?.Invoke();
+            if (currentCountHealthPoints != 0)
+                return;
+            
+            gameLoseSound.Play();
+            GameLose?.Invoke();
         }
     }
 }

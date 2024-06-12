@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,18 +13,35 @@ namespace LevelsLogic
         [SerializeField] private Button toSettingsButton;
         [SerializeField] private StopTimers stopTimers;
         private bool isOpenEscMenu;
+        private Coroutine loadSceneCoroutine;
 
         private void Start()
         {
             if (toMainMenuButton != null)
-                toMainMenuButton.onClick.AddListener(() => SceneManager.LoadScene("SampleScene"));
+                toMainMenuButton.onClick.AddListener(() =>
+                {
+                    if (loadSceneCoroutine != null)
+                        return;
+
+                    loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.27f, "SampleScene"));
+                });
             if (toOfficeButton != null)
-                toOfficeButton.onClick.AddListener(() => SceneManager.LoadScene("Desktop"));
+                toOfficeButton.onClick.AddListener(() =>
+                {
+                    if (loadSceneCoroutine != null)
+                        return;
+
+                    loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.27f, "Desktop"));
+                });
             if (toSettingsButton != null)
                 toSettingsButton.onClick.AddListener(() =>
                 {
+                    if (loadSceneCoroutine != null)
+                        return;
+                    
                     PreviousScene.Scene = SceneManager.GetActiveScene().name;
-                    SceneManager.LoadScene("SettingsMenu");
+
+                    loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.27f, "SettingsMenu"));
                 });
         }
 
@@ -36,6 +54,12 @@ namespace LevelsLogic
                 OpenEscMenu();
         }
 
+        private IEnumerator LoadSceneCoroutine(float delay, string nameScene)
+        {
+            yield return new WaitForSeconds(delay);
+            SceneManager.LoadScene(nameScene);
+        }
+        
         private void OpenEscMenu()
         {
             if (escMenu is null)

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9eff38514be7240ba0a98b74075f7f, type: 3}
+  m_Name: Level4Type3
+  m_EditorClassIdentifier: 
+  <QuestName>k__BackingField: "\u0418\u043C\u044F \u0437\u0430\u0434\u0430\u0447\u0438"
+  <Description>k__BackingField: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435
+    \u0437\u0430\u0434\u0430\u0447\u0438"
+  <SenderName>k__BackingField: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u0435\u043B\u044C"
+  <SenderPhoto>k__BackingField: {fileID: -1958827583, guid: 5ae3a6997bf3c864ea1d91e1c890bcae, type: 3}
+  <LvlId>k__BackingField: 6
