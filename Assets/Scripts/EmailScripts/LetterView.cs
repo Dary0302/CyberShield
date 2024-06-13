@@ -25,14 +25,22 @@ namespace EmailScripts
             senderName.text = quest.SenderName;
             description.text = quest.Description;
 
-            acceptButton.onClick.AddListener(() =>
+            if (quest.LvlId == -1)
             {
-                if (loadSceneCoroutine != null)
-                    return;
+                acceptButton.gameObject.SetActive(false);
+                notDoneCheckMark.gameObject.SetActive(false);
+            }
+            else
+            {
+                acceptButton.onClick.AddListener(() =>
+                {
+                    if (loadSceneCoroutine != null)
+                        return;
 
-                buttonClickSound.Play();
-                loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.53f, quest.LvlId));
-            });
+                    buttonClickSound.Play();
+                    loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.53f, quest.LvlId));
+                });
+            }
         }
 
         public void SetDoneCheckMark()

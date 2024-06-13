@@ -310,7 +310,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1993262946}
   m_HandleRect: {fileID: 1993262945}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -737,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04, y: 0.1}
   m_AnchorMax: {x: 0.96, y: 0.9}
-  m_AnchoredPosition: {x: 0, y: 38.23467}
+  m_AnchoredPosition: {x: 0, y: 38.250004}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &193537507
@@ -2126,7 +2126,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2072938820}
   m_HandleRect: {fileID: 2072938818}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4804,7 +4804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04, y: 0.1}
   m_AnchorMax: {x: 0.96, y: 0.9}
-  m_AnchoredPosition: {x: 0, y: 38.23467}
+  m_AnchoredPosition: {x: 0, y: 38.250004}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1595137453
@@ -6240,6 +6240,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4408db694f70aed469cddf44e7aa2cdd, type: 2}
   - {fileID: 11400000, guid: 929c460d42e2d76499d7991ba5633a2c, type: 2}
   - {fileID: 11400000, guid: fdba9940e56d13745b2007904ed64c68, type: 2}
+  - {fileID: 11400000, guid: 79a9a26eef83a3647be5435975db44c0, type: 2}
   - {fileID: 11400000, guid: 13ccc50dea8630749a64d09a8327d65f, type: 2}
 --- !u!1 &1882891357
 GameObject:

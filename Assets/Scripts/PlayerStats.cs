@@ -22,7 +22,7 @@ public static class PlayerStats
         if (levelsCompletedNumber < numberLevel)
             levelsCompletedNumber++;
         PlayerPrefs.SetInt(LevelsCompletedNumberKey, levelsCompletedNumber);
-        PlayerPrefs.SetInt(MoneyKey, salary);
+        PlayerPrefs.SetInt(MoneyKey, money);
         PlayerPrefs.Save();
     }
 

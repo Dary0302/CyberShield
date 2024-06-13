@@ -14,7 +14,7 @@ namespace EmailScripts
             var countQuests = 0;
             foreach (var quest in quests)
             {
-                if (countQuests > PlayerStats.GetLevelsCompletedNumber())
+                if (countQuests > PlayerStats.GetLevelsCompletedNumber() && quest.LvlId != -1)
                     break;
             
                 var newLetter = Instantiate(letterViewPrefab, content.position, Quaternion.identity, content);
@@ -22,7 +22,8 @@ namespace EmailScripts
                 if (countQuests < PlayerStats.GetLevelsCompletedNumber())
                     newLetter.SetDoneCheckMark();
 
-                countQuests++;
+                if (quest.LvlId != -1)
+                    countQuests++;
             
                 newLetter.SetData(quest);
             }
