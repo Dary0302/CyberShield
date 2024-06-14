@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f9eff38514be7240ba0a98b74075f7f, type: 3}
-  m_Name: Level3Type1
+  m_Name: Level3Type3
   m_EditorClassIdentifier: 
   <QuestName>k__BackingField: "\u0411\u0430\u043D\u043A \u043E\u0442\u043A\u043B\u043E\u043D\u044F\u0435\u0442
     \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u044B"
