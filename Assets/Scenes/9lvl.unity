@@ -326,7 +326,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AllBootsWorld.local.files/-/h54y/-/C0nfirm/-/d3aL/-/tr4d3/-/7ser/-/nomb2452/-/3tg/-/764g
+  m_text: Shizzrd.private.files/-/e87n0wer/-/w4tch3tgrtb/-/83jHs23j0vn0/-/eubertNew/-/w0W835ebPatch/-/
+    L3gedn /-/03iyl20o2/-/vb24/-/tSt4rCr4ft3/-/w4gP3rs0nalDate/-/wrbhrb4/-
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2fcb248bad531014483f6bd02e02c8e3, type: 2}
   m_sharedMaterial: {fileID: 8768886157326499284, guid: 2fcb248bad531014483f6bd02e02c8e3, type: 2}
@@ -353,11 +354,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.05
+  m_fontSize: 18.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 25
+  m_fontSizeMin: 17.3
   m_fontSizeMax: 288
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -365,7 +366,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -26
+  m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -917,8 +918,8 @@ MonoBehaviour:
   resultText: {fileID: 1102244674}
   resultReturnToOffice: {fileID: 1131607702}
   resultReloadLevel: {fileID: 463583979}
-  numberLevel: 3
-  salary: 150
+  numberLevel: 9
+  salary: 220
 --- !u!1 &234210338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,7 +2937,7 @@ MonoBehaviour:
   - Lucas
   - Scott
   - Vincent
-  countWrongNamesInGame: 2
+  countWrongNamesInGame: 6
   nameTextElements:
   - {fileID: 545466213}
   - {fileID: 234210340}

@@ -29,6 +29,7 @@ namespace EmailScripts
             {
                 acceptButton.gameObject.SetActive(false);
                 notDoneCheckMark.gameObject.SetActive(false);
+                description.rectTransform.anchorMax = new(0.98f, 0.5f);
             }
             else
             {

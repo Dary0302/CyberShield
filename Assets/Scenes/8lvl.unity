@@ -3757,15 +3757,15 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1578386475}
-  - {fileID: 1067596466}
   - {fileID: 1984438414}
+  - {fileID: 142422750}
   - {fileID: 1376981758}
-  - {fileID: 1480846412}
+  - {fileID: 2006196033}
   - {fileID: 997636076}
   - {fileID: 247821119}
+  - {fileID: 1480846412}
+  - {fileID: 1067596466}
   - {fileID: 58389199}
-  - {fileID: 2006196033}
-  - {fileID: 142422750}
   m_Father: {fileID: 569394297}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.01, y: 0.03}
@@ -10849,7 +10849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1911735642267717687, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1911735642267717687, guid: d428350a000cb1441a34c25d19c103dd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
