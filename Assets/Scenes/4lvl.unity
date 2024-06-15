@@ -1139,7 +1139,7 @@ MonoBehaviour:
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 1
-  m_Spacing: 28
+  m_Spacing: 15
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -2777,7 +2777,7 @@ MonoBehaviour:
   timer: {fileID: 1125695641}
   healthPointsManager: {fileID: 322058987}
   gameLose: {fileID: 1543532657}
-  validCharacters: SH&21@KF
+  validCharacters: KF86N7%3
   salary: 20
   numberLevel: 4
 --- !u!1 &662541275
@@ -2988,7 +2988,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
-  m_Spacing: 19
+  m_Spacing: 15
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -3192,7 +3192,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
-  m_Spacing: 19
+  m_Spacing: 15
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -3659,7 +3659,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
-  m_Spacing: 19
+  m_Spacing: 15
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -4982,7 +4982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   childObject: {fileID: 1443949466}
-  collisionSprite: {fileID: -2139913722, guid: db7263391882df74cbb92a80ef0a2280, type: 3}
+  collisionSprite: {fileID: 1519588169, guid: 00494300934e639408f37fbe62123b56, type: 3}
   timerObject: {fileID: 1062245820}
 --- !u!50 &1408550542
 Rigidbody2D:
@@ -6847,7 +6847,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
-  m_Spacing: 19
+  m_Spacing: 15
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1

@@ -5,16 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/5lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/5lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/BorisLetter4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level2Type2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level2Type2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level3Type3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level3Type3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level4Type1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level4Type1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level5Type2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level5Type2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level6Type3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level6Type3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level7Type1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level7Type1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Quests/Level9Type3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Quests/Level9Type3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/7lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/7lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/8lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/8lvl.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Desktop/DesktopMenuAnimsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Desktop/DesktopMenuAnimsManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +177,7 @@
       <workItem from="1718355611461" duration="4295000" />
       <workItem from="1718362846900" duration="363000" />
       <workItem from="1718393327385" duration="857000" />
+      <workItem from="1718464495924" duration="182000" />
     </task>
     <servers />
   </component>
