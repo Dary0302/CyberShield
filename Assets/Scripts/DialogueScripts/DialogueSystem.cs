@@ -15,7 +15,7 @@ public class DialogueSystem : MonoBehaviour
             lastDialogueNumber = PlayerPrefs.GetInt("lastDialogueNumber");
         }
 
-        if (lastDialogueNumber < dialogue.Length && lastDialogueNumber == PlayerStats.GetLevelsCompletedNumber())
+        if ((lastDialogueNumber < dialogue.Length && lastDialogueNumber == PlayerStats.GetLevelsCompletedNumber()) || lastDialogueNumber == 12)
         {
             dialogueManager.gameObject.SetActive(true);
             dialogueManager.StartDialogue(dialogue[lastDialogueNumber], lastDialogueNumber);

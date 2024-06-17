@@ -14,7 +14,8 @@ namespace LevelsLogic._1lvl
         [SerializeField] private GameObject grid;
         private float timeStart;
         private bool isPause;
-    
+        private bool isMusicLosePlayed;
+
         public bool timerStop;
 
         private void Start()
@@ -29,10 +30,15 @@ namespace LevelsLogic._1lvl
                 return;
             if (timeStart <= 0)
             {
+                if (!isMusicLosePlayed)
+                {
+                    gameLoseSound.Play();
+                    isMusicLosePlayed = true;
+                }
+
                 secondTimer.SetActive(false);
                 grid.SetActive(false);
 
-                gameLoseSound.Play();
                 resultText.text = "Уровень провален!";
                 result.gameObject.SetActive(true);
             }

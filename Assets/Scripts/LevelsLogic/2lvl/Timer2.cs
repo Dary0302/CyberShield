@@ -11,6 +11,7 @@ public class Timer2 : AbstractTimer
     [SerializeField] private TMP_Text timerText;
     private float timeStart;
     private bool isPause;
+    private bool isMusicLosePlayed;
     public bool timerStop;
 
     private void Start()
@@ -26,7 +27,11 @@ public class Timer2 : AbstractTimer
 
         if (timeStart <= 0)
         {
-            gameLoseSound.Play();
+            if (!isMusicLosePlayed)
+            {
+                gameLoseSound.Play();
+                isMusicLosePlayed = true;
+            }
             resultText.text = "Уровень провален!";
             result.gameObject.SetActive(true);
         }
