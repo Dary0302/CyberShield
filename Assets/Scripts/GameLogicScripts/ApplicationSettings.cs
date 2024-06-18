@@ -30,8 +30,14 @@ public class ApplicationSettings : MonoBehaviour
 
         if (PlayerPrefs.HasKey(MasterVolumeKey))
             volumeSlider.value = PlayerPrefs.GetFloat(MasterVolumeKey);
+        else
+            volumeSlider.value = -10;
+        
         if (PlayerPrefs.HasKey(MusicVolumeKey))
             volumeMusicSlider.value = PlayerPrefs.GetFloat(MusicVolumeKey);
+        else
+            volumeMusicSlider.value = -10;
+        
         if (PlayerPrefs.HasKey(UIVolumeKey))
             volumeUISlider.value = PlayerPrefs.GetFloat(UIVolumeKey);
     }

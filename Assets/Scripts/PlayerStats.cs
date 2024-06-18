@@ -3,7 +3,7 @@ using UnityEngine;
 public static class PlayerStats
 {
     public static int MaxHealthPoints => 4;
-    private static int money = 10000; // Заменить на ноль
+    private static int money;
     private static int quantityHealthPoints = 1;
     private static int levelsCompletedNumber;
     private static int timePerLevelAmount = 30;
