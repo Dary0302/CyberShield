@@ -4,43 +4,55 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LetterView : MonoBehaviour
+namespace EmailScripts
 {
-    [SerializeField] private AudioSource buttonClickSound;
-    [SerializeField] private Image portrait;
-    [SerializeField] private TMP_Text questName;
-    [SerializeField] private TMP_Text senderName;
-    [SerializeField] private TMP_Text description;
-    [SerializeField] private Button acceptButton;
-    [SerializeField] private Image notDoneCheckMark;
-    [SerializeField] private Image doneCheckMark;
-    private Coroutine loadSceneCoroutine;
-
-    public void SetData(SampleQuest quest)
+    public class LetterView : MonoBehaviour
     {
-        portrait.sprite = quest.SenderPhoto;
-        questName.text = quest.QuestName;
-        senderName.text = quest.SenderName;
-        description.text = quest.Description;
+        [SerializeField] private AudioSource buttonClickSound;
+        [SerializeField] private Image portrait;
+        [SerializeField] private TMP_Text questName;
+        [SerializeField] private TMP_Text senderName;
+        [SerializeField] private TMP_Text description;
+        [SerializeField] private Button acceptButton;
+        [SerializeField] private Image notDoneCheckMark;
+        [SerializeField] private Image doneCheckMark;
+        private Coroutine loadSceneCoroutine;
 
-        acceptButton.onClick.AddListener((() =>
+        public void SetData(SampleQuest quest)
         {
-            if (loadSceneCoroutine != null)
-                return;
+            portrait.sprite = quest.SenderPhoto;
+            questName.text = quest.QuestName;
+            senderName.text = quest.SenderName;
+            description.text = quest.Description;
 
-            buttonClickSound.Play();
-            loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.53f, quest.LvlId));
-        }));
-    }
+            if (quest.LvlId == -1)
+            {
+                acceptButton.gameObject.SetActive(false);
+                notDoneCheckMark.gameObject.SetActive(false);
+                description.rectTransform.anchorMax = new(0.98f, 0.5f);
+            }
+            else
+            {
+                acceptButton.onClick.AddListener(() =>
+                {
+                    if (loadSceneCoroutine != null)
+                        return;
 
-    public void SetDoneCheckMark()
-    {
-        notDoneCheckMark.sprite = doneCheckMark.sprite;
-    }
+                    buttonClickSound.Play();
+                    loadSceneCoroutine = StartCoroutine(LoadSceneCoroutine(0.53f, quest.LvlId));
+                });
+            }
+        }
 
-    private IEnumerator LoadSceneCoroutine(float delay, int idScene)
-    {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(idScene);
+        public void SetDoneCheckMark()
+        {
+            notDoneCheckMark.sprite = doneCheckMark.sprite;
+        }
+
+        private IEnumerator LoadSceneCoroutine(float delay, int idScene)
+        {
+            yield return new WaitForSeconds(delay);
+            SceneManager.LoadScene(idScene);
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace Desktop
         [SerializeField] private AudioSource soundClick;
         [SerializeField] private DesktopMenu[] desktopMenuScreens;
         [SerializeField] private GameObject escMenu;
+        [SerializeField] private Button[] escMenuButtons;
         private static readonly int IsOpen = Animator.StringToHash("IsOpen");
         private bool isOpenEscMenu;
         private bool isAllMenuClose = true;
@@ -19,6 +20,10 @@ namespace Desktop
             {
                 desktopMenuScreen.MenuButton.onClick.AddListener(() => SwitchMenu(desktopMenuScreen));
             }
+            foreach (var escMenuButton in escMenuButtons)
+            {
+                escMenuButton.onClick.AddListener(ButtonClick);
+            }
         }
 
         private void Update()
@@ -27,7 +32,7 @@ namespace Desktop
                 return;
 
             soundClick.Play();
-        
+
             if (!isAllMenuClose)
                 CloseAllMenuScreens();
             else
@@ -62,11 +67,25 @@ namespace Desktop
             isOpenEscMenu = !isOpenEscMenu;
         }
 
+        private void ButtonClick()
+        {
+            soundClick.Play();
+
+            if (!isAllMenuClose)
+                CloseAllMenuScreens();
+            else
+                OpenEscMenu();
+        }
+
         private void OnDestroy()
         {
             foreach (var desktopMenuScreen in desktopMenuScreens)
             {
                 desktopMenuScreen.MenuButton.onClick.RemoveAllListeners();
+            }
+            foreach (var escMenuButton in escMenuButtons)
+            {
+                escMenuButton.onClick.RemoveListener(ButtonClick);
             }
         }
 

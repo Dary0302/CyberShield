@@ -6,14 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0d10483a-81bf-42a2-89e4-ceaec1b4b31e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyber-Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Letter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/4lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/4lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/AudioMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EscMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EscMenu.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmailScripts/LetterView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/HealthPointsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelsLogic/HealthPointsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/10.1lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/10.1lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/10.2lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/10.2lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/10.3lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/10.3lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/5lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/5lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/8lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/8lvl.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/ApplicationSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/LoadPlayerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogicScripts/LoadPlayerSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/Nineteen_Ninety_Three SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/76/d1cb475f/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/3d/68150bf7/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/44/f7b1e06c/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/7f/5c9f3a11/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/83/256f931f/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/94/6dff2f83/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6f7018b8b8c149e68c4a65a05ac289be175400/ba/f903cea3/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -48,7 +54,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueScripts/SampleEmotionRobot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/3lvl/RequestClickCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelsLogic/EscMenuOpenerOnLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music/SoundVolumeControllerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/BaseRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
@@ -71,7 +76,7 @@
   &quot;keyToString&quot;: {
     &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v0.1.0-beta-music-and-songs&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v0.1.1-beta-plot-and-levels&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -163,6 +168,20 @@
       <workItem from="1718038298352" duration="834000" />
       <workItem from="1718097372974" duration="5364000" />
       <workItem from="1718200335207" duration="1813000" />
+      <workItem from="1718204409794" duration="143000" />
+      <workItem from="1718265040742" duration="460000" />
+      <workItem from="1718298119620" duration="3822000" />
+      <workItem from="1718349057887" duration="1273000" />
+      <workItem from="1718355611461" duration="4295000" />
+      <workItem from="1718362846900" duration="363000" />
+      <workItem from="1718393327385" duration="857000" />
+      <workItem from="1718464495924" duration="182000" />
+      <workItem from="1718641760621" duration="4031000" />
+      <workItem from="1718652464490" duration="1000" />
+      <workItem from="1718654993911" duration="508000" />
+      <workItem from="1718716929514" duration="774000" />
+      <workItem from="1718718779279" duration="86000" />
+      <workItem from="1718719049786" duration="26000" />
     </task>
     <servers />
   </component>
